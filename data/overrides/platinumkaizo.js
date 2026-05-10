@@ -1,7 +1,7 @@
 var overrides = {
     "poks": {
-        "Bulbasaur": {
-            "name": "Bulbasaur",
+        "BULBASAUR": {
+            "name": "BULBASAUR",
             "num": 1,
             "types": [
                 "Grass",
@@ -135,7 +135,7 @@ var overrides = {
             ],
             "catchRate": 175,
             "evos": [
-                "Ivysaur"
+                "IVYSAUR"
             ],
             "evoMethods": [
                 "level"
@@ -147,8 +147,8 @@ var overrides = {
                 4
             ]
         },
-        "Ivysaur": {
-            "name": "Ivysaur",
+        "IVYSAUR": {
+            "name": "IVYSAUR",
             "num": 2,
             "types": [
                 "Grass",
@@ -290,7 +290,7 @@ var overrides = {
             ],
             "catchRate": 100,
             "evos": [
-                "Venusaur"
+                "VENUSAUR"
             ],
             "evoMethods": [
                 "level"
@@ -304,8 +304,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Venusaur": {
-            "name": "Venusaur",
+        "VENUSAUR": {
+            "name": "VENUSAUR",
             "num": 3,
             "types": [
                 "Grass",
@@ -464,8 +464,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 32
         },
-        "Charmander": {
-            "name": "Charmander",
+        "CHARMANDER": {
+            "name": "CHARMANDER",
             "num": 4,
             "types": [
                 "Fire"
@@ -591,7 +591,7 @@ var overrides = {
             ],
             "catchRate": 175,
             "evos": [
-                "Charmeleon"
+                "CHARMELEON"
             ],
             "evoMethods": [
                 "level"
@@ -603,8 +603,8 @@ var overrides = {
                 4
             ]
         },
-        "Charmeleon": {
-            "name": "Charmeleon",
+        "CHARMELEON": {
+            "name": "CHARMELEON",
             "num": 5,
             "types": [
                 "Fire"
@@ -734,7 +734,7 @@ var overrides = {
             ],
             "catchRate": 100,
             "evos": [
-                "Charizard"
+                "CHARIZARD"
             ],
             "evoMethods": [
                 "level"
@@ -748,8 +748,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Charizard": {
-            "name": "Charizard",
+        "CHARIZARD": {
+            "name": "CHARIZARD",
             "num": 6,
             "types": [
                 "Fire",
@@ -928,8 +928,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Squirtle": {
-            "name": "Squirtle",
+        "SQUIRTLE": {
+            "name": "SQUIRTLE",
             "num": 7,
             "types": [
                 "Water"
@@ -1069,7 +1069,7 @@ var overrides = {
             ],
             "catchRate": 175,
             "evos": [
-                "Wartortle"
+                "WARTORTLE"
             ],
             "evoMethods": [
                 "level"
@@ -1081,8 +1081,8 @@ var overrides = {
                 4
             ]
         },
-        "Wartortle": {
-            "name": "Wartortle",
+        "WARTORTLE": {
+            "name": "WARTORTLE",
             "num": 8,
             "types": [
                 "Water"
@@ -1230,7 +1230,7 @@ var overrides = {
             ],
             "catchRate": 46,
             "evos": [
-                "Blastoise"
+                "BLASTOISE"
             ],
             "evoMethods": [
                 "level"
@@ -1244,8 +1244,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Blastoise": {
-            "name": "Blastoise",
+        "BLASTOISE": {
+            "name": "BLASTOISE",
             "num": 9,
             "types": [
                 "Water"
@@ -1416,8 +1416,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Caterpie": {
-            "name": "Caterpie",
+        "CATERPIE": {
+            "name": "CATERPIE",
             "num": 10,
             "types": [
                 "Bug"
@@ -1467,7 +1467,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Metapod"
+                "METAPOD"
             ],
             "evoMethods": [
                 "level"
@@ -1479,8 +1479,8 @@ var overrides = {
                 4
             ]
         },
-        "Metapod": {
-            "name": "Metapod",
+        "METAPOD": {
+            "name": "METAPOD",
             "num": 11,
             "types": [
                 "Bug"
@@ -1526,7 +1526,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Butterfree"
+                "BUTTERFREE"
             ],
             "evoMethods": [
                 "level"
@@ -1540,8 +1540,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 7
         },
-        "Butterfree": {
-            "name": "Butterfree",
+        "BUTTERFREE": {
+            "name": "BUTTERFREE",
             "num": 12,
             "types": [
                 "Bug",
@@ -1684,8 +1684,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 10
         },
-        "Weedle": {
-            "name": "Weedle",
+        "WEEDLE": {
+            "name": "WEEDLE",
             "num": 13,
             "types": [
                 "Bug",
@@ -1729,7 +1729,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Kakuna"
+                "KAKUNA"
             ],
             "evoMethods": [
                 "level"
@@ -1741,8 +1741,8 @@ var overrides = {
                 4
             ]
         },
-        "Kakuna": {
-            "name": "Kakuna",
+        "KAKUNA": {
+            "name": "KAKUNA",
             "num": 14,
             "types": [
                 "Bug",
@@ -1789,7 +1789,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Beedrill"
+                "BEEDRILL"
             ],
             "evoMethods": [
                 "level"
@@ -1803,8 +1803,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 7
         },
-        "Beedrill": {
-            "name": "Beedrill",
+        "BEEDRILL": {
+            "name": "BEEDRILL",
             "num": 15,
             "types": [
                 "Bug",
@@ -1954,8 +1954,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 10
         },
-        "Pidgey": {
-            "name": "Pidgey",
+        "PIDGEY": {
+            "name": "PIDGEY",
             "num": 16,
             "types": [
                 "Normal",
@@ -2086,7 +2086,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Pidgeotto"
+                "PIDGEOTTO"
             ],
             "evoMethods": [
                 "level"
@@ -2098,8 +2098,8 @@ var overrides = {
                 4
             ]
         },
-        "Pidgeotto": {
-            "name": "Pidgeotto",
+        "PIDGEOTTO": {
+            "name": "PIDGEOTTO",
             "num": 17,
             "types": [
                 "Normal",
@@ -2238,7 +2238,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Pidgeot"
+                "PIDGEOT"
             ],
             "evoMethods": [
                 "level"
@@ -2252,8 +2252,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 14
         },
-        "Pidgeot": {
-            "name": "Pidgeot",
+        "PIDGEOT": {
+            "name": "PIDGEOT",
             "num": 18,
             "types": [
                 "Normal",
@@ -2400,8 +2400,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Rattata": {
-            "name": "Rattata",
+        "RATTATA": {
+            "name": "RATTATA",
             "num": 19,
             "types": [
                 "Normal"
@@ -2541,7 +2541,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Raticate"
+                "RATICATE"
             ],
             "evoMethods": [
                 "level"
@@ -2553,8 +2553,8 @@ var overrides = {
                 4
             ]
         },
-        "Raticate": {
-            "name": "Raticate",
+        "RATICATE": {
+            "name": "RATICATE",
             "num": 20,
             "types": [
                 "Normal"
@@ -2717,8 +2717,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 20
         },
-        "Spearow": {
-            "name": "Spearow",
+        "SPEAROW": {
+            "name": "SPEAROW",
             "num": 21,
             "types": [
                 "Normal",
@@ -2839,7 +2839,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Fearow"
+                "FEAROW"
             ],
             "evoMethods": [
                 "level"
@@ -2851,8 +2851,8 @@ var overrides = {
                 4
             ]
         },
-        "Fearow": {
-            "name": "Fearow",
+        "FEAROW": {
+            "name": "FEAROW",
             "num": 22,
             "types": [
                 "Normal",
@@ -2989,8 +2989,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 20
         },
-        "Ekans": {
-            "name": "Ekans",
+        "EKANS": {
+            "name": "EKANS",
             "num": 23,
             "types": [
                 "Poison"
@@ -3127,7 +3127,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Arbok"
+                "ARBOK"
             ],
             "evoMethods": [
                 "level"
@@ -3139,8 +3139,8 @@ var overrides = {
                 4
             ]
         },
-        "Arbok": {
-            "name": "Arbok",
+        "ARBOK": {
+            "name": "ARBOK",
             "num": 24,
             "types": [
                 "Poison"
@@ -3305,8 +3305,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 22
         },
-        "Pikachu": {
-            "name": "Pikachu",
+        "PIKACHU": {
+            "name": "PIKACHU",
             "num": 25,
             "types": [
                 "Electric"
@@ -3446,7 +3446,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Raichu"
+                "RAICHU"
             ],
             "evoMethods": [
                 "useItem"
@@ -3460,8 +3460,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Raichu": {
-            "name": "Raichu",
+        "RAICHU": {
+            "name": "RAICHU",
             "num": 26,
             "types": [
                 "Electric"
@@ -3578,8 +3578,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Thunderstone"
         },
-        "Sandshrew": {
-            "name": "Sandshrew",
+        "SANDSHREW": {
+            "name": "SANDSHREW",
             "num": 27,
             "types": [
                 "Ground"
@@ -3720,7 +3720,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Sandslash"
+                "SANDSLASH"
             ],
             "evoMethods": [
                 "level"
@@ -3732,8 +3732,8 @@ var overrides = {
                 4
             ]
         },
-        "Sandslash": {
-            "name": "Sandslash",
+        "SANDSLASH": {
+            "name": "SANDSLASH",
             "num": 28,
             "types": [
                 "Ground"
@@ -4034,7 +4034,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Nidorina"
+                "NIDORINA"
             ],
             "evoMethods": [
                 "level"
@@ -4046,8 +4046,8 @@ var overrides = {
                 4
             ]
         },
-        "Nidorina": {
-            "name": "Nidorina",
+        "NIDORINA": {
+            "name": "NIDORINA",
             "num": 30,
             "types": [
                 "Poison"
@@ -4176,7 +4176,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Nidoqueen"
+                "NIDOQUEEN"
             ],
             "evoMethods": [
                 "useItem"
@@ -4190,8 +4190,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Nidoqueen": {
-            "name": "Nidoqueen",
+        "NIDOQUEEN": {
+            "name": "NIDOQUEEN",
             "num": 31,
             "types": [
                 "Poison",
@@ -4480,7 +4480,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Nidorino"
+                "NIDORINO"
             ],
             "evoMethods": [
                 "level"
@@ -4492,8 +4492,8 @@ var overrides = {
                 4
             ]
         },
-        "Nidorino": {
-            "name": "Nidorino",
+        "NIDORINO": {
+            "name": "NIDORINO",
             "num": 33,
             "types": [
                 "Poison"
@@ -4623,7 +4623,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Nidoking"
+                "NIDOKING"
             ],
             "evoMethods": [
                 "useItem"
@@ -4637,8 +4637,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Nidoking": {
-            "name": "Nidoking",
+        "NIDOKING": {
+            "name": "NIDOKING",
             "num": 34,
             "types": [
                 "Poison",
@@ -4793,8 +4793,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Moon Stone"
         },
-        "Clefairy": {
-            "name": "Clefairy",
+        "CLEFAIRY": {
+            "name": "CLEFAIRY",
             "num": 35,
             "types": [
                 "Normal"
@@ -4976,7 +4976,7 @@ var overrides = {
             ],
             "catchRate": 46,
             "evos": [
-                "Clefable"
+                "CLEFABLE"
             ],
             "evoMethods": [
                 "useItem"
@@ -4989,8 +4989,8 @@ var overrides = {
             ],
             "evoType": "levelExtra"
         },
-        "Clefable": {
-            "name": "Clefable",
+        "CLEFABLE": {
+            "name": "CLEFABLE",
             "num": 36,
             "types": [
                 "Normal"
@@ -5132,8 +5132,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Moon Stone"
         },
-        "Vulpix": {
-            "name": "Vulpix",
+        "VULPIX": {
+            "name": "VULPIX",
             "num": 37,
             "types": [
                 "Fire"
@@ -5276,7 +5276,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Ninetales"
+                "NINETALES"
             ],
             "evoMethods": [
                 "useItem"
@@ -5288,8 +5288,8 @@ var overrides = {
                 7
             ]
         },
-        "Ninetales": {
-            "name": "Ninetales",
+        "NINETALES": {
+            "name": "NINETALES",
             "num": 38,
             "types": [
                 "Fire"
@@ -5411,8 +5411,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Fire Stone"
         },
-        "Jigglypuff": {
-            "name": "Jigglypuff",
+        "JIGGLYPUFF": {
+            "name": "JIGGLYPUFF",
             "num": 39,
             "types": [
                 "Normal"
@@ -5578,7 +5578,7 @@ var overrides = {
             ],
             "catchRate": 225,
             "evos": [
-                "Wigglytuff"
+                "WIGGLYTUFF"
             ],
             "evoMethods": [
                 "useItem"
@@ -5592,8 +5592,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Wigglytuff": {
-            "name": "Wigglytuff",
+        "WIGGLYTUFF": {
+            "name": "WIGGLYTUFF",
             "num": 40,
             "types": [
                 "Normal"
@@ -5728,8 +5728,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Moon Stone"
         },
-        "Zubat": {
-            "name": "Zubat",
+        "ZUBAT": {
+            "name": "ZUBAT",
             "num": 41,
             "types": [
                 "Poison",
@@ -5863,7 +5863,7 @@ var overrides = {
             ],
             "catchRate": 117,
             "evos": [
-                "Golbat"
+                "GOLBAT"
             ],
             "evoMethods": [
                 "level"
@@ -5875,8 +5875,8 @@ var overrides = {
                 4
             ]
         },
-        "Golbat": {
-            "name": "Golbat",
+        "GOLBAT": {
+            "name": "GOLBAT",
             "num": 42,
             "types": [
                 "Poison",
@@ -6024,7 +6024,7 @@ var overrides = {
             ],
             "catchRate": 72,
             "evos": [
-                "Crobat"
+                "CROBAT"
             ],
             "evoMethods": [
                 "level"
@@ -6038,8 +6038,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 22
         },
-        "Oddish": {
-            "name": "Oddish",
+        "ODDISH": {
+            "name": "ODDISH",
             "num": 43,
             "types": [
                 "Grass",
@@ -6159,7 +6159,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Gloom"
+                "GLOOM"
             ],
             "evoMethods": [
                 "level"
@@ -6171,8 +6171,8 @@ var overrides = {
                 4
             ]
         },
-        "Gloom": {
-            "name": "Gloom",
+        "GLOOM": {
+            "name": "GLOOM",
             "num": 44,
             "types": [
                 "Grass",
@@ -6302,8 +6302,8 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Vileplume",
-                "Bellossom"
+                "VILEPLUME",
+                "BELLOSSOM"
             ],
             "evoMethods": [
                 "useItem",
@@ -6320,8 +6320,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Vileplume": {
-            "name": "Vileplume",
+        "VILEPLUME": {
+            "name": "VILEPLUME",
             "num": 45,
             "types": [
                 "Grass",
@@ -6423,8 +6423,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Leaf Stone"
         },
-        "Paras": {
-            "name": "Paras",
+        "PARAS": {
+            "name": "PARAS",
             "num": 46,
             "types": [
                 "Bug",
@@ -6545,7 +6545,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Parasect"
+                "PARASECT"
             ],
             "evoMethods": [
                 "level"
@@ -6557,8 +6557,8 @@ var overrides = {
                 4
             ]
         },
-        "Parasect": {
-            "name": "Parasect",
+        "PARASECT": {
+            "name": "PARASECT",
             "num": 47,
             "types": [
                 "Bug",
@@ -6699,8 +6699,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 24
         },
-        "Venonat": {
-            "name": "Venonat",
+        "VENONAT": {
+            "name": "VENONAT",
             "num": 48,
             "types": [
                 "Bug",
@@ -6826,7 +6826,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Venomoth"
+                "VENOMOTH"
             ],
             "evoMethods": [
                 "level"
@@ -6838,8 +6838,8 @@ var overrides = {
                 4
             ]
         },
-        "Venomoth": {
-            "name": "Venomoth",
+        "VENOMOTH": {
+            "name": "VENOMOTH",
             "num": 49,
             "types": [
                 "Bug",
@@ -6996,8 +6996,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Diglett": {
-            "name": "Diglett",
+        "DIGLETT": {
+            "name": "DIGLETT",
             "num": 50,
             "types": [
                 "Ground"
@@ -7119,7 +7119,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Dugtrio"
+                "DUGTRIO"
             ],
             "evoMethods": [
                 "level"
@@ -7131,8 +7131,8 @@ var overrides = {
                 4
             ]
         },
-        "Dugtrio": {
-            "name": "Dugtrio",
+        "DUGTRIO": {
+            "name": "DUGTRIO",
             "num": 51,
             "types": [
                 "Ground"
@@ -7279,8 +7279,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 26
         },
-        "Meowth": {
-            "name": "Meowth",
+        "MEOWTH": {
+            "name": "MEOWTH",
             "num": 52,
             "types": [
                 "Normal"
@@ -7443,7 +7443,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Persian"
+                "PERSIAN"
             ],
             "evoMethods": [
                 "level"
@@ -7455,8 +7455,8 @@ var overrides = {
                 4
             ]
         },
-        "Persian": {
-            "name": "Persian",
+        "PERSIAN": {
+            "name": "PERSIAN",
             "num": 53,
             "types": [
                 "Normal"
@@ -7637,8 +7637,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Psyduck": {
-            "name": "Psyduck",
+        "PSYDUCK": {
+            "name": "PSYDUCK",
             "num": 54,
             "types": [
                 "Water"
@@ -7782,7 +7782,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Golduck"
+                "GOLDUCK"
             ],
             "evoMethods": [
                 "level"
@@ -7794,8 +7794,8 @@ var overrides = {
                 4
             ]
         },
-        "Golduck": {
-            "name": "Golduck",
+        "GOLDUCK": {
+            "name": "GOLDUCK",
             "num": 55,
             "types": [
                 "Water"
@@ -7959,8 +7959,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 33
         },
-        "Mankey": {
-            "name": "Mankey",
+        "MANKEY": {
+            "name": "MANKEY",
             "num": 56,
             "types": [
                 "Fighting"
@@ -8123,7 +8123,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Primeape"
+                "PRIMEAPE"
             ],
             "evoMethods": [
                 "level"
@@ -8135,8 +8135,8 @@ var overrides = {
                 4
             ]
         },
-        "Primeape": {
-            "name": "Primeape",
+        "PRIMEAPE": {
+            "name": "PRIMEAPE",
             "num": 57,
             "types": [
                 "Fighting"
@@ -8304,8 +8304,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Growlithe": {
-            "name": "Growlithe",
+        "GROWLITHE": {
+            "name": "GROWLITHE",
             "num": 58,
             "types": [
                 "Fire"
@@ -8436,7 +8436,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Arcanine"
+                "ARCANINE"
             ],
             "evoMethods": [
                 "useItem"
@@ -8448,8 +8448,8 @@ var overrides = {
                 7
             ]
         },
-        "Arcanine": {
-            "name": "Arcanine",
+        "ARCANINE": {
+            "name": "ARCANINE",
             "num": 59,
             "types": [
                 "Fire"
@@ -8557,8 +8557,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Fire Stone"
         },
-        "Poliwag": {
-            "name": "Poliwag",
+        "POLIWAG": {
+            "name": "POLIWAG",
             "num": 60,
             "types": [
                 "Water"
@@ -8681,7 +8681,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Poliwhirl"
+                "POLIWHIRL"
             ],
             "evoMethods": [
                 "level"
@@ -8693,8 +8693,8 @@ var overrides = {
                 4
             ]
         },
-        "Poliwhirl": {
-            "name": "Poliwhirl",
+        "POLIWHIRL": {
+            "name": "POLIWHIRL",
             "num": 61,
             "types": [
                 "Water"
@@ -8835,8 +8835,8 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Poliwrath",
-                "Politoed"
+                "POLIWRATH",
+                "POLITOED"
             ],
             "evoMethods": [
                 "useItem",
@@ -8853,8 +8853,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Poliwrath": {
-            "name": "Poliwrath",
+        "POLIWRATH": {
+            "name": "POLIWRATH",
             "num": 62,
             "types": [
                 "Water",
@@ -8973,8 +8973,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Water Stone"
         },
-        "Abra": {
-            "name": "Abra",
+        "ABRA": {
+            "name": "ABRA",
             "num": 63,
             "types": [
                 "Psychic"
@@ -9075,7 +9075,7 @@ var overrides = {
             ],
             "catchRate": 65,
             "evos": [
-                "Kadabra"
+                "KADABRA"
             ],
             "evoMethods": [
                 "level"
@@ -9087,8 +9087,8 @@ var overrides = {
                 4
             ]
         },
-        "Kadabra": {
-            "name": "Kadabra",
+        "KADABRA": {
+            "name": "KADABRA",
             "num": 64,
             "types": [
                 "Psychic"
@@ -9241,7 +9241,7 @@ var overrides = {
             ],
             "catchRate": 30,
             "evos": [
-                "Alakazam"
+                "ALAKAZAM"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -9255,8 +9255,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 45
         },
-        "Alakazam": {
-            "name": "Alakazam",
+        "ALAKAZAM": {
+            "name": "ALAKAZAM",
             "num": 65,
             "types": [
                 "Psychic"
@@ -9413,8 +9413,8 @@ var overrides = {
             "catchRate": 17,
             "evoType": "levelExtra"
         },
-        "Machop": {
-            "name": "Machop",
+        "MACHOP": {
+            "name": "MACHOP",
             "num": 66,
             "types": [
                 "Fighting"
@@ -9558,8 +9558,8 @@ var overrides = {
             ],
             "catchRate": 65,
             "evos": [
-                "Machoke",
-                "Machoke"
+                "MACHOKE",
+                "MACHOKE"
             ],
             "evoMethods": [
                 "level",
@@ -9574,8 +9574,8 @@ var overrides = {
                 7
             ]
         },
-        "Machoke": {
-            "name": "Machoke",
+        "MACHOKE": {
+            "name": "MACHOKE",
             "num": 67,
             "types": [
                 "Fighting"
@@ -9723,7 +9723,7 @@ var overrides = {
             ],
             "catchRate": 33,
             "evos": [
-                "Machamp"
+                "MACHAMP"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -9737,8 +9737,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 48
         },
-        "Machamp": {
-            "name": "Machamp",
+        "MACHAMP": {
+            "name": "MACHAMP",
             "num": 68,
             "types": [
                 "Fighting"
@@ -9890,8 +9890,8 @@ var overrides = {
             "catchRate": 17,
             "evoType": "levelExtra"
         },
-        "Bellsprout": {
-            "name": "Bellsprout",
+        "BELLSPROUT": {
+            "name": "BELLSPROUT",
             "num": 69,
             "types": [
                 "Grass",
@@ -10020,7 +10020,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Weepinbell"
+                "WEEPINBELL"
             ],
             "evoMethods": [
                 "level"
@@ -10032,8 +10032,8 @@ var overrides = {
                 4
             ]
         },
-        "Weepinbell": {
-            "name": "Weepinbell",
+        "WEEPINBELL": {
+            "name": "WEEPINBELL",
             "num": 70,
             "types": [
                 "Grass",
@@ -10170,7 +10170,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Victreebel"
+                "VICTREEBEL"
             ],
             "evoMethods": [
                 "useItem"
@@ -10184,8 +10184,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Victreebel": {
-            "name": "Victreebel",
+        "VICTREEBEL": {
+            "name": "VICTREEBEL",
             "num": 71,
             "types": [
                 "Grass",
@@ -10302,8 +10302,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Leaf Stone"
         },
-        "Tentacool": {
-            "name": "Tentacool",
+        "TENTACOOL": {
+            "name": "TENTACOOL",
             "num": 72,
             "types": [
                 "Water",
@@ -10432,7 +10432,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Tentacruel"
+                "TENTACRUEL"
             ],
             "evoMethods": [
                 "level"
@@ -10444,8 +10444,8 @@ var overrides = {
                 4
             ]
         },
-        "Tentacruel": {
-            "name": "Tentacruel",
+        "TENTACRUEL": {
+            "name": "TENTACRUEL",
             "num": 73,
             "types": [
                 "Water",
@@ -10586,8 +10586,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Geodude": {
-            "name": "Geodude",
+        "GEODUDE": {
+            "name": "GEODUDE",
             "num": 74,
             "types": [
                 "Rock",
@@ -10738,8 +10738,8 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Graveler",
-                "Graveler"
+                "GRAVELER",
+                "GRAVELER"
             ],
             "evoMethods": [
                 "level",
@@ -10754,8 +10754,8 @@ var overrides = {
                 7
             ]
         },
-        "Graveler": {
-            "name": "Graveler",
+        "GRAVELER": {
+            "name": "GRAVELER",
             "num": 75,
             "types": [
                 "Rock",
@@ -10906,7 +10906,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Golem"
+                "GOLEM"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -10920,8 +10920,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 48
         },
-        "Golem": {
-            "name": "Golem",
+        "GOLEM": {
+            "name": "GOLEM",
             "num": 76,
             "types": [
                 "Rock",
@@ -11081,8 +11081,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Ponyta": {
-            "name": "Ponyta",
+        "PONYTA": {
+            "name": "PONYTA",
             "num": 77,
             "types": [
                 "Fire"
@@ -11199,7 +11199,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Rapidash"
+                "RAPIDASH"
             ],
             "evoMethods": [
                 "level"
@@ -11211,8 +11211,8 @@ var overrides = {
                 4
             ]
         },
-        "Rapidash": {
-            "name": "Rapidash",
+        "RAPIDASH": {
+            "name": "RAPIDASH",
             "num": 78,
             "types": [
                 "Fire"
@@ -11354,8 +11354,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 34
         },
-        "Slowpoke": {
-            "name": "Slowpoke",
+        "SLOWPOKE": {
+            "name": "SLOWPOKE",
             "num": 79,
             "types": [
                 "Water",
@@ -11509,8 +11509,8 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Slowbro",
-                "Slowking"
+                "SLOWBRO",
+                "SLOWKING"
             ],
             "evoMethods": [
                 "levelExtra",
@@ -11525,8 +11525,8 @@ var overrides = {
                 7
             ]
         },
-        "Slowbro": {
-            "name": "Slowbro",
+        "SLOWBRO": {
+            "name": "SLOWBRO",
             "num": 80,
             "types": [
                 "Water",
@@ -11703,8 +11703,8 @@ var overrides = {
             "catchRate": 98,
             "evoType": "levelExtra"
         },
-        "Magnemite": {
-            "name": "Magnemite",
+        "MAGNEMITE": {
+            "name": "MAGNEMITE",
             "num": 81,
             "types": [
                 "Electric",
@@ -11839,7 +11839,7 @@ var overrides = {
             ],
             "catchRate": 35,
             "evos": [
-                "Magneton"
+                "MAGNETON"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -11851,8 +11851,8 @@ var overrides = {
                 24
             ]
         },
-        "Magneton": {
-            "name": "Magneton",
+        "MAGNETON": {
+            "name": "MAGNETON",
             "num": 82,
             "types": [
                 "Electric",
@@ -12001,7 +12001,7 @@ var overrides = {
             ],
             "catchRate": 35,
             "evos": [
-                "Magnezone"
+                "MAGNEZONE"
             ],
             "evoMethods": [
                 "level"
@@ -12014,8 +12014,8 @@ var overrides = {
             ],
             "evoType": "levelExtra"
         },
-        "Farfetch'd": {
-            "name": "Farfetch'd",
+        "FARFETCH’D": {
+            "name": "FARFETCH’D",
             "num": 83,
             "types": [
                 "Normal",
@@ -12170,8 +12170,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Doduo": {
-            "name": "Doduo",
+        "DODUO": {
+            "name": "DODUO",
             "num": 84,
             "types": [
                 "Normal",
@@ -12294,7 +12294,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Dodrio"
+                "DODRIO"
             ],
             "evoMethods": [
                 "level"
@@ -12306,8 +12306,8 @@ var overrides = {
                 4
             ]
         },
-        "Dodrio": {
-            "name": "Dodrio",
+        "DODRIO": {
+            "name": "DODRIO",
             "num": 85,
             "types": [
                 "Normal",
@@ -12457,8 +12457,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 31
         },
-        "Seel": {
-            "name": "Seel",
+        "SEEL": {
+            "name": "SEEL",
             "num": 86,
             "types": [
                 "Water"
@@ -12596,7 +12596,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Dewgong"
+                "DEWGONG"
             ],
             "evoMethods": [
                 "level"
@@ -12608,8 +12608,8 @@ var overrides = {
                 4
             ]
         },
-        "Dewgong": {
-            "name": "Dewgong",
+        "DEWGONG": {
+            "name": "DEWGONG",
             "num": 87,
             "types": [
                 "Water",
@@ -12769,8 +12769,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 34
         },
-        "Grimer": {
-            "name": "Grimer",
+        "GRIMER": {
+            "name": "GRIMER",
             "num": 88,
             "types": [
                 "Poison"
@@ -12920,7 +12920,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Muk"
+                "MUK"
             ],
             "evoMethods": [
                 "level"
@@ -12932,8 +12932,8 @@ var overrides = {
                 4
             ]
         },
-        "Muk": {
-            "name": "Muk",
+        "MUK": {
+            "name": "MUK",
             "num": 89,
             "types": [
                 "Poison"
@@ -13108,8 +13108,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Shellder": {
-            "name": "Shellder",
+        "SHELLDER": {
+            "name": "SHELLDER",
             "num": 90,
             "types": [
                 "Water"
@@ -13233,7 +13233,7 @@ var overrides = {
             ],
             "catchRate": 72,
             "evos": [
-                "Cloyster"
+                "CLOYSTER"
             ],
             "evoMethods": [
                 "useItem"
@@ -13245,8 +13245,8 @@ var overrides = {
                 7
             ]
         },
-        "Cloyster": {
-            "name": "Cloyster",
+        "CLOYSTER": {
+            "name": "CLOYSTER",
             "num": 91,
             "types": [
                 "Water",
@@ -13356,8 +13356,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Water Stone"
         },
-        "Gastly": {
-            "name": "Gastly",
+        "GASTLY": {
+            "name": "GASTLY",
             "num": 92,
             "types": [
                 "Ghost",
@@ -13510,7 +13510,7 @@ var overrides = {
             ],
             "catchRate": 50,
             "evos": [
-                "Haunter"
+                "HAUNTER"
             ],
             "evoMethods": [
                 "level"
@@ -13522,8 +13522,8 @@ var overrides = {
                 4
             ]
         },
-        "Haunter": {
-            "name": "Haunter",
+        "HAUNTER": {
+            "name": "HAUNTER",
             "num": 93,
             "types": [
                 "Ghost",
@@ -13686,7 +13686,7 @@ var overrides = {
             ],
             "catchRate": 30,
             "evos": [
-                "Gengar"
+                "GENGAR"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -13700,8 +13700,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 45
         },
-        "Gengar": {
-            "name": "Gengar",
+        "GENGAR": {
+            "name": "GENGAR",
             "num": 94,
             "types": [
                 "Ghost",
@@ -13874,8 +13874,8 @@ var overrides = {
             "catchRate": 13,
             "evoType": "levelExtra"
         },
-        "Onix": {
-            "name": "Onix",
+        "ONIX": {
+            "name": "ONIX",
             "num": 95,
             "types": [
                 "Rock",
@@ -14033,7 +14033,7 @@ var overrides = {
             ],
             "catchRate": 12,
             "evos": [
-                "Steelix"
+                "STEELIX"
             ],
             "evoMethods": [
                 "useItem"
@@ -14045,8 +14045,8 @@ var overrides = {
                 7
             ]
         },
-        "Drowzee": {
-            "name": "Drowzee",
+        "DROWZEE": {
+            "name": "DROWZEE",
             "num": 96,
             "types": [
                 "Psychic"
@@ -14195,7 +14195,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Hypno"
+                "HYPNO"
             ],
             "evoMethods": [
                 "level"
@@ -14207,8 +14207,8 @@ var overrides = {
                 4
             ]
         },
-        "Hypno": {
-            "name": "Hypno",
+        "HYPNO": {
+            "name": "HYPNO",
             "num": 97,
             "types": [
                 "Psychic"
@@ -14378,8 +14378,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 38
         },
-        "Krabby": {
-            "name": "Krabby",
+        "KRABBY": {
+            "name": "KRABBY",
             "num": 98,
             "types": [
                 "Water"
@@ -14529,7 +14529,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Kingler"
+                "KINGLER"
             ],
             "evoMethods": [
                 "level"
@@ -14541,8 +14541,8 @@ var overrides = {
                 4
             ]
         },
-        "Kingler": {
-            "name": "Kingler",
+        "KINGLER": {
+            "name": "KINGLER",
             "num": 99,
             "types": [
                 "Water"
@@ -14700,8 +14700,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Voltorb": {
-            "name": "Voltorb",
+        "VOLTORB": {
+            "name": "VOLTORB",
             "num": 100,
             "types": [
                 "Electric"
@@ -14833,7 +14833,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Electrode"
+                "ELECTRODE"
             ],
             "evoMethods": [
                 "level"
@@ -14845,8 +14845,8 @@ var overrides = {
                 4
             ]
         },
-        "Electrode": {
-            "name": "Electrode",
+        "ELECTRODE": {
+            "name": "ELECTRODE",
             "num": 101,
             "types": [
                 "Electric"
@@ -14994,8 +14994,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Exeggcute": {
-            "name": "Exeggcute",
+        "EXEGGCUTE": {
+            "name": "EXEGGCUTE",
             "num": 102,
             "types": [
                 "Grass",
@@ -15136,7 +15136,7 @@ var overrides = {
             ],
             "catchRate": 117,
             "evos": [
-                "Exeggutor"
+                "EXEGGUTOR"
             ],
             "evoMethods": [
                 "useItem"
@@ -15148,8 +15148,8 @@ var overrides = {
                 7
             ]
         },
-        "Exeggutor": {
-            "name": "Exeggutor",
+        "EXEGGUTOR": {
+            "name": "EXEGGUTOR",
             "num": 103,
             "types": [
                 "Grass",
@@ -15273,8 +15273,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Leaf Stone"
         },
-        "Cubone": {
-            "name": "Cubone",
+        "CUBONE": {
+            "name": "CUBONE",
             "num": 104,
             "types": [
                 "Ground"
@@ -15427,7 +15427,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Marowak"
+                "MAROWAK"
             ],
             "evoMethods": [
                 "level"
@@ -15439,8 +15439,8 @@ var overrides = {
                 4
             ]
         },
-        "Marowak": {
-            "name": "Marowak",
+        "MAROWAK": {
+            "name": "MAROWAK",
             "num": 105,
             "types": [
                 "Ground"
@@ -15613,8 +15613,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Hitmonlee": {
-            "name": "Hitmonlee",
+        "HITMONLEE": {
+            "name": "HITMONLEE",
             "num": 106,
             "types": [
                 "Fighting"
@@ -15767,8 +15767,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 20
         },
-        "Hitmonchan": {
-            "name": "Hitmonchan",
+        "HITMONCHAN": {
+            "name": "HITMONCHAN",
             "num": 107,
             "types": [
                 "Fighting"
@@ -15923,8 +15923,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 20
         },
-        "Lickitung": {
-            "name": "Lickitung",
+        "LICKITUNG": {
+            "name": "LICKITUNG",
             "num": 108,
             "types": [
                 "Normal"
@@ -16085,7 +16085,7 @@ var overrides = {
             ],
             "catchRate": 33,
             "evos": [
-                "Lickilicky"
+                "LICKILICKY"
             ],
             "evoMethods": [
                 "levelMove"
@@ -16097,8 +16097,8 @@ var overrides = {
                 20
             ]
         },
-        "Koffing": {
-            "name": "Koffing",
+        "KOFFING": {
+            "name": "KOFFING",
             "num": 109,
             "types": [
                 "Poison"
@@ -16229,7 +16229,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Weezing"
+                "WEEZING"
             ],
             "evoMethods": [
                 "level"
@@ -16241,8 +16241,8 @@ var overrides = {
                 4
             ]
         },
-        "Weezing": {
-            "name": "Weezing",
+        "WEEZING": {
+            "name": "WEEZING",
             "num": 110,
             "types": [
                 "Poison"
@@ -16385,8 +16385,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Rhyhorn": {
-            "name": "Rhyhorn",
+        "RHYHORN": {
+            "name": "RHYHORN",
             "num": 111,
             "types": [
                 "Ground",
@@ -16537,7 +16537,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Rhydon"
+                "RHYDON"
             ],
             "evoMethods": [
                 "level"
@@ -16549,8 +16549,8 @@ var overrides = {
                 4
             ]
         },
-        "Rhydon": {
-            "name": "Rhydon",
+        "RHYDON": {
+            "name": "RHYDON",
             "num": 112,
             "types": [
                 "Ground",
@@ -16733,7 +16733,7 @@ var overrides = {
             ],
             "catchRate": 78,
             "evos": [
-                "Rhyperior"
+                "RHYPERIOR"
             ],
             "evoMethods": [
                 "useItem"
@@ -16747,8 +16747,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 42
         },
-        "Chansey": {
-            "name": "Chansey",
+        "CHANSEY": {
+            "name": "CHANSEY",
             "num": 113,
             "types": [
                 "Normal"
@@ -16920,7 +16920,7 @@ var overrides = {
             ],
             "catchRate": 14,
             "evos": [
-                "Blissey"
+                "BLISSEY"
             ],
             "evoMethods": [
                 "levelFriendship"
@@ -16932,8 +16932,8 @@ var overrides = {
                 1
             ]
         },
-        "Tangela": {
-            "name": "Tangela",
+        "TANGELA": {
+            "name": "TANGELA",
             "num": 114,
             "types": [
                 "Grass"
@@ -17081,7 +17081,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Tangrowth"
+                "TANGROWTH"
             ],
             "evoMethods": [
                 "level"
@@ -17093,8 +17093,8 @@ var overrides = {
                 4
             ]
         },
-        "Kangaskhan": {
-            "name": "Kangaskhan",
+        "KANGASKHAN": {
+            "name": "KANGASKHAN",
             "num": 115,
             "types": [
                 "Normal"
@@ -17267,8 +17267,8 @@ var overrides = {
             ],
             "catchRate": 33
         },
-        "Horsea": {
-            "name": "Horsea",
+        "HORSEA": {
+            "name": "HORSEA",
             "num": 116,
             "types": [
                 "Water"
@@ -17395,7 +17395,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Seadra"
+                "SEADRA"
             ],
             "evoMethods": [
                 "level"
@@ -17407,8 +17407,8 @@ var overrides = {
                 4
             ]
         },
-        "Seadra": {
-            "name": "Seadra",
+        "SEADRA": {
+            "name": "SEADRA",
             "num": 117,
             "types": [
                 "Water"
@@ -17549,7 +17549,7 @@ var overrides = {
             ],
             "catchRate": 98,
             "evos": [
-                "Kingdra"
+                "KINGDRA"
             ],
             "evoMethods": [
                 "useItem"
@@ -17563,8 +17563,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 32
         },
-        "Goldeen": {
-            "name": "Goldeen",
+        "GOLDEEN": {
+            "name": "GOLDEEN",
             "num": 118,
             "types": [
                 "Water"
@@ -17695,7 +17695,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Seaking"
+                "SEAKING"
             ],
             "evoMethods": [
                 "level"
@@ -17707,8 +17707,8 @@ var overrides = {
                 4
             ]
         },
-        "Seaking": {
-            "name": "Seaking",
+        "SEAKING": {
+            "name": "SEAKING",
             "num": 119,
             "types": [
                 "Water"
@@ -17851,8 +17851,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 23
         },
-        "Staryu": {
-            "name": "Staryu",
+        "STARYU": {
+            "name": "STARYU",
             "num": 120,
             "types": [
                 "Water"
@@ -17992,7 +17992,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Starmie"
+                "STARMIE"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -18004,8 +18004,8 @@ var overrides = {
                 19
             ]
         },
-        "Starmie": {
-            "name": "Starmie",
+        "STARMIE": {
+            "name": "STARMIE",
             "num": 121,
             "types": [
                 "Water",
@@ -18124,8 +18124,8 @@ var overrides = {
             "catchRate": 78,
             "evoType": "levelExtra"
         },
-        "Mr. Mime": {
-            "name": "Mr. Mime",
+        "MR. MIME": {
+            "name": "MR. MIME",
             "num": 122,
             "types": [
                 "Psychic"
@@ -18316,8 +18316,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Scyther": {
-            "name": "Scyther",
+        "SCYTHER": {
+            "name": "SCYTHER",
             "num": 123,
             "types": [
                 "Bug",
@@ -18469,7 +18469,7 @@ var overrides = {
             ],
             "catchRate": 50,
             "evos": [
-                "Scizor"
+                "SCIZOR"
             ],
             "evoMethods": [
                 "useItem"
@@ -18481,8 +18481,8 @@ var overrides = {
                 7
             ]
         },
-        "Jynx": {
-            "name": "Jynx",
+        "JYNX": {
+            "name": "JYNX",
             "num": 124,
             "types": [
                 "Ice",
@@ -18652,8 +18652,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Electabuzz": {
-            "name": "Electabuzz",
+        "ELECTABUZZ": {
+            "name": "ELECTABUZZ",
             "num": 125,
             "types": [
                 "Electric"
@@ -18797,7 +18797,7 @@ var overrides = {
             ],
             "catchRate": 125,
             "evos": [
-                "Electivire"
+                "ELECTIVIRE"
             ],
             "evoMethods": [
                 "useItem"
@@ -18811,8 +18811,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Magmar": {
-            "name": "Magmar",
+        "MAGMAR": {
+            "name": "MAGMAR",
             "num": 126,
             "types": [
                 "Fire"
@@ -18952,7 +18952,7 @@ var overrides = {
             ],
             "catchRate": 125,
             "evos": [
-                "Magmortar"
+                "MAGMORTAR"
             ],
             "evoMethods": [
                 "useItem"
@@ -18966,8 +18966,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Pinsir": {
-            "name": "Pinsir",
+        "PINSIR": {
+            "name": "PINSIR",
             "num": 127,
             "types": [
                 "Bug"
@@ -19109,8 +19109,8 @@ var overrides = {
             ],
             "catchRate": 50
         },
-        "Tauros": {
-            "name": "Tauros",
+        "TAUROS": {
+            "name": "TAUROS",
             "num": 128,
             "types": [
                 "Normal"
@@ -19257,8 +19257,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Magikarp": {
-            "name": "Magikarp",
+        "MAGIKARP": {
+            "name": "MAGIKARP",
             "num": 129,
             "types": [
                 "Water"
@@ -19308,7 +19308,7 @@ var overrides = {
             ],
             "catchRate": 75,
             "evos": [
-                "Gyarados"
+                "GYARADOS"
             ],
             "evoMethods": [
                 "level"
@@ -19320,8 +19320,8 @@ var overrides = {
                 4
             ]
         },
-        "Gyarados": {
-            "name": "Gyarados",
+        "GYARADOS": {
+            "name": "GYARADOS",
             "num": 130,
             "types": [
                 "Water",
@@ -19480,8 +19480,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 20
         },
-        "Lapras": {
-            "name": "Lapras",
+        "LAPRAS": {
+            "name": "LAPRAS",
             "num": 131,
             "types": [
                 "Water",
@@ -19641,8 +19641,8 @@ var overrides = {
             ],
             "catchRate": 5
         },
-        "Ditto": {
-            "name": "Ditto",
+        "DITTO": {
+            "name": "DITTO",
             "num": 132,
             "types": [
                 "Normal"
@@ -19677,8 +19677,8 @@ var overrides = {
             ],
             "catchRate": 50
         },
-        "Eevee": {
-            "name": "Eevee",
+        "EEVEE": {
+            "name": "EEVEE",
             "num": 133,
             "types": [
                 "Normal"
@@ -19791,13 +19791,13 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Leafeon",
-                "Glaceon",
-                "Jolteon",
-                "Vaporeon",
-                "Flareon",
-                "Espeon",
-                "Umbreon"
+                "LEAFEON",
+                "GLACEON",
+                "JOLTEON",
+                "VAPOREON",
+                "FLAREON",
+                "ESPEON",
+                "UMBREON"
             ],
             "evoMethods": [
                 "levelExtra",
@@ -19827,8 +19827,8 @@ var overrides = {
                 7
             ]
         },
-        "Vaporeon": {
-            "name": "Vaporeon",
+        "VAPOREON": {
+            "name": "VAPOREON",
             "num": 134,
             "types": [
                 "Water"
@@ -19974,8 +19974,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Water Stone"
         },
-        "Jolteon": {
-            "name": "Jolteon",
+        "JOLTEON": {
+            "name": "JOLTEON",
             "num": 135,
             "types": [
                 "Electric"
@@ -20117,8 +20117,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Thunderstone"
         },
-        "Flareon": {
-            "name": "Flareon",
+        "FLAREON": {
+            "name": "FLAREON",
             "num": 136,
             "types": [
                 "Fire"
@@ -20257,8 +20257,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Fire Stone"
         },
-        "Porygon": {
-            "name": "Porygon",
+        "PORYGON": {
+            "name": "PORYGON",
             "num": 137,
             "types": [
                 "Normal"
@@ -20406,7 +20406,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Porygon2"
+                "PORYGON2"
             ],
             "evoMethods": [
                 "useItem"
@@ -20418,8 +20418,8 @@ var overrides = {
                 7
             ]
         },
-        "Omanyte": {
-            "name": "Omanyte",
+        "OMANYTE": {
+            "name": "OMANYTE",
             "num": 138,
             "types": [
                 "Rock",
@@ -20553,7 +20553,7 @@ var overrides = {
             ],
             "catchRate": 55,
             "evos": [
-                "Omastar"
+                "OMASTAR"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -20565,8 +20565,8 @@ var overrides = {
                 24
             ]
         },
-        "Omastar": {
-            "name": "Omastar",
+        "OMASTAR": {
+            "name": "OMASTAR",
             "num": 139,
             "types": [
                 "Rock",
@@ -20713,8 +20713,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Kabuto": {
-            "name": "Kabuto",
+        "KABUTO": {
+            "name": "KABUTO",
             "num": 140,
             "types": [
                 "Rock",
@@ -20847,7 +20847,7 @@ var overrides = {
             ],
             "catchRate": 55,
             "evos": [
-                "Kabutops"
+                "KABUTOPS"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -20859,8 +20859,8 @@ var overrides = {
                 24
             ]
         },
-        "Kabutops": {
-            "name": "Kabutops",
+        "KABUTOPS": {
+            "name": "KABUTOPS",
             "num": 141,
             "types": [
                 "Rock",
@@ -21029,8 +21029,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Aerodactyl": {
-            "name": "Aerodactyl",
+        "AERODACTYL": {
+            "name": "AERODACTYL",
             "num": 142,
             "types": [
                 "Rock",
@@ -21195,8 +21195,8 @@ var overrides = {
             ],
             "catchRate": 20
         },
-        "Snorlax": {
-            "name": "Snorlax",
+        "SNORLAX": {
+            "name": "SNORLAX",
             "num": 143,
             "types": [
                 "Normal"
@@ -21366,8 +21366,8 @@ var overrides = {
             "catchRate": 13,
             "evoType": "levelExtra"
         },
-        "Articuno": {
-            "name": "Articuno",
+        "ARTICUNO": {
+            "name": "ARTICUNO",
             "num": 144,
             "types": [
                 "Ice",
@@ -21512,8 +21512,8 @@ var overrides = {
             ],
             "catchRate": 11
         },
-        "Zapdos": {
-            "name": "Zapdos",
+        "ZAPDOS": {
+            "name": "ZAPDOS",
             "num": 145,
             "types": [
                 "Electric",
@@ -21659,8 +21659,8 @@ var overrides = {
             ],
             "catchRate": 11
         },
-        "Moltres": {
-            "name": "Moltres",
+        "MOLTRES": {
+            "name": "MOLTRES",
             "num": 146,
             "types": [
                 "Fire",
@@ -21803,8 +21803,8 @@ var overrides = {
             ],
             "catchRate": 11
         },
-        "Dratini": {
-            "name": "Dratini",
+        "DRATINI": {
+            "name": "DRATINI",
             "num": 147,
             "types": [
                 "Dragon"
@@ -21939,7 +21939,7 @@ var overrides = {
             ],
             "catchRate": 14,
             "evos": [
-                "Dragonair"
+                "DRAGONAIR"
             ],
             "evoMethods": [
                 "level"
@@ -21951,8 +21951,8 @@ var overrides = {
                 4
             ]
         },
-        "Dragonair": {
-            "name": "Dragonair",
+        "DRAGONAIR": {
+            "name": "DRAGONAIR",
             "num": 148,
             "types": [
                 "Dragon"
@@ -22099,7 +22099,7 @@ var overrides = {
             ],
             "catchRate": 14,
             "evos": [
-                "Dragonite"
+                "DRAGONITE"
             ],
             "evoMethods": [
                 "level"
@@ -22113,8 +22113,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 45
         },
-        "Dragonite": {
-            "name": "Dragonite",
+        "DRAGONITE": {
+            "name": "DRAGONITE",
             "num": 149,
             "types": [
                 "Dragon",
@@ -22317,8 +22317,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 100
         },
-        "Mewtwo": {
-            "name": "Mewtwo",
+        "MEWTWO": {
+            "name": "MEWTWO",
             "num": 150,
             "types": [
                 "Psychic"
@@ -22512,8 +22512,8 @@ var overrides = {
             ],
             "catchRate": 11
         },
-        "Mew": {
-            "name": "Mew",
+        "MEW": {
+            "name": "MEW",
             "num": 151,
             "types": [
                 "Psychic"
@@ -22781,8 +22781,8 @@ var overrides = {
             ],
             "catchRate": 10
         },
-        "Chikorita": {
-            "name": "Chikorita",
+        "CHIKORITA": {
+            "name": "CHIKORITA",
             "num": 152,
             "types": [
                 "Grass"
@@ -22916,7 +22916,7 @@ var overrides = {
             ],
             "catchRate": 175,
             "evos": [
-                "Bayleef"
+                "BAYLEEF"
             ],
             "evoMethods": [
                 "level"
@@ -22928,8 +22928,8 @@ var overrides = {
                 4
             ]
         },
-        "Bayleef": {
-            "name": "Bayleef",
+        "BAYLEEF": {
+            "name": "BAYLEEF",
             "num": 153,
             "types": [
                 "Grass"
@@ -23069,7 +23069,7 @@ var overrides = {
             ],
             "catchRate": 100,
             "evos": [
-                "Meganium"
+                "MEGANIUM"
             ],
             "evoMethods": [
                 "level"
@@ -23083,8 +23083,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Meganium": {
-            "name": "Meganium",
+        "MEGANIUM": {
+            "name": "MEGANIUM",
             "num": 154,
             "types": [
                 "Grass"
@@ -23244,8 +23244,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 32
         },
-        "Cyndaquil": {
-            "name": "Cyndaquil",
+        "CYNDAQUIL": {
+            "name": "CYNDAQUIL",
             "num": 155,
             "types": [
                 "Fire"
@@ -23368,7 +23368,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Quilava"
+                "QUILAVA"
             ],
             "evoMethods": [
                 "level"
@@ -23380,8 +23380,8 @@ var overrides = {
                 4
             ]
         },
-        "Quilava": {
-            "name": "Quilava",
+        "QUILAVA": {
+            "name": "QUILAVA",
             "num": 156,
             "types": [
                 "Fire"
@@ -23515,7 +23515,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Typhlosion"
+                "TYPHLOSION"
             ],
             "evoMethods": [
                 "level"
@@ -23529,8 +23529,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 14
         },
-        "Typhlosion": {
-            "name": "Typhlosion",
+        "TYPHLOSION": {
+            "name": "TYPHLOSION",
             "num": 157,
             "types": [
                 "Fire"
@@ -23689,8 +23689,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Totodile": {
-            "name": "Totodile",
+        "TOTODILE": {
+            "name": "TOTODILE",
             "num": 158,
             "types": [
                 "Water"
@@ -23841,7 +23841,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Croconaw"
+                "CROCONAW"
             ],
             "evoMethods": [
                 "level"
@@ -23853,8 +23853,8 @@ var overrides = {
                 4
             ]
         },
-        "Croconaw": {
-            "name": "Croconaw",
+        "CROCONAW": {
+            "name": "CROCONAW",
             "num": 159,
             "types": [
                 "Water"
@@ -24012,7 +24012,7 @@ var overrides = {
             ],
             "catchRate": 33,
             "evos": [
-                "Feraligatr"
+                "FERALIGATR"
             ],
             "evoMethods": [
                 "level"
@@ -24026,8 +24026,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Feraligatr": {
-            "name": "Feraligatr",
+        "FERALIGATR": {
+            "name": "FERALIGATR",
             "num": 160,
             "types": [
                 "Water"
@@ -24205,8 +24205,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Sentret": {
-            "name": "Sentret",
+        "SENTRET": {
+            "name": "SENTRET",
             "num": 161,
             "types": [
                 "Normal"
@@ -24364,7 +24364,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Furret"
+                "FURRET"
             ],
             "evoMethods": [
                 "level"
@@ -24376,8 +24376,8 @@ var overrides = {
                 4
             ]
         },
-        "Furret": {
-            "name": "Furret",
+        "FURRET": {
+            "name": "FURRET",
             "num": 162,
             "types": [
                 "Normal"
@@ -24552,8 +24552,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Hoothoot": {
-            "name": "Hoothoot",
+        "HOOTHOOT": {
+            "name": "HOOTHOOT",
             "num": 163,
             "types": [
                 "Normal",
@@ -24698,7 +24698,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Noctowl"
+                "NOCTOWL"
             ],
             "evoMethods": [
                 "level"
@@ -24710,8 +24710,8 @@ var overrides = {
                 4
             ]
         },
-        "Noctowl": {
-            "name": "Noctowl",
+        "NOCTOWL": {
+            "name": "NOCTOWL",
             "num": 164,
             "types": [
                 "Normal",
@@ -24874,8 +24874,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 20
         },
-        "Ledyba": {
-            "name": "Ledyba",
+        "LEDYBA": {
+            "name": "LEDYBA",
             "num": 165,
             "types": [
                 "Bug",
@@ -25017,7 +25017,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Ledian"
+                "LEDIAN"
             ],
             "evoMethods": [
                 "level"
@@ -25029,8 +25029,8 @@ var overrides = {
                 4
             ]
         },
-        "Ledian": {
-            "name": "Ledian",
+        "LEDIAN": {
+            "name": "LEDIAN",
             "num": 166,
             "types": [
                 "Bug",
@@ -25187,8 +25187,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 14
         },
-        "Spinarak": {
-            "name": "Spinarak",
+        "SPINARAK": {
+            "name": "SPINARAK",
             "num": 167,
             "types": [
                 "Bug",
@@ -25313,7 +25313,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Ariados"
+                "ARIADOS"
             ],
             "evoMethods": [
                 "level"
@@ -25325,8 +25325,8 @@ var overrides = {
                 4
             ]
         },
-        "Ariados": {
-            "name": "Ariados",
+        "ARIADOS": {
+            "name": "ARIADOS",
             "num": 168,
             "types": [
                 "Bug",
@@ -25467,8 +25467,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Crobat": {
-            "name": "Crobat",
+        "CROBAT": {
+            "name": "CROBAT",
             "num": 169,
             "types": [
                 "Poison",
@@ -25628,8 +25628,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 48
         },
-        "Chinchou": {
-            "name": "Chinchou",
+        "CHINCHOU": {
+            "name": "CHINCHOU",
             "num": 170,
             "types": [
                 "Water",
@@ -25765,7 +25765,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Lanturn"
+                "LANTURN"
             ],
             "evoMethods": [
                 "level"
@@ -25777,8 +25777,8 @@ var overrides = {
                 4
             ]
         },
-        "Lanturn": {
-            "name": "Lanturn",
+        "LANTURN": {
+            "name": "LANTURN",
             "num": 171,
             "types": [
                 "Water",
@@ -25940,8 +25940,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 27
         },
-        "Pichu": {
-            "name": "Pichu",
+        "PICHU": {
+            "name": "PICHU",
             "num": 172,
             "types": [
                 "Electric"
@@ -26045,7 +26045,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Pikachu"
+                "PIKACHU"
             ],
             "evoMethods": [
                 "level"
@@ -26057,8 +26057,8 @@ var overrides = {
                 4
             ]
         },
-        "Cleffa": {
-            "name": "Cleffa",
+        "CLEFFA": {
+            "name": "CLEFFA",
             "num": 173,
             "types": [
                 "Normal"
@@ -26179,7 +26179,7 @@ var overrides = {
             ],
             "catchRate": 120,
             "evos": [
-                "Clefairy"
+                "CLEFAIRY"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -26191,8 +26191,8 @@ var overrides = {
                 24
             ]
         },
-        "Igglybuff": {
-            "name": "Igglybuff",
+        "IGGLYBUFF": {
+            "name": "IGGLYBUFF",
             "num": 174,
             "types": [
                 "Normal"
@@ -26307,7 +26307,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Jigglypuff"
+                "JIGGLYPUFF"
             ],
             "evoMethods": [
                 "level"
@@ -26319,8 +26319,8 @@ var overrides = {
                 4
             ]
         },
-        "Togepi": {
-            "name": "Togepi",
+        "TOGEPI": {
+            "name": "TOGEPI",
             "num": 175,
             "types": [
                 "Normal"
@@ -26466,7 +26466,7 @@ var overrides = {
             ],
             "catchRate": 91,
             "evos": [
-                "Togetic"
+                "TOGETIC"
             ],
             "evoMethods": [
                 "level"
@@ -26478,8 +26478,8 @@ var overrides = {
                 4
             ]
         },
-        "Togetic": {
-            "name": "Togetic",
+        "TOGETIC": {
+            "name": "TOGETIC",
             "num": 176,
             "types": [
                 "Normal",
@@ -26654,7 +26654,7 @@ var overrides = {
             ],
             "catchRate": 46,
             "evos": [
-                "Togekiss"
+                "TOGEKISS"
             ],
             "evoMethods": [
                 "useItem"
@@ -26668,8 +26668,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Natu": {
-            "name": "Natu",
+        "NATU": {
+            "name": "NATU",
             "num": 177,
             "types": [
                 "Psychic",
@@ -26822,7 +26822,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Xatu"
+                "XATU"
             ],
             "evoMethods": [
                 "level"
@@ -26834,8 +26834,8 @@ var overrides = {
                 4
             ]
         },
-        "Xatu": {
-            "name": "Xatu",
+        "XATU": {
+            "name": "XATU",
             "num": 178,
             "types": [
                 "Psychic",
@@ -26997,8 +26997,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Mareep": {
-            "name": "Mareep",
+        "MAREEP": {
+            "name": "MAREEP",
             "num": 179,
             "types": [
                 "Electric"
@@ -27112,7 +27112,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Flaaffy"
+                "FLAAFFY"
             ],
             "evoMethods": [
                 "level"
@@ -27124,8 +27124,8 @@ var overrides = {
                 4
             ]
         },
-        "Flaaffy": {
-            "name": "Flaaffy",
+        "FLAAFFY": {
+            "name": "FLAAFFY",
             "num": 180,
             "types": [
                 "Electric"
@@ -27257,7 +27257,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Ampharos"
+                "AMPHAROS"
             ],
             "evoMethods": [
                 "level"
@@ -27271,8 +27271,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Ampharos": {
-            "name": "Ampharos",
+        "AMPHAROS": {
+            "name": "AMPHAROS",
             "num": 181,
             "types": [
                 "Electric"
@@ -27424,8 +27424,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Bellossom": {
-            "name": "Bellossom",
+        "BELLOSSOM": {
+            "name": "BELLOSSOM",
             "num": 182,
             "types": [
                 "Grass"
@@ -27533,8 +27533,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Sun Stone"
         },
-        "Marill": {
-            "name": "Marill",
+        "MARILL": {
+            "name": "MARILL",
             "num": 183,
             "types": [
                 "Water"
@@ -27668,7 +27668,7 @@ var overrides = {
             ],
             "catchRate": 117,
             "evos": [
-                "Azumarill"
+                "AZUMARILL"
             ],
             "evoMethods": [
                 "level"
@@ -27682,8 +27682,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Azumarill": {
-            "name": "Azumarill",
+        "AZUMARILL": {
+            "name": "AZUMARILL",
             "num": 184,
             "types": [
                 "Water"
@@ -27834,8 +27834,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Sudowoodo": {
-            "name": "Sudowoodo",
+        "SUDOWOODO": {
+            "name": "SUDOWOODO",
             "num": 185,
             "types": [
                 "Rock"
@@ -27996,8 +27996,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Politoed": {
-            "name": "Politoed",
+        "POLITOED": {
+            "name": "POLITOED",
             "num": 186,
             "types": [
                 "Water"
@@ -28112,8 +28112,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Hoppip": {
-            "name": "Hoppip",
+        "HOPPIP": {
+            "name": "HOPPIP",
             "num": 187,
             "types": [
                 "Grass",
@@ -28252,7 +28252,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Skiploom"
+                "SKIPLOOM"
             ],
             "evoMethods": [
                 "level"
@@ -28264,8 +28264,8 @@ var overrides = {
                 4
             ]
         },
-        "Skiploom": {
-            "name": "Skiploom",
+        "SKIPLOOM": {
+            "name": "SKIPLOOM",
             "num": 188,
             "types": [
                 "Grass",
@@ -28416,7 +28416,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Jumpluff"
+                "JUMPLUFF"
             ],
             "evoMethods": [
                 "level"
@@ -28430,8 +28430,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 18
         },
-        "Jumpluff": {
-            "name": "Jumpluff",
+        "JUMPLUFF": {
+            "name": "JUMPLUFF",
             "num": 189,
             "types": [
                 "Grass",
@@ -28586,8 +28586,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 27
         },
-        "Aipom": {
-            "name": "Aipom",
+        "AIPOM": {
+            "name": "AIPOM",
             "num": 190,
             "types": [
                 "Normal"
@@ -28754,7 +28754,7 @@ var overrides = {
             ],
             "catchRate": 75,
             "evos": [
-                "Ambipom"
+                "AMBIPOM"
             ],
             "evoMethods": [
                 "levelMove"
@@ -28766,8 +28766,8 @@ var overrides = {
                 20
             ]
         },
-        "Sunkern": {
-            "name": "Sunkern",
+        "SUNKERN": {
+            "name": "SUNKERN",
             "num": 191,
             "types": [
                 "Grass"
@@ -28896,7 +28896,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Sunflora"
+                "SUNFLORA"
             ],
             "evoMethods": [
                 "useItem"
@@ -28908,8 +28908,8 @@ var overrides = {
                 7
             ]
         },
-        "Sunflora": {
-            "name": "Sunflora",
+        "SUNFLORA": {
+            "name": "SUNFLORA",
             "num": 192,
             "types": [
                 "Grass"
@@ -29046,8 +29046,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Sun Stone"
         },
-        "Yanma": {
-            "name": "Yanma",
+        "YANMA": {
+            "name": "YANMA",
             "num": 193,
             "types": [
                 "Bug",
@@ -29192,8 +29192,8 @@ var overrides = {
             ],
             "catchRate": 0
         },
-        "Wooper": {
-            "name": "Wooper",
+        "WOOPER": {
+            "name": "WOOPER",
             "num": 194,
             "types": [
                 "Water",
@@ -29331,7 +29331,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Quagsire"
+                "QUAGSIRE"
             ],
             "evoMethods": [
                 "level"
@@ -29343,8 +29343,8 @@ var overrides = {
                 4
             ]
         },
-        "Quagsire": {
-            "name": "Quagsire",
+        "QUAGSIRE": {
+            "name": "QUAGSIRE",
             "num": 195,
             "types": [
                 "Water",
@@ -29498,8 +29498,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Espeon": {
-            "name": "Espeon",
+        "ESPEON": {
+            "name": "ESPEON",
             "num": 196,
             "types": [
                 "Psychic"
@@ -29644,8 +29644,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Dawn Stone"
         },
-        "Umbreon": {
-            "name": "Umbreon",
+        "UMBREON": {
+            "name": "UMBREON",
             "num": 197,
             "types": [
                 "Dark"
@@ -29788,8 +29788,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Dusk Stone"
         },
-        "Murkrow": {
-            "name": "Murkrow",
+        "MURKROW": {
+            "name": "MURKROW",
             "num": 198,
             "types": [
                 "Dark",
@@ -29927,7 +29927,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Honchkrow"
+                "HONCHKROW"
             ],
             "evoMethods": [
                 "useItem"
@@ -29939,8 +29939,8 @@ var overrides = {
                 7
             ]
         },
-        "Slowking": {
-            "name": "Slowking",
+        "SLOWKING": {
+            "name": "SLOWKING",
             "num": 199,
             "types": [
                 "Water",
@@ -30122,8 +30122,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "King’s Rock"
         },
-        "Misdreavus": {
-            "name": "Misdreavus",
+        "MISDREAVUS": {
+            "name": "MISDREAVUS",
             "num": 200,
             "types": [
                 "Ghost"
@@ -30269,7 +30269,7 @@ var overrides = {
             ],
             "catchRate": 60,
             "evos": [
-                "Mismagius"
+                "MISMAGIUS"
             ],
             "evoMethods": [
                 "useItem"
@@ -30317,8 +30317,8 @@ var overrides = {
             ],
             "catchRate": 0
         },
-        "Wobbuffet": {
-            "name": "Wobbuffet",
+        "WOBBUFFET": {
+            "name": "WOBBUFFET",
             "num": 202,
             "types": [
                 "Psychic"
@@ -30366,8 +30366,8 @@ var overrides = {
             "catchRate": 11,
             "evoType": "levelExtra"
         },
-        "Girafarig": {
-            "name": "Girafarig",
+        "GIRAFARIG": {
+            "name": "GIRAFARIG",
             "num": 203,
             "types": [
                 "Normal",
@@ -30522,8 +30522,8 @@ var overrides = {
             ],
             "catchRate": 60
         },
-        "Pineco": {
-            "name": "Pineco",
+        "PINECO": {
+            "name": "PINECO",
             "num": 204,
             "types": [
                 "Bug"
@@ -30654,7 +30654,7 @@ var overrides = {
             ],
             "catchRate": 50,
             "evos": [
-                "Forretress"
+                "FORRETRESS"
             ],
             "evoMethods": [
                 "level"
@@ -30666,8 +30666,8 @@ var overrides = {
                 4
             ]
         },
-        "Forretress": {
-            "name": "Forretress",
+        "FORRETRESS": {
+            "name": "FORRETRESS",
             "num": 205,
             "types": [
                 "Bug",
@@ -30833,8 +30833,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 41
         },
-        "Dunsparce": {
-            "name": "Dunsparce",
+        "DUNSPARCE": {
+            "name": "DUNSPARCE",
             "num": 206,
             "types": [
                 "Normal"
@@ -30990,8 +30990,8 @@ var overrides = {
             ],
             "catchRate": 247
         },
-        "Gligar": {
-            "name": "Gligar",
+        "GLIGAR": {
+            "name": "GLIGAR",
             "num": 207,
             "types": [
                 "Ground",
@@ -31139,7 +31139,7 @@ var overrides = {
             ],
             "catchRate": 45,
             "evos": [
-                "Gliscor"
+                "GLISCOR"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -31151,8 +31151,8 @@ var overrides = {
                 19
             ]
         },
-        "Steelix": {
-            "name": "Steelix",
+        "STEELIX": {
+            "name": "STEELIX",
             "num": 208,
             "types": [
                 "Steel",
@@ -31332,8 +31332,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Metal Coat"
         },
-        "Snubbull": {
-            "name": "Snubbull",
+        "SNUBBULL": {
+            "name": "SNUBBULL",
             "num": 209,
             "types": [
                 "Normal"
@@ -31486,7 +31486,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Granbull"
+                "GRANBULL"
             ],
             "evoMethods": [
                 "level"
@@ -31498,8 +31498,8 @@ var overrides = {
                 4
             ]
         },
-        "Granbull": {
-            "name": "Granbull",
+        "GRANBULL": {
+            "name": "GRANBULL",
             "num": 210,
             "types": [
                 "Normal"
@@ -31662,8 +31662,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 23
         },
-        "Qwilfish": {
-            "name": "Qwilfish",
+        "QWILFISH": {
+            "name": "QWILFISH",
             "num": 211,
             "types": [
                 "Water",
@@ -31822,8 +31822,8 @@ var overrides = {
             ],
             "catchRate": 30
         },
-        "Scizor": {
-            "name": "Scizor",
+        "SCIZOR": {
+            "name": "SCIZOR",
             "num": 212,
             "types": [
                 "Bug",
@@ -31987,8 +31987,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Metal Coat"
         },
-        "Shuckle": {
-            "name": "Shuckle",
+        "SHUCKLE": {
+            "name": "SHUCKLE",
             "num": 213,
             "types": [
                 "Bug",
@@ -32111,8 +32111,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Heracross": {
-            "name": "Heracross",
+        "HERACROSS": {
+            "name": "HERACROSS",
             "num": 214,
             "types": [
                 "Bug",
@@ -32255,8 +32255,8 @@ var overrides = {
             ],
             "catchRate": 33
         },
-        "Sneasel": {
-            "name": "Sneasel",
+        "SNEASEL": {
+            "name": "SNEASEL",
             "num": 215,
             "types": [
                 "Dark",
@@ -32409,7 +32409,7 @@ var overrides = {
             ],
             "catchRate": 33,
             "evos": [
-                "Weavile"
+                "WEAVILE"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -32421,8 +32421,8 @@ var overrides = {
                 19
             ]
         },
-        "Teddiursa": {
-            "name": "Teddiursa",
+        "TEDDIURSA": {
+            "name": "TEDDIURSA",
             "num": 216,
             "types": [
                 "Normal"
@@ -32576,7 +32576,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Ursaring"
+                "URSARING"
             ],
             "evoMethods": [
                 "level"
@@ -32588,8 +32588,8 @@ var overrides = {
                 4
             ]
         },
-        "Ursaring": {
-            "name": "Ursaring",
+        "URSARING": {
+            "name": "URSARING",
             "num": 217,
             "types": [
                 "Normal"
@@ -32761,8 +32761,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 34
         },
-        "Slugma": {
-            "name": "Slugma",
+        "SLUGMA": {
+            "name": "SLUGMA",
             "num": 218,
             "types": [
                 "Fire"
@@ -32891,7 +32891,7 @@ var overrides = {
             ],
             "catchRate": 117,
             "evos": [
-                "Magcargo"
+                "MAGCARGO"
             ],
             "evoMethods": [
                 "level"
@@ -32903,8 +32903,8 @@ var overrides = {
                 4
             ]
         },
-        "Magcargo": {
-            "name": "Magcargo",
+        "MAGCARGO": {
+            "name": "MAGCARGO",
             "num": 219,
             "types": [
                 "Fire",
@@ -33055,8 +33055,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 24
         },
-        "Swinub": {
-            "name": "Swinub",
+        "SWINUB": {
+            "name": "SWINUB",
             "num": 220,
             "types": [
                 "Ice",
@@ -33195,7 +33195,7 @@ var overrides = {
             ],
             "catchRate": 130,
             "evos": [
-                "Piloswine"
+                "PILOSWINE"
             ],
             "evoMethods": [
                 "level"
@@ -33207,8 +33207,8 @@ var overrides = {
                 4
             ]
         },
-        "Piloswine": {
-            "name": "Piloswine",
+        "PILOSWINE": {
+            "name": "PILOSWINE",
             "num": 221,
             "types": [
                 "Ice",
@@ -33367,7 +33367,7 @@ var overrides = {
             ],
             "catchRate": 98,
             "evos": [
-                "Mamoswine"
+                "MAMOSWINE"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -33381,8 +33381,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 38
         },
-        "Corsola": {
-            "name": "Corsola",
+        "CORSOLA": {
+            "name": "CORSOLA",
             "num": 222,
             "types": [
                 "Water",
@@ -33541,8 +33541,8 @@ var overrides = {
             ],
             "catchRate": 78
         },
-        "Remoraid": {
-            "name": "Remoraid",
+        "REMORAID": {
+            "name": "REMORAID",
             "num": 223,
             "types": [
                 "Water"
@@ -33673,7 +33673,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Octillery"
+                "OCTILLERY"
             ],
             "evoMethods": [
                 "level"
@@ -33685,8 +33685,8 @@ var overrides = {
                 4
             ]
         },
-        "Octillery": {
-            "name": "Octillery",
+        "OCTILLERY": {
+            "name": "OCTILLERY",
             "num": 224,
             "types": [
                 "Water"
@@ -33848,8 +33848,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Delibird": {
-            "name": "Delibird",
+        "DELIBIRD": {
+            "name": "DELIBIRD",
             "num": 225,
             "types": [
                 "Ice",
@@ -33978,8 +33978,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Mantine": {
-            "name": "Mantine",
+        "MANTINE": {
+            "name": "MANTINE",
             "num": 226,
             "types": [
                 "Water",
@@ -34147,8 +34147,8 @@ var overrides = {
             "catchRate": 33,
             "evoType": "levelExtra"
         },
-        "Skarmory": {
-            "name": "Skarmory",
+        "SKARMORY": {
+            "name": "SKARMORY",
             "num": 227,
             "types": [
                 "Steel",
@@ -34298,8 +34298,8 @@ var overrides = {
             ],
             "catchRate": 33
         },
-        "Houndour": {
-            "name": "Houndour",
+        "HOUNDOUR": {
+            "name": "HOUNDOUR",
             "num": 228,
             "types": [
                 "Dark",
@@ -34442,7 +34442,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Houndoom"
+                "HOUNDOOM"
             ],
             "evoMethods": [
                 "level"
@@ -34454,8 +34454,8 @@ var overrides = {
                 4
             ]
         },
-        "Houndoom": {
-            "name": "Houndoom",
+        "HOUNDOOM": {
+            "name": "HOUNDOOM",
             "num": 229,
             "types": [
                 "Dark",
@@ -34623,8 +34623,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 54
         },
-        "Kingdra": {
-            "name": "Kingdra",
+        "KINGDRA": {
+            "name": "KINGDRA",
             "num": 230,
             "types": [
                 "Water",
@@ -34774,8 +34774,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Dragon Scale"
         },
-        "Phanpy": {
-            "name": "Phanpy",
+        "PHANPY": {
+            "name": "PHANPY",
             "num": 231,
             "types": [
                 "Ground"
@@ -34910,7 +34910,7 @@ var overrides = {
             ],
             "catchRate": 155,
             "evos": [
-                "Donphan"
+                "DONPHAN"
             ],
             "evoMethods": [
                 "level"
@@ -34922,8 +34922,8 @@ var overrides = {
                 4
             ]
         },
-        "Donphan": {
-            "name": "Donphan",
+        "DONPHAN": {
+            "name": "DONPHAN",
             "num": 232,
             "types": [
                 "Ground"
@@ -35080,8 +35080,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 34
         },
-        "Porygon2": {
-            "name": "Porygon2",
+        "PORYGON2": {
+            "name": "PORYGON2",
             "num": 233,
             "types": [
                 "Normal"
@@ -35233,7 +35233,7 @@ var overrides = {
             ],
             "catchRate": 20,
             "evos": [
-                "Porygon-Z"
+                "PORYGON-Z"
             ],
             "evoMethods": [
                 "useItem"
@@ -35247,8 +35247,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Up-Grade"
         },
-        "Stantler": {
-            "name": "Stantler",
+        "STANTLER": {
+            "name": "STANTLER",
             "num": 234,
             "types": [
                 "Normal"
@@ -35406,8 +35406,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Smeargle": {
-            "name": "Smeargle",
+        "SMEARGLE": {
+            "name": "SMEARGLE",
             "num": 235,
             "types": [
                 "Normal"
@@ -35478,8 +35478,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Tyrogue": {
-            "name": "Tyrogue",
+        "TYROGUE": {
+            "name": "TYROGUE",
             "num": 236,
             "types": [
                 "Fighting"
@@ -35569,9 +35569,9 @@ var overrides = {
             ],
             "catchRate": 200,
             "evos": [
-                "Hitmonchan",
-                "Hitmonlee",
-                "Hitmontop"
+                "HITMONCHAN",
+                "HITMONLEE",
+                "HITMONTOP"
             ],
             "evoMethods": [
                 "levelExtra",
@@ -35589,8 +35589,8 @@ var overrides = {
                 9
             ]
         },
-        "Hitmontop": {
-            "name": "Hitmontop",
+        "HITMONTOP": {
+            "name": "HITMONTOP",
             "num": 237,
             "types": [
                 "Fighting"
@@ -35733,8 +35733,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 20
         },
-        "Smoochum": {
-            "name": "Smoochum",
+        "SMOOCHUM": {
+            "name": "SMOOCHUM",
             "num": 238,
             "types": [
                 "Ice",
@@ -35883,7 +35883,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Jynx"
+                "JYNX"
             ],
             "evoMethods": [
                 "level"
@@ -35895,8 +35895,8 @@ var overrides = {
                 4
             ]
         },
-        "Elekid": {
-            "name": "Elekid",
+        "ELEKID": {
+            "name": "ELEKID",
             "num": 239,
             "types": [
                 "Electric"
@@ -36031,7 +36031,7 @@ var overrides = {
             ],
             "catchRate": 155,
             "evos": [
-                "Electabuzz"
+                "ELECTABUZZ"
             ],
             "evoMethods": [
                 "level"
@@ -36043,8 +36043,8 @@ var overrides = {
                 4
             ]
         },
-        "Magby": {
-            "name": "Magby",
+        "MAGBY": {
+            "name": "MAGBY",
             "num": 240,
             "types": [
                 "Fire"
@@ -36171,7 +36171,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Magmar"
+                "MAGMAR"
             ],
             "evoMethods": [
                 "level"
@@ -36183,8 +36183,8 @@ var overrides = {
                 4
             ]
         },
-        "Miltank": {
-            "name": "Miltank",
+        "MILTANK": {
+            "name": "MILTANK",
             "num": 241,
             "types": [
                 "Normal"
@@ -36337,8 +36337,8 @@ var overrides = {
             ],
             "catchRate": 65
         },
-        "Blissey": {
-            "name": "Blissey",
+        "BLISSEY": {
+            "name": "BLISSEY",
             "num": 242,
             "types": [
                 "Normal"
@@ -36513,8 +36513,8 @@ var overrides = {
             "catchRate": 11,
             "evoType": "levelFriendship"
         },
-        "Raikou": {
-            "name": "Raikou",
+        "RAIKOU": {
+            "name": "RAIKOU",
             "num": 243,
             "types": [
                 "Electric"
@@ -36656,8 +36656,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Entei": {
-            "name": "Entei",
+        "ENTEI": {
+            "name": "ENTEI",
             "num": 244,
             "types": [
                 "Fire"
@@ -36797,8 +36797,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Suicune": {
-            "name": "Suicune",
+        "SUICUNE": {
+            "name": "SUICUNE",
             "num": 245,
             "types": [
                 "Water"
@@ -36944,8 +36944,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Larvitar": {
-            "name": "Larvitar",
+        "LARVITAR": {
+            "name": "LARVITAR",
             "num": 246,
             "types": [
                 "Rock",
@@ -37084,7 +37084,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Pupitar"
+                "PUPITAR"
             ],
             "evoMethods": [
                 "level"
@@ -37096,8 +37096,8 @@ var overrides = {
                 4
             ]
         },
-        "Pupitar": {
-            "name": "Pupitar",
+        "PUPITAR": {
+            "name": "PUPITAR",
             "num": 247,
             "types": [
                 "Rock",
@@ -37246,7 +37246,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Tyranitar"
+                "TYRANITAR"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -37260,8 +37260,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 64
         },
-        "Tyranitar": {
-            "name": "Tyranitar",
+        "TYRANITAR": {
+            "name": "TYRANITAR",
             "num": 248,
             "types": [
                 "Rock",
@@ -37457,8 +37457,8 @@ var overrides = {
             "catchRate": 15,
             "evoType": "levelExtra"
         },
-        "Lugia": {
-            "name": "Lugia",
+        "LUGIA": {
+            "name": "LUGIA",
             "num": 249,
             "types": [
                 "Psychic",
@@ -37639,8 +37639,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Ho-Oh": {
-            "name": "Ho-Oh",
+        "HO-OH": {
+            "name": "HO-OH",
             "num": 250,
             "types": [
                 "Fire",
@@ -37810,8 +37810,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Celebi": {
-            "name": "Celebi",
+        "CELEBI": {
+            "name": "CELEBI",
             "num": 251,
             "types": [
                 "Psychic",
@@ -37978,8 +37978,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Treecko": {
-            "name": "Treecko",
+        "TREECKO": {
+            "name": "TREECKO",
             "num": 252,
             "types": [
                 "Grass"
@@ -38121,7 +38121,7 @@ var overrides = {
             ],
             "catchRate": 175,
             "evos": [
-                "Grovyle"
+                "GROVYLE"
             ],
             "evoMethods": [
                 "level"
@@ -38133,8 +38133,8 @@ var overrides = {
                 4
             ]
         },
-        "Grovyle": {
-            "name": "Grovyle",
+        "GROVYLE": {
+            "name": "GROVYLE",
             "num": 253,
             "types": [
                 "Grass"
@@ -38286,7 +38286,7 @@ var overrides = {
             ],
             "catchRate": 100,
             "evos": [
-                "Sceptile"
+                "SCEPTILE"
             ],
             "evoMethods": [
                 "level"
@@ -38300,8 +38300,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Sceptile": {
-            "name": "Sceptile",
+        "SCEPTILE": {
+            "name": "SCEPTILE",
             "num": 254,
             "types": [
                 "Grass"
@@ -38469,8 +38469,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Torchic": {
-            "name": "Torchic",
+        "TORCHIC": {
+            "name": "TORCHIC",
             "num": 255,
             "types": [
                 "Fire"
@@ -38595,7 +38595,7 @@ var overrides = {
             ],
             "catchRate": 50,
             "evos": [
-                "Combusken"
+                "COMBUSKEN"
             ],
             "evoMethods": [
                 "level"
@@ -38607,8 +38607,8 @@ var overrides = {
                 4
             ]
         },
-        "Combusken": {
-            "name": "Combusken",
+        "COMBUSKEN": {
+            "name": "COMBUSKEN",
             "num": 256,
             "types": [
                 "Fire",
@@ -38768,7 +38768,7 @@ var overrides = {
             ],
             "catchRate": 50,
             "evos": [
-                "Blaziken"
+                "BLAZIKEN"
             ],
             "evoMethods": [
                 "level"
@@ -38782,8 +38782,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Blaziken": {
-            "name": "Blaziken",
+        "BLAZIKEN": {
+            "name": "BLAZIKEN",
             "num": 257,
             "types": [
                 "Fire",
@@ -38960,8 +38960,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Mudkip": {
-            "name": "Mudkip",
+        "MUDKIP": {
+            "name": "MUDKIP",
             "num": 258,
             "types": [
                 "Water"
@@ -39095,7 +39095,7 @@ var overrides = {
             ],
             "catchRate": 35,
             "evos": [
-                "Marshtomp"
+                "MARSHTOMP"
             ],
             "evoMethods": [
                 "level"
@@ -39107,8 +39107,8 @@ var overrides = {
                 4
             ]
         },
-        "Marshtomp": {
-            "name": "Marshtomp",
+        "MARSHTOMP": {
+            "name": "MARSHTOMP",
             "num": 259,
             "types": [
                 "Water",
@@ -39261,7 +39261,7 @@ var overrides = {
             ],
             "catchRate": 20,
             "evos": [
-                "Swampert"
+                "SWAMPERT"
             ],
             "evoMethods": [
                 "level"
@@ -39275,8 +39275,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Swampert": {
-            "name": "Swampert",
+        "SWAMPERT": {
+            "name": "SWAMPERT",
             "num": 260,
             "types": [
                 "Water",
@@ -39445,8 +39445,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Poochyena": {
-            "name": "Poochyena",
+        "POOCHYENA": {
+            "name": "POOCHYENA",
             "num": 261,
             "types": [
                 "Dark"
@@ -39583,7 +39583,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Mightyena"
+                "MIGHTYENA"
             ],
             "evoMethods": [
                 "level"
@@ -39595,8 +39595,8 @@ var overrides = {
                 4
             ]
         },
-        "Mightyena": {
-            "name": "Mightyena",
+        "MIGHTYENA": {
+            "name": "MIGHTYENA",
             "num": 262,
             "types": [
                 "Dark"
@@ -39754,8 +39754,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Zigzagoon": {
-            "name": "Zigzagoon",
+        "ZIGZAGOON": {
+            "name": "ZIGZAGOON",
             "num": 263,
             "types": [
                 "Normal"
@@ -39902,7 +39902,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Linoone"
+                "LINOONE"
             ],
             "evoMethods": [
                 "level"
@@ -39914,8 +39914,8 @@ var overrides = {
                 4
             ]
         },
-        "Linoone": {
-            "name": "Linoone",
+        "LINOONE": {
+            "name": "LINOONE",
             "num": 264,
             "types": [
                 "Normal"
@@ -40081,8 +40081,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 20
         },
-        "Wurmple": {
-            "name": "Wurmple",
+        "WURMPLE": {
+            "name": "WURMPLE",
             "num": 265,
             "types": [
                 "Bug"
@@ -40136,8 +40136,8 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Silcoon",
-                "Cascoon"
+                "SILCOON",
+                "CASCOON"
             ],
             "evoMethods": [
                 "levelExtra",
@@ -40152,8 +40152,8 @@ var overrides = {
                 12
             ]
         },
-        "Silcoon": {
-            "name": "Silcoon",
+        "SILCOON": {
+            "name": "SILCOON",
             "num": 266,
             "types": [
                 "Bug"
@@ -40199,7 +40199,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Beautifly"
+                "BEAUTIFLY"
             ],
             "evoMethods": [
                 "level"
@@ -40213,8 +40213,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 7
         },
-        "Beautifly": {
-            "name": "Beautifly",
+        "BEAUTIFLY": {
+            "name": "BEAUTIFLY",
             "num": 267,
             "types": [
                 "Bug",
@@ -40341,8 +40341,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 10
         },
-        "Cascoon": {
-            "name": "Cascoon",
+        "CASCOON": {
+            "name": "CASCOON",
             "num": 268,
             "types": [
                 "Bug"
@@ -40388,7 +40388,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Dustox"
+                "DUSTOX"
             ],
             "evoMethods": [
                 "level"
@@ -40402,8 +40402,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 7
         },
-        "Dustox": {
-            "name": "Dustox",
+        "DUSTOX": {
+            "name": "DUSTOX",
             "num": 269,
             "types": [
                 "Bug",
@@ -40531,8 +40531,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 10
         },
-        "Lotad": {
-            "name": "Lotad",
+        "LOTAD": {
+            "name": "LOTAD",
             "num": 270,
             "types": [
                 "Water",
@@ -40661,7 +40661,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Lombre"
+                "LOMBRE"
             ],
             "evoMethods": [
                 "level"
@@ -40673,8 +40673,8 @@ var overrides = {
                 4
             ]
         },
-        "Lombre": {
-            "name": "Lombre",
+        "LOMBRE": {
+            "name": "LOMBRE",
             "num": 271,
             "types": [
                 "Water",
@@ -40823,7 +40823,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Ludicolo"
+                "LUDICOLO"
             ],
             "evoMethods": [
                 "useItem"
@@ -40837,8 +40837,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 14
         },
-        "Ludicolo": {
-            "name": "Ludicolo",
+        "LUDICOLO": {
+            "name": "LUDICOLO",
             "num": 272,
             "types": [
                 "Water",
@@ -40958,8 +40958,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Water Stone"
         },
-        "Seedot": {
-            "name": "Seedot",
+        "SEEDOT": {
+            "name": "SEEDOT",
             "num": 273,
             "types": [
                 "Grass"
@@ -41062,7 +41062,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Nuzleaf"
+                "NUZLEAF"
             ],
             "evoMethods": [
                 "level"
@@ -41074,8 +41074,8 @@ var overrides = {
                 4
             ]
         },
-        "Nuzleaf": {
-            "name": "Nuzleaf",
+        "NUZLEAF": {
+            "name": "NUZLEAF",
             "num": 274,
             "types": [
                 "Grass",
@@ -41214,7 +41214,7 @@ var overrides = {
             ],
             "catchRate": 200,
             "evos": [
-                "Shiftry"
+                "SHIFTRY"
             ],
             "evoMethods": [
                 "useItem"
@@ -41228,8 +41228,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 14
         },
-        "Shiftry": {
-            "name": "Shiftry",
+        "SHIFTRY": {
+            "name": "SHIFTRY",
             "num": 275,
             "types": [
                 "Grass",
@@ -41364,8 +41364,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Leaf Stone"
         },
-        "Taillow": {
-            "name": "Taillow",
+        "TAILLOW": {
+            "name": "TAILLOW",
             "num": 276,
             "types": [
                 "Normal",
@@ -41484,7 +41484,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Swellow"
+                "SWELLOW"
             ],
             "evoMethods": [
                 "level"
@@ -41496,8 +41496,8 @@ var overrides = {
                 4
             ]
         },
-        "Swellow": {
-            "name": "Swellow",
+        "SWELLOW": {
+            "name": "SWELLOW",
             "num": 277,
             "types": [
                 "Normal",
@@ -41632,8 +41632,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Wingull": {
-            "name": "Wingull",
+        "WINGULL": {
+            "name": "WINGULL",
             "num": 278,
             "types": [
                 "Water",
@@ -41767,7 +41767,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Pelipper"
+                "PELIPPER"
             ],
             "evoMethods": [
                 "level"
@@ -41779,8 +41779,8 @@ var overrides = {
                 4
             ]
         },
-        "Pelipper": {
-            "name": "Pelipper",
+        "PELIPPER": {
+            "name": "PELIPPER",
             "num": 279,
             "types": [
                 "Water",
@@ -41949,8 +41949,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Ralts": {
-            "name": "Ralts",
+        "RALTS": {
+            "name": "RALTS",
             "num": 280,
             "types": [
                 "Psychic"
@@ -42097,7 +42097,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Kirlia"
+                "KIRLIA"
             ],
             "evoMethods": [
                 "level"
@@ -42109,8 +42109,8 @@ var overrides = {
                 4
             ]
         },
-        "Kirlia": {
-            "name": "Kirlia",
+        "KIRLIA": {
+            "name": "KIRLIA",
             "num": 281,
             "types": [
                 "Psychic"
@@ -42269,8 +42269,8 @@ var overrides = {
             ],
             "catchRate": 150,
             "evos": [
-                "Gardevoir",
-                "Gallade"
+                "GARDEVOIR",
+                "GALLADE"
             ],
             "evoMethods": [
                 "useItem",
@@ -42287,8 +42287,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 20
         },
-        "Gardevoir": {
-            "name": "Gardevoir",
+        "GARDEVOIR": {
+            "name": "GARDEVOIR",
             "num": 282,
             "types": [
                 "Psychic"
@@ -42454,8 +42454,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Dawn Stone"
         },
-        "Surskit": {
-            "name": "Surskit",
+        "SURSKIT": {
+            "name": "SURSKIT",
             "num": 283,
             "types": [
                 "Bug",
@@ -42566,7 +42566,7 @@ var overrides = {
             ],
             "catchRate": 98,
             "evos": [
-                "Masquerain"
+                "MASQUERAIN"
             ],
             "evoMethods": [
                 "useItem"
@@ -42578,8 +42578,8 @@ var overrides = {
                 7
             ]
         },
-        "Masquerain": {
-            "name": "Masquerain",
+        "MASQUERAIN": {
+            "name": "MASQUERAIN",
             "num": 284,
             "types": [
                 "Bug",
@@ -42729,8 +42729,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Water Stone"
         },
-        "Shroomish": {
-            "name": "Shroomish",
+        "SHROOMISH": {
+            "name": "SHROOMISH",
             "num": 285,
             "types": [
                 "Grass"
@@ -42850,7 +42850,7 @@ var overrides = {
             ],
             "catchRate": 175,
             "evos": [
-                "Breloom"
+                "BRELOOM"
             ],
             "evoMethods": [
                 "level"
@@ -42862,8 +42862,8 @@ var overrides = {
                 4
             ]
         },
-        "Breloom": {
-            "name": "Breloom",
+        "BRELOOM": {
+            "name": "BRELOOM",
             "num": 286,
             "types": [
                 "Grass",
@@ -43027,8 +43027,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 23
         },
-        "Slakoth": {
-            "name": "Slakoth",
+        "SLAKOTH": {
+            "name": "SLAKOTH",
             "num": 287,
             "types": [
                 "Normal"
@@ -43158,7 +43158,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Vigoroth"
+                "VIGOROTH"
             ],
             "evoMethods": [
                 "level"
@@ -43170,8 +43170,8 @@ var overrides = {
                 4
             ]
         },
-        "Vigoroth": {
-            "name": "Vigoroth",
+        "VIGOROTH": {
+            "name": "VIGOROTH",
             "num": 288,
             "types": [
                 "Normal"
@@ -43318,7 +43318,7 @@ var overrides = {
             ],
             "catchRate": 35,
             "evos": [
-                "Slaking"
+                "SLAKING"
             ],
             "evoMethods": [
                 "level"
@@ -43332,8 +43332,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 18
         },
-        "Slaking": {
-            "name": "Slaking",
+        "SLAKING": {
+            "name": "SLAKING",
             "num": 289,
             "types": [
                 "Normal"
@@ -43496,8 +43496,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 90
         },
-        "Nincada": {
-            "name": "Nincada",
+        "NINCADA": {
+            "name": "NINCADA",
             "num": 290,
             "types": [
                 "Bug",
@@ -43608,8 +43608,8 @@ var overrides = {
             ],
             "catchRate": 0,
             "evos": [
-                "Ninjask",
-                "Shedinja"
+                "NINJASK",
+                "SHEDINJA"
             ],
             "evoMethods": [
                 "levelExtra",
@@ -43624,8 +43624,8 @@ var overrides = {
                 14
             ]
         },
-        "Ninjask": {
-            "name": "Ninjask",
+        "NINJASK": {
+            "name": "NINJASK",
             "num": 291,
             "types": [
                 "Bug",
@@ -43783,8 +43783,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 20
         },
-        "Shedinja": {
-            "name": "Shedinja",
+        "SHEDINJA": {
+            "name": "SHEDINJA",
             "num": 292,
             "types": [
                 "Bug",
@@ -43915,8 +43915,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 20
         },
-        "Whismur": {
-            "name": "Whismur",
+        "WHISMUR": {
+            "name": "WHISMUR",
             "num": 293,
             "types": [
                 "Normal"
@@ -44043,7 +44043,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Loudred"
+                "LOUDRED"
             ],
             "evoMethods": [
                 "level"
@@ -44055,8 +44055,8 @@ var overrides = {
                 4
             ]
         },
-        "Loudred": {
-            "name": "Loudred",
+        "LOUDRED": {
+            "name": "LOUDRED",
             "num": 294,
             "types": [
                 "Normal"
@@ -44208,7 +44208,7 @@ var overrides = {
             ],
             "catchRate": 200,
             "evos": [
-                "Exploud"
+                "EXPLOUD"
             ],
             "evoMethods": [
                 "level"
@@ -44222,8 +44222,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Exploud": {
-            "name": "Exploud",
+        "EXPLOUD": {
+            "name": "EXPLOUD",
             "num": 295,
             "types": [
                 "Normal"
@@ -44405,8 +44405,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Makuhita": {
-            "name": "Makuhita",
+        "MAKUHITA": {
+            "name": "MAKUHITA",
             "num": 296,
             "types": [
                 "Fighting"
@@ -44557,7 +44557,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Hariyama"
+                "HARIYAMA"
             ],
             "evoMethods": [
                 "level"
@@ -44569,8 +44569,8 @@ var overrides = {
                 4
             ]
         },
-        "Hariyama": {
-            "name": "Hariyama",
+        "HARIYAMA": {
+            "name": "HARIYAMA",
             "num": 297,
             "types": [
                 "Fighting"
@@ -44742,8 +44742,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Azurill": {
-            "name": "Azurill",
+        "AZURILL": {
+            "name": "AZURILL",
             "num": 298,
             "types": [
                 "Normal"
@@ -44844,7 +44844,7 @@ var overrides = {
             ],
             "catchRate": 195,
             "evos": [
-                "Marill"
+                "MARILL"
             ],
             "evoMethods": [
                 "level"
@@ -44856,8 +44856,8 @@ var overrides = {
                 4
             ]
         },
-        "Nosepass": {
-            "name": "Nosepass",
+        "NOSEPASS": {
+            "name": "NOSEPASS",
             "num": 299,
             "types": [
                 "Rock"
@@ -45003,7 +45003,7 @@ var overrides = {
             ],
             "catchRate": 195,
             "evos": [
-                "Probopass"
+                "PROBOPASS"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -45015,8 +45015,8 @@ var overrides = {
                 24
             ]
         },
-        "Skitty": {
-            "name": "Skitty",
+        "SKITTY": {
+            "name": "SKITTY",
             "num": 300,
             "types": [
                 "Normal"
@@ -45181,7 +45181,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Delcatty"
+                "DELCATTY"
             ],
             "evoMethods": [
                 "useItem"
@@ -45193,8 +45193,8 @@ var overrides = {
                 7
             ]
         },
-        "Delcatty": {
-            "name": "Delcatty",
+        "DELCATTY": {
+            "name": "DELCATTY",
             "num": 301,
             "types": [
                 "Normal"
@@ -45309,8 +45309,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Moon Stone"
         },
-        "Sableye": {
-            "name": "Sableye",
+        "SABLEYE": {
+            "name": "SABLEYE",
             "num": 302,
             "types": [
                 "Dark",
@@ -45491,8 +45491,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Mawile": {
-            "name": "Mawile",
+        "MAWILE": {
+            "name": "MAWILE",
             "num": 303,
             "types": [
                 "Steel"
@@ -45651,8 +45651,8 @@ var overrides = {
             ],
             "catchRate": 75
         },
-        "Aron": {
-            "name": "Aron",
+        "ARON": {
+            "name": "ARON",
             "num": 304,
             "types": [
                 "Steel",
@@ -45806,7 +45806,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Lairon"
+                "LAIRON"
             ],
             "evoMethods": [
                 "level"
@@ -45818,8 +45818,8 @@ var overrides = {
                 4
             ]
         },
-        "Lairon": {
-            "name": "Lairon",
+        "LAIRON": {
+            "name": "LAIRON",
             "num": 305,
             "types": [
                 "Steel",
@@ -45986,7 +45986,7 @@ var overrides = {
             ],
             "catchRate": 117,
             "evos": [
-                "Aggron"
+                "AGGRON"
             ],
             "evoMethods": [
                 "level"
@@ -46000,8 +46000,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 26
         },
-        "Aggron": {
-            "name": "Aggron",
+        "AGGRON": {
+            "name": "AGGRON",
             "num": 306,
             "types": [
                 "Steel",
@@ -46205,8 +46205,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 42
         },
-        "Meditite": {
-            "name": "Meditite",
+        "MEDITITE": {
+            "name": "MEDITITE",
             "num": 307,
             "types": [
                 "Fighting",
@@ -46357,7 +46357,7 @@ var overrides = {
             ],
             "catchRate": 117,
             "evos": [
-                "Medicham"
+                "MEDICHAM"
             ],
             "evoMethods": [
                 "level"
@@ -46369,8 +46369,8 @@ var overrides = {
                 4
             ]
         },
-        "Medicham": {
-            "name": "Medicham",
+        "MEDICHAM": {
+            "name": "MEDICHAM",
             "num": 308,
             "types": [
                 "Fighting",
@@ -46553,8 +46553,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 47
         },
-        "Electrike": {
-            "name": "Electrike",
+        "ELECTRIKE": {
+            "name": "ELECTRIKE",
             "num": 309,
             "types": [
                 "Electric"
@@ -46678,7 +46678,7 @@ var overrides = {
             ],
             "catchRate": 160,
             "evos": [
-                "Manectric"
+                "MANECTRIC"
             ],
             "evoMethods": [
                 "level"
@@ -46690,8 +46690,8 @@ var overrides = {
                 4
             ]
         },
-        "Manectric": {
-            "name": "Manectric",
+        "MANECTRIC": {
+            "name": "MANECTRIC",
             "num": 310,
             "types": [
                 "Electric"
@@ -46840,8 +46840,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 26
         },
-        "Plusle": {
-            "name": "Plusle",
+        "PLUSLE": {
+            "name": "PLUSLE",
             "num": 311,
             "types": [
                 "Electric"
@@ -46990,8 +46990,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Minun": {
-            "name": "Minun",
+        "MINUN": {
+            "name": "MINUN",
             "num": 312,
             "types": [
                 "Electric"
@@ -47140,8 +47140,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Volbeat": {
-            "name": "Volbeat",
+        "VOLBEAT": {
+            "name": "VOLBEAT",
             "num": 313,
             "types": [
                 "Bug"
@@ -47289,8 +47289,8 @@ var overrides = {
             ],
             "catchRate": 195
         },
-        "Illumise": {
-            "name": "Illumise",
+        "ILLUMISE": {
+            "name": "ILLUMISE",
             "num": 314,
             "types": [
                 "Bug"
@@ -47432,8 +47432,8 @@ var overrides = {
             ],
             "catchRate": 195
         },
-        "Roselia": {
-            "name": "Roselia",
+        "ROSELIA": {
+            "name": "ROSELIA",
             "num": 315,
             "types": [
                 "Grass",
@@ -47577,7 +47577,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Roserade"
+                "ROSERADE"
             ],
             "evoMethods": [
                 "useItem"
@@ -47591,8 +47591,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Gulpin": {
-            "name": "Gulpin",
+        "GULPIN": {
+            "name": "GULPIN",
             "num": 316,
             "types": [
                 "Poison"
@@ -47734,7 +47734,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Swalot"
+                "SWALOT"
             ],
             "evoMethods": [
                 "level"
@@ -47746,8 +47746,8 @@ var overrides = {
                 4
             ]
         },
-        "Swalot": {
-            "name": "Swalot",
+        "SWALOT": {
+            "name": "SWALOT",
             "num": 317,
             "types": [
                 "Poison"
@@ -47910,8 +47910,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 26
         },
-        "Carvanha": {
-            "name": "Carvanha",
+        "CARVANHA": {
+            "name": "CARVANHA",
             "num": 318,
             "types": [
                 "Water",
@@ -48064,7 +48064,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Sharpedo"
+                "SHARPEDO"
             ],
             "evoMethods": [
                 "level"
@@ -48076,8 +48076,8 @@ var overrides = {
                 4
             ]
         },
-        "Sharpedo": {
-            "name": "Sharpedo",
+        "SHARPEDO": {
+            "name": "SHARPEDO",
             "num": 319,
             "types": [
                 "Water",
@@ -48253,8 +48253,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Wailmer": {
-            "name": "Wailmer",
+        "WAILMER": {
+            "name": "WAILMER",
             "num": 320,
             "types": [
                 "Water"
@@ -48391,7 +48391,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Wailord"
+                "WAILORD"
             ],
             "evoMethods": [
                 "level"
@@ -48403,8 +48403,8 @@ var overrides = {
                 4
             ]
         },
-        "Wailord": {
-            "name": "Wailord",
+        "WAILORD": {
+            "name": "WAILORD",
             "num": 321,
             "types": [
                 "Water"
@@ -48559,8 +48559,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 95
         },
-        "Numel": {
-            "name": "Numel",
+        "NUMEL": {
+            "name": "NUMEL",
             "num": 322,
             "types": [
                 "Fire",
@@ -48685,7 +48685,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Camerupt"
+                "CAMERUPT"
             ],
             "evoMethods": [
                 "level"
@@ -48697,8 +48697,8 @@ var overrides = {
                 4
             ]
         },
-        "Camerupt": {
-            "name": "Camerupt",
+        "CAMERUPT": {
+            "name": "CAMERUPT",
             "num": 323,
             "types": [
                 "Fire",
@@ -48847,8 +48847,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Torkoal": {
-            "name": "Torkoal",
+        "TORKOAL": {
+            "name": "TORKOAL",
             "num": 324,
             "types": [
                 "Fire"
@@ -48990,8 +48990,8 @@ var overrides = {
             ],
             "catchRate": 117
         },
-        "Spoink": {
-            "name": "Spoink",
+        "SPOINK": {
+            "name": "SPOINK",
             "num": 325,
             "types": [
                 "Psychic"
@@ -49137,7 +49137,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Grumpig"
+                "GRUMPIG"
             ],
             "evoMethods": [
                 "level"
@@ -49149,8 +49149,8 @@ var overrides = {
                 4
             ]
         },
-        "Grumpig": {
-            "name": "Grumpig",
+        "GRUMPIG": {
+            "name": "GRUMPIG",
             "num": 326,
             "types": [
                 "Psychic"
@@ -49326,8 +49326,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Spinda": {
-            "name": "Spinda",
+        "SPINDA": {
+            "name": "SPINDA",
             "num": 327,
             "types": [
                 "Normal"
@@ -49483,8 +49483,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Trapinch": {
-            "name": "Trapinch",
+        "TRAPINCH": {
+            "name": "TRAPINCH",
             "num": 328,
             "types": [
                 "Ground"
@@ -49600,7 +49600,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Vibrava"
+                "VIBRAVA"
             ],
             "evoMethods": [
                 "level"
@@ -49612,8 +49612,8 @@ var overrides = {
                 4
             ]
         },
-        "Vibrava": {
-            "name": "Vibrava",
+        "VIBRAVA": {
+            "name": "VIBRAVA",
             "num": 329,
             "types": [
                 "Ground",
@@ -49752,7 +49752,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Flygon"
+                "FLYGON"
             ],
             "evoMethods": [
                 "level"
@@ -49766,8 +49766,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 35
         },
-        "Flygon": {
-            "name": "Flygon",
+        "FLYGON": {
+            "name": "FLYGON",
             "num": 330,
             "types": [
                 "Ground",
@@ -49923,8 +49923,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 64
         },
-        "Cacnea": {
-            "name": "Cacnea",
+        "CACNEA": {
+            "name": "CACNEA",
             "num": 331,
             "types": [
                 "Grass"
@@ -50078,7 +50078,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Cacturne"
+                "CACTURNE"
             ],
             "evoMethods": [
                 "level"
@@ -50090,8 +50090,8 @@ var overrides = {
                 4
             ]
         },
-        "Cacturne": {
-            "name": "Cacturne",
+        "CACTURNE": {
+            "name": "CACTURNE",
             "num": 332,
             "types": [
                 "Grass",
@@ -50263,8 +50263,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Swablu": {
-            "name": "Swablu",
+        "SWABLU": {
+            "name": "SWABLU",
             "num": 333,
             "types": [
                 "Normal",
@@ -50402,7 +50402,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Altaria"
+                "ALTARIA"
             ],
             "evoMethods": [
                 "level"
@@ -50414,8 +50414,8 @@ var overrides = {
                 4
             ]
         },
-        "Altaria": {
-            "name": "Altaria",
+        "ALTARIA": {
+            "name": "ALTARIA",
             "num": 334,
             "types": [
                 "Dragon",
@@ -50584,8 +50584,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 35
         },
-        "Zangoose": {
-            "name": "Zangoose",
+        "ZANGOOSE": {
+            "name": "ZANGOOSE",
             "num": 335,
             "types": [
                 "Normal"
@@ -50753,8 +50753,8 @@ var overrides = {
             ],
             "catchRate": 117
         },
-        "Seviper": {
-            "name": "Seviper",
+        "SEVIPER": {
+            "name": "SEVIPER",
             "num": 336,
             "types": [
                 "Poison"
@@ -50894,8 +50894,8 @@ var overrides = {
             ],
             "catchRate": 117
         },
-        "Lunatone": {
-            "name": "Lunatone",
+        "LUNATONE": {
+            "name": "LUNATONE",
             "num": 337,
             "types": [
                 "Rock",
@@ -51046,8 +51046,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Solrock": {
-            "name": "Solrock",
+        "SOLROCK": {
+            "name": "SOLROCK",
             "num": 338,
             "types": [
                 "Rock",
@@ -51203,8 +51203,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Barboach": {
-            "name": "Barboach",
+        "BARBOACH": {
+            "name": "BARBOACH",
             "num": 339,
             "types": [
                 "Water",
@@ -51338,7 +51338,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Whiscash"
+                "WHISCASH"
             ],
             "evoMethods": [
                 "level"
@@ -51350,8 +51350,8 @@ var overrides = {
                 4
             ]
         },
-        "Whiscash": {
-            "name": "Whiscash",
+        "WHISCASH": {
+            "name": "WHISCASH",
             "num": 340,
             "types": [
                 "Water",
@@ -51515,8 +51515,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Corphish": {
-            "name": "Corphish",
+        "CORPHISH": {
+            "name": "CORPHISH",
             "num": 341,
             "types": [
                 "Water"
@@ -51667,7 +51667,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Crawdaunt"
+                "CRAWDAUNT"
             ],
             "evoMethods": [
                 "level"
@@ -51679,8 +51679,8 @@ var overrides = {
                 4
             ]
         },
-        "Crawdaunt": {
-            "name": "Crawdaunt",
+        "CRAWDAUNT": {
+            "name": "CRAWDAUNT",
             "num": 342,
             "types": [
                 "Water",
@@ -51858,8 +51858,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Baltoy": {
-            "name": "Baltoy",
+        "BALTOY": {
+            "name": "BALTOY",
             "num": 343,
             "types": [
                 "Ground",
@@ -52008,7 +52008,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Claydol"
+                "CLAYDOL"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -52020,8 +52020,8 @@ var overrides = {
                 24
             ]
         },
-        "Claydol": {
-            "name": "Claydol",
+        "CLAYDOL": {
+            "name": "CLAYDOL",
             "num": 344,
             "types": [
                 "Ground",
@@ -52192,8 +52192,8 @@ var overrides = {
             "catchRate": 117,
             "evoType": "levelExtra"
         },
-        "Lileep": {
-            "name": "Lileep",
+        "LILEEP": {
+            "name": "LILEEP",
             "num": 345,
             "types": [
                 "Rock",
@@ -52327,7 +52327,7 @@ var overrides = {
             ],
             "catchRate": 55,
             "evos": [
-                "Cradily"
+                "CRADILY"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -52339,8 +52339,8 @@ var overrides = {
                 24
             ]
         },
-        "Cradily": {
-            "name": "Cradily",
+        "CRADILY": {
+            "name": "CRADILY",
             "num": 346,
             "types": [
                 "Rock",
@@ -52489,8 +52489,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Anorith": {
-            "name": "Anorith",
+        "ANORITH": {
+            "name": "ANORITH",
             "num": 347,
             "types": [
                 "Rock",
@@ -52619,7 +52619,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Armaldo"
+                "ARMALDO"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -52631,8 +52631,8 @@ var overrides = {
                 24
             ]
         },
-        "Armaldo": {
-            "name": "Armaldo",
+        "ARMALDO": {
+            "name": "ARMALDO",
             "num": 348,
             "types": [
                 "Rock",
@@ -52781,8 +52781,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Feebas": {
-            "name": "Feebas",
+        "FEEBAS": {
+            "name": "FEEBAS",
             "num": 349,
             "types": [
                 "Water"
@@ -52862,7 +52862,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Milotic"
+                "MILOTIC"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -52874,8 +52874,8 @@ var overrides = {
                 15
             ]
         },
-        "Milotic": {
-            "name": "Milotic",
+        "MILOTIC": {
+            "name": "MILOTIC",
             "num": 350,
             "types": [
                 "Water"
@@ -53015,8 +53015,8 @@ var overrides = {
             "evoType": "levelExtra",
             "evoLevel": 170
         },
-        "Castform": {
-            "name": "Castform",
+        "CASTFORM": {
+            "name": "CASTFORM",
             "num": 351,
             "types": [
                 "Normal"
@@ -53135,8 +53135,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Kecleon": {
-            "name": "Kecleon",
+        "KECLEON": {
+            "name": "KECLEON",
             "num": 352,
             "types": [
                 "Normal"
@@ -53335,8 +53335,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Shuppet": {
-            "name": "Shuppet",
+        "SHUPPET": {
+            "name": "SHUPPET",
             "num": 353,
             "types": [
                 "Ghost"
@@ -53472,7 +53472,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Banette"
+                "BANETTE"
             ],
             "evoMethods": [
                 "level"
@@ -53484,8 +53484,8 @@ var overrides = {
                 4
             ]
         },
-        "Banette": {
-            "name": "Banette",
+        "BANETTE": {
+            "name": "BANETTE",
             "num": 354,
             "types": [
                 "Ghost"
@@ -53641,8 +53641,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 37
         },
-        "Duskull": {
-            "name": "Duskull",
+        "DUSKULL": {
+            "name": "DUSKULL",
             "num": 355,
             "types": [
                 "Ghost"
@@ -53781,7 +53781,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Dusclops"
+                "DUSCLOPS"
             ],
             "evoMethods": [
                 "level"
@@ -53793,8 +53793,8 @@ var overrides = {
                 4
             ]
         },
-        "Dusclops": {
-            "name": "Dusclops",
+        "DUSCLOPS": {
+            "name": "DUSCLOPS",
             "num": 356,
             "types": [
                 "Ghost"
@@ -53977,7 +53977,7 @@ var overrides = {
             ],
             "catchRate": 46,
             "evos": [
-                "Dusknoir"
+                "DUSKNOIR"
             ],
             "evoMethods": [
                 "useItem"
@@ -53991,8 +53991,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 47
         },
-        "Tropius": {
-            "name": "Tropius",
+        "TROPIUS": {
+            "name": "TROPIUS",
             "num": 357,
             "types": [
                 "Grass",
@@ -54139,8 +54139,8 @@ var overrides = {
             ],
             "catchRate": 234
         },
-        "Chimecho": {
-            "name": "Chimecho",
+        "CHIMECHO": {
+            "name": "CHIMECHO",
             "num": 358,
             "types": [
                 "Psychic"
@@ -54297,8 +54297,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 21
         },
-        "Absol": {
-            "name": "Absol",
+        "ABSOL": {
+            "name": "ABSOL",
             "num": 359,
             "types": [
                 "Dark"
@@ -54493,8 +54493,8 @@ var overrides = {
             ],
             "catchRate": 39
         },
-        "Wynaut": {
-            "name": "Wynaut",
+        "WYNAUT": {
+            "name": "WYNAUT",
             "num": 360,
             "types": [
                 "Psychic"
@@ -54553,7 +54553,7 @@ var overrides = {
             ],
             "catchRate": 14,
             "evos": [
-                "Wobbuffet"
+                "WOBBUFFET"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -54565,8 +54565,8 @@ var overrides = {
                 24
             ]
         },
-        "Snorunt": {
-            "name": "Snorunt",
+        "SNORUNT": {
+            "name": "SNORUNT",
             "num": 361,
             "types": [
                 "Ice"
@@ -54685,8 +54685,8 @@ var overrides = {
             ],
             "catchRate": 130,
             "evos": [
-                "Glalie",
-                "Froslass"
+                "GLALIE",
+                "FROSLASS"
             ],
             "evoMethods": [
                 "level",
@@ -54701,8 +54701,8 @@ var overrides = {
                 17
             ]
         },
-        "Glalie": {
-            "name": "Glalie",
+        "GLALIE": {
+            "name": "GLALIE",
             "num": 362,
             "types": [
                 "Ice"
@@ -54848,8 +54848,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 33
         },
-        "Spheal": {
-            "name": "Spheal",
+        "SPHEAL": {
+            "name": "SPHEAL",
             "num": 363,
             "types": [
                 "Ice",
@@ -54983,7 +54983,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Sealeo"
+                "SEALEO"
             ],
             "evoMethods": [
                 "level"
@@ -54995,8 +54995,8 @@ var overrides = {
                 4
             ]
         },
-        "Sealeo": {
-            "name": "Sealeo",
+        "SEALEO": {
+            "name": "SEALEO",
             "num": 364,
             "types": [
                 "Ice",
@@ -55135,7 +55135,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Walrein"
+                "WALREIN"
             ],
             "evoMethods": [
                 "level"
@@ -55149,8 +55149,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 24
         },
-        "Walrein": {
-            "name": "Walrein",
+        "WALREIN": {
+            "name": "WALREIN",
             "num": 365,
             "types": [
                 "Ice",
@@ -55306,8 +55306,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 44
         },
-        "Clamperl": {
-            "name": "Clamperl",
+        "CLAMPERL": {
+            "name": "CLAMPERL",
             "num": 366,
             "types": [
                 "Water"
@@ -55392,8 +55392,8 @@ var overrides = {
             ],
             "catchRate": 124,
             "evos": [
-                "Huntail",
-                "Gorebyss"
+                "HUNTAIL",
+                "GOREBYSS"
             ],
             "evoMethods": [
                 "useItem",
@@ -55408,8 +55408,8 @@ var overrides = {
                 7
             ]
         },
-        "Huntail": {
-            "name": "Huntail",
+        "HUNTAIL": {
+            "name": "HUNTAIL",
             "num": 367,
             "types": [
                 "Water"
@@ -55540,8 +55540,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "DeepSeaTooth"
         },
-        "Gorebyss": {
-            "name": "Gorebyss",
+        "GOREBYSS": {
+            "name": "GOREBYSS",
             "num": 368,
             "types": [
                 "Water"
@@ -55674,8 +55674,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "DeepSeaScale"
         },
-        "Relicanth": {
-            "name": "Relicanth",
+        "RELICANTH": {
+            "name": "RELICANTH",
             "num": 369,
             "types": [
                 "Water",
@@ -55818,8 +55818,8 @@ var overrides = {
             ],
             "catchRate": 33
         },
-        "Luvdisc": {
-            "name": "Luvdisc",
+        "LUVDISC": {
+            "name": "LUVDISC",
             "num": 370,
             "types": [
                 "Water"
@@ -55944,8 +55944,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Bagon": {
-            "name": "Bagon",
+        "BAGON": {
+            "name": "BAGON",
             "num": 371,
             "types": [
                 "Dragon"
@@ -56073,7 +56073,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Shelgon"
+                "SHELGON"
             ],
             "evoMethods": [
                 "level"
@@ -56085,8 +56085,8 @@ var overrides = {
                 4
             ]
         },
-        "Shelgon": {
-            "name": "Shelgon",
+        "SHELGON": {
+            "name": "SHELGON",
             "num": 372,
             "types": [
                 "Dragon"
@@ -56232,7 +56232,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Salamence"
+                "SALAMENCE"
             ],
             "evoMethods": [
                 "level"
@@ -56246,8 +56246,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 45
         },
-        "Salamence": {
-            "name": "Salamence",
+        "SALAMENCE": {
+            "name": "SALAMENCE",
             "num": 373,
             "types": [
                 "Dragon",
@@ -56427,8 +56427,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 100
         },
-        "Beldum": {
-            "name": "Beldum",
+        "BELDUM": {
+            "name": "BELDUM",
             "num": 374,
             "types": [
                 "Steel",
@@ -56475,7 +56475,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Metang"
+                "METANG"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -56487,8 +56487,8 @@ var overrides = {
                 24
             ]
         },
-        "Metang": {
-            "name": "Metang",
+        "METANG": {
+            "name": "METANG",
             "num": 375,
             "types": [
                 "Steel",
@@ -56652,7 +56652,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Metagross"
+                "METAGROSS"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -56665,8 +56665,8 @@ var overrides = {
             ],
             "evoType": "levelExtra"
         },
-        "Metagross": {
-            "name": "Metagross",
+        "METAGROSS": {
+            "name": "METAGROSS",
             "num": 376,
             "types": [
                 "Steel",
@@ -56836,8 +56836,8 @@ var overrides = {
             "catchRate": 15,
             "evoType": "levelExtra"
         },
-        "Regirock": {
-            "name": "Regirock",
+        "REGIROCK": {
+            "name": "REGIROCK",
             "num": 377,
             "types": [
                 "Rock"
@@ -56987,8 +56987,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Regice": {
-            "name": "Regice",
+        "REGICE": {
+            "name": "REGICE",
             "num": 378,
             "types": [
                 "Ice"
@@ -57134,8 +57134,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Registeel": {
-            "name": "Registeel",
+        "REGISTEEL": {
+            "name": "REGISTEEL",
             "num": 379,
             "types": [
                 "Steel"
@@ -57286,8 +57286,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Latias": {
-            "name": "Latias",
+        "LATIAS": {
+            "name": "LATIAS",
             "num": 380,
             "types": [
                 "Dragon",
@@ -57463,8 +57463,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Latios": {
-            "name": "Latios",
+        "LATIOS": {
+            "name": "LATIOS",
             "num": 381,
             "types": [
                 "Dragon",
@@ -57638,8 +57638,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Kyogre": {
-            "name": "Kyogre",
+        "KYOGRE": {
+            "name": "KYOGRE",
             "num": 382,
             "types": [
                 "Water"
@@ -57783,8 +57783,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Groudon": {
-            "name": "Groudon",
+        "GROUDON": {
+            "name": "GROUDON",
             "num": 383,
             "types": [
                 "Ground"
@@ -57941,8 +57941,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Rayquaza": {
-            "name": "Rayquaza",
+        "RAYQUAZA": {
+            "name": "RAYQUAZA",
             "num": 384,
             "types": [
                 "Dragon",
@@ -58108,8 +58108,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Jirachi": {
-            "name": "Jirachi",
+        "JIRACHI": {
+            "name": "JIRACHI",
             "num": 385,
             "types": [
                 "Steel",
@@ -58288,8 +58288,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Deoxys": {
-            "name": "Deoxys",
+        "DEOXYS": {
+            "name": "DEOXYS",
             "num": 386,
             "types": [
                 "Psychic"
@@ -58462,8 +58462,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Turtwig": {
-            "name": "Turtwig",
+        "TURTWIG": {
+            "name": "TURTWIG",
             "num": 387,
             "types": [
                 "Grass"
@@ -58595,7 +58595,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Grotle"
+                "GROTLE"
             ],
             "evoMethods": [
                 "level"
@@ -58607,8 +58607,8 @@ var overrides = {
                 4
             ]
         },
-        "Grotle": {
-            "name": "Grotle",
+        "GROTLE": {
+            "name": "GROTLE",
             "num": 388,
             "types": [
                 "Grass"
@@ -58748,7 +58748,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Torterra"
+                "TORTERRA"
             ],
             "evoMethods": [
                 "level"
@@ -58762,8 +58762,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Torterra": {
-            "name": "Torterra",
+        "TORTERRA": {
+            "name": "TORTERRA",
             "num": 389,
             "types": [
                 "Grass",
@@ -58931,8 +58931,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 32
         },
-        "Chimchar": {
-            "name": "Chimchar",
+        "CHIMCHAR": {
+            "name": "CHIMCHAR",
             "num": 390,
             "types": [
                 "Fire"
@@ -59080,7 +59080,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Monferno"
+                "MONFERNO"
             ],
             "evoMethods": [
                 "level"
@@ -59092,8 +59092,8 @@ var overrides = {
                 4
             ]
         },
-        "Monferno": {
-            "name": "Monferno",
+        "MONFERNO": {
+            "name": "MONFERNO",
             "num": 391,
             "types": [
                 "Fire",
@@ -59264,7 +59264,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Infernape"
+                "INFERNAPE"
             ],
             "evoMethods": [
                 "level"
@@ -59278,8 +59278,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Infernape": {
-            "name": "Infernape",
+        "INFERNAPE": {
+            "name": "INFERNAPE",
             "num": 392,
             "types": [
                 "Fire",
@@ -59451,8 +59451,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 34
         },
-        "Piplup": {
-            "name": "Piplup",
+        "PIPLUP": {
+            "name": "PIPLUP",
             "num": 393,
             "types": [
                 "Water"
@@ -59592,7 +59592,7 @@ var overrides = {
             ],
             "catchRate": 45,
             "evos": [
-                "Prinplup"
+                "PRINPLUP"
             ],
             "evoMethods": [
                 "level"
@@ -59604,8 +59604,8 @@ var overrides = {
                 4
             ]
         },
-        "Prinplup": {
-            "name": "Prinplup",
+        "PRINPLUP": {
+            "name": "PRINPLUP",
             "num": 394,
             "types": [
                 "Water"
@@ -59760,7 +59760,7 @@ var overrides = {
             ],
             "catchRate": 25,
             "evos": [
-                "Empoleon"
+                "EMPOLEON"
             ],
             "evoMethods": [
                 "level"
@@ -59774,8 +59774,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 14
         },
-        "Empoleon": {
-            "name": "Empoleon",
+        "EMPOLEON": {
+            "name": "EMPOLEON",
             "num": 395,
             "types": [
                 "Water",
@@ -59957,8 +59957,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Starly": {
-            "name": "Starly",
+        "STARLY": {
+            "name": "STARLY",
             "num": 396,
             "types": [
                 "Normal",
@@ -60081,7 +60081,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Staravia"
+                "STARAVIA"
             ],
             "evoMethods": [
                 "level"
@@ -60093,8 +60093,8 @@ var overrides = {
                 4
             ]
         },
-        "Staravia": {
-            "name": "Staravia",
+        "STARAVIA": {
+            "name": "STARAVIA",
             "num": 397,
             "types": [
                 "Normal",
@@ -60221,7 +60221,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Staraptor"
+                "STARAPTOR"
             ],
             "evoMethods": [
                 "level"
@@ -60235,8 +60235,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Staraptor": {
-            "name": "Staraptor",
+        "STARAPTOR": {
+            "name": "STARAPTOR",
             "num": 398,
             "types": [
                 "Normal",
@@ -60375,8 +60375,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Bidoof": {
-            "name": "Bidoof",
+        "BIDOOF": {
+            "name": "BIDOOF",
             "num": 399,
             "types": [
                 "Normal"
@@ -60514,7 +60514,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Bibarel"
+                "BIBAREL"
             ],
             "evoMethods": [
                 "level"
@@ -60526,8 +60526,8 @@ var overrides = {
                 4
             ]
         },
-        "Bibarel": {
-            "name": "Bibarel",
+        "BIBAREL": {
+            "name": "BIBAREL",
             "num": 400,
             "types": [
                 "Normal",
@@ -60687,8 +60687,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Kricketot": {
-            "name": "Kricketot",
+        "KRICKETOT": {
+            "name": "KRICKETOT",
             "num": 401,
             "types": [
                 "Bug"
@@ -60744,7 +60744,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Kricketune"
+                "KRICKETUNE"
             ],
             "evoMethods": [
                 "level"
@@ -60756,8 +60756,8 @@ var overrides = {
                 4
             ]
         },
-        "Kricketune": {
-            "name": "Kricketune",
+        "KRICKETUNE": {
+            "name": "KRICKETUNE",
             "num": 402,
             "types": [
                 "Bug"
@@ -60890,8 +60890,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 10
         },
-        "Shinx": {
-            "name": "Shinx",
+        "SHINX": {
+            "name": "SHINX",
             "num": 403,
             "types": [
                 "Electric"
@@ -61017,7 +61017,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Luxio"
+                "LUXIO"
             ],
             "evoMethods": [
                 "level"
@@ -61029,8 +61029,8 @@ var overrides = {
                 4
             ]
         },
-        "Luxio": {
-            "name": "Luxio",
+        "LUXIO": {
+            "name": "LUXIO",
             "num": 404,
             "types": [
                 "Electric"
@@ -61160,7 +61160,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Luxray"
+                "LUXRAY"
             ],
             "evoMethods": [
                 "level"
@@ -61174,8 +61174,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 15
         },
-        "Luxray": {
-            "name": "Luxray",
+        "LUXRAY": {
+            "name": "LUXRAY",
             "num": 405,
             "types": [
                 "Electric"
@@ -61323,8 +61323,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Budew": {
-            "name": "Budew",
+        "BUDEW": {
+            "name": "BUDEW",
             "num": 406,
             "types": [
                 "Grass",
@@ -61427,7 +61427,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Roselia"
+                "ROSELIA"
             ],
             "evoMethods": [
                 "level"
@@ -61439,8 +61439,8 @@ var overrides = {
                 4
             ]
         },
-        "Roserade": {
-            "name": "Roserade",
+        "ROSERADE": {
+            "name": "ROSERADE",
             "num": 407,
             "types": [
                 "Grass",
@@ -61544,8 +61544,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Leaf Stone"
         },
-        "Cranidos": {
-            "name": "Cranidos",
+        "CRANIDOS": {
+            "name": "CRANIDOS",
             "num": 408,
             "types": [
                 "Rock"
@@ -61701,7 +61701,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Rampardos"
+                "RAMPARDOS"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -61713,8 +61713,8 @@ var overrides = {
                 24
             ]
         },
-        "Rampardos": {
-            "name": "Rampardos",
+        "RAMPARDOS": {
+            "name": "RAMPARDOS",
             "num": 409,
             "types": [
                 "Rock"
@@ -61881,8 +61881,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Shieldon": {
-            "name": "Shieldon",
+        "SHIELDON": {
+            "name": "SHIELDON",
             "num": 410,
             "types": [
                 "Rock",
@@ -62016,7 +62016,7 @@ var overrides = {
             ],
             "catchRate": 59,
             "evos": [
-                "Bastiodon"
+                "BASTIODON"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -62028,8 +62028,8 @@ var overrides = {
                 24
             ]
         },
-        "Bastiodon": {
-            "name": "Bastiodon",
+        "BASTIODON": {
+            "name": "BASTIODON",
             "num": 411,
             "types": [
                 "Rock",
@@ -62181,8 +62181,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Burmy": {
-            "name": "Burmy",
+        "BURMY": {
+            "name": "BURMY",
             "num": 412,
             "types": [
                 "Bug"
@@ -62236,8 +62236,8 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Wormadam",
-                "Mothim"
+                "WORMADAM",
+                "MOTHIM"
             ],
             "evoMethods": [
                 "level",
@@ -62252,8 +62252,8 @@ var overrides = {
                 22
             ]
         },
-        "Wormadam": {
-            "name": "Wormadam",
+        "WORMADAM": {
+            "name": "WORMADAM",
             "num": 413,
             "types": [
                 "Bug",
@@ -62400,8 +62400,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Mothim": {
-            "name": "Mothim",
+        "MOTHIM": {
+            "name": "MOTHIM",
             "num": 414,
             "types": [
                 "Bug",
@@ -62547,8 +62547,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 16
         },
-        "Combee": {
-            "name": "Combee",
+        "COMBEE": {
+            "name": "COMBEE",
             "num": 415,
             "types": [
                 "Bug",
@@ -62609,9 +62609,9 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Vespiquen",
-                "Vespiquen",
-                "Vespiquen"
+                "VESPIQUEN",
+                "VESPIQUEN",
+                "VESPIQUEN"
             ],
             "evoMethods": [
                 "level",
@@ -62629,8 +62629,8 @@ var overrides = {
                 15
             ]
         },
-        "Vespiquen": {
-            "name": "Vespiquen",
+        "VESPIQUEN": {
+            "name": "VESPIQUEN",
             "num": 416,
             "types": [
                 "Bug",
@@ -62780,8 +62780,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 21
         },
-        "Pachirisu": {
-            "name": "Pachirisu",
+        "PACHIRISU": {
+            "name": "PACHIRISU",
             "num": 417,
             "types": [
                 "Electric"
@@ -62926,8 +62926,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Buizel": {
-            "name": "Buizel",
+        "BUIZEL": {
+            "name": "BUIZEL",
             "num": 418,
             "types": [
                 "Water"
@@ -63052,7 +63052,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Floatzel"
+                "FLOATZEL"
             ],
             "evoMethods": [
                 "level"
@@ -63064,8 +63064,8 @@ var overrides = {
                 4
             ]
         },
-        "Floatzel": {
-            "name": "Floatzel",
+        "FLOATZEL": {
+            "name": "FLOATZEL",
             "num": 419,
             "types": [
                 "Water"
@@ -63213,8 +63213,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 26
         },
-        "Cherubi": {
-            "name": "Cherubi",
+        "CHERUBI": {
+            "name": "CHERUBI",
             "num": 420,
             "types": [
                 "Grass"
@@ -63326,7 +63326,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Cherrim"
+                "CHERRIM"
             ],
             "evoMethods": [
                 "level"
@@ -63338,8 +63338,8 @@ var overrides = {
                 4
             ]
         },
-        "Cherrim": {
-            "name": "Cherrim",
+        "CHERRIM": {
+            "name": "CHERRIM",
             "num": 421,
             "types": [
                 "Grass"
@@ -63467,8 +63467,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 25
         },
-        "Shellos": {
-            "name": "Shellos",
+        "SHELLOS": {
+            "name": "SHELLOS",
             "num": 422,
             "types": [
                 "Water"
@@ -63580,7 +63580,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Gastrodon"
+                "GASTRODON"
             ],
             "evoMethods": [
                 "level"
@@ -63592,8 +63592,8 @@ var overrides = {
                 4
             ]
         },
-        "Gastrodon": {
-            "name": "Gastrodon",
+        "GASTRODON": {
+            "name": "GASTRODON",
             "num": 423,
             "types": [
                 "Water",
@@ -63733,8 +63733,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 30
         },
-        "Ambipom": {
-            "name": "Ambipom",
+        "AMBIPOM": {
+            "name": "AMBIPOM",
             "num": 424,
             "types": [
                 "Normal"
@@ -63909,8 +63909,8 @@ var overrides = {
             "evoType": "levelMove",
             "evoMove": "Double Hit"
         },
-        "Drifloon": {
-            "name": "Drifloon",
+        "DRIFLOON": {
+            "name": "DRIFLOON",
             "num": 425,
             "types": [
                 "Ghost",
@@ -64061,7 +64061,7 @@ var overrides = {
             ],
             "catchRate": 163,
             "evos": [
-                "Drifblim"
+                "DRIFBLIM"
             ],
             "evoMethods": [
                 "level"
@@ -64073,8 +64073,8 @@ var overrides = {
                 4
             ]
         },
-        "Drifblim": {
-            "name": "Drifblim",
+        "DRIFBLIM": {
+            "name": "DRIFBLIM",
             "num": 426,
             "types": [
                 "Ghost",
@@ -64233,8 +64233,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 38
         },
-        "Buneary": {
-            "name": "Buneary",
+        "BUNEARY": {
+            "name": "BUNEARY",
             "num": 427,
             "types": [
                 "Normal"
@@ -64377,7 +64377,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Lopunny"
+                "LOPUNNY"
             ],
             "evoMethods": [
                 "level"
@@ -64389,8 +64389,8 @@ var overrides = {
                 4
             ]
         },
-        "Lopunny": {
-            "name": "Lopunny",
+        "LOPUNNY": {
+            "name": "LOPUNNY",
             "num": 428,
             "types": [
                 "Normal"
@@ -64557,8 +64557,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Mismagius": {
-            "name": "Mismagius",
+        "MISMAGIUS": {
+            "name": "MISMAGIUS",
             "num": 429,
             "types": [
                 "Ghost"
@@ -64680,8 +64680,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Dusk Stone"
         },
-        "Honchkrow": {
-            "name": "Honchkrow",
+        "HONCHKROW": {
+            "name": "HONCHKROW",
             "num": 430,
             "types": [
                 "Dark",
@@ -64810,8 +64810,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Dusk Stone"
         },
-        "Glameow": {
-            "name": "Glameow",
+        "GLAMEOW": {
+            "name": "GLAMEOW",
             "num": 431,
             "types": [
                 "Normal"
@@ -64951,7 +64951,7 @@ var overrides = {
             ],
             "catchRate": 247,
             "evos": [
-                "Purugly"
+                "PURUGLY"
             ],
             "evoMethods": [
                 "level"
@@ -64963,8 +64963,8 @@ var overrides = {
                 4
             ]
         },
-        "Purugly": {
-            "name": "Purugly",
+        "PURUGLY": {
+            "name": "PURUGLY",
             "num": 432,
             "types": [
                 "Normal"
@@ -65119,8 +65119,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 28
         },
-        "Chingling": {
-            "name": "Chingling",
+        "CHINGLING": {
+            "name": "CHINGLING",
             "num": 433,
             "types": [
                 "Psychic"
@@ -65240,7 +65240,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Chimecho"
+                "CHIMECHO"
             ],
             "evoMethods": [
                 "level"
@@ -65252,8 +65252,8 @@ var overrides = {
                 4
             ]
         },
-        "Stunky": {
-            "name": "Stunky",
+        "STUNKY": {
+            "name": "STUNKY",
             "num": 434,
             "types": [
                 "Poison",
@@ -65384,7 +65384,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Skuntank"
+                "SKUNTANK"
             ],
             "evoMethods": [
                 "level"
@@ -65396,8 +65396,8 @@ var overrides = {
                 4
             ]
         },
-        "Skuntank": {
-            "name": "Skuntank",
+        "SKUNTANK": {
+            "name": "SKUNTANK",
             "num": 435,
             "types": [
                 "Poison",
@@ -65542,8 +65542,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 34
         },
-        "Bronzor": {
-            "name": "Bronzor",
+        "BRONZOR": {
+            "name": "BRONZOR",
             "num": 436,
             "types": [
                 "Steel",
@@ -65682,7 +65682,7 @@ var overrides = {
             ],
             "catchRate": 14,
             "evos": [
-                "Bronzong"
+                "BRONZONG"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -65694,8 +65694,8 @@ var overrides = {
                 0
             ]
         },
-        "Bronzong": {
-            "name": "Bronzong",
+        "BRONZONG": {
+            "name": "BRONZONG",
             "num": 437,
             "types": [
                 "Steel",
@@ -65865,8 +65865,8 @@ var overrides = {
             "catchRate": 11,
             "evoType": "levelExtra"
         },
-        "Bonsly": {
-            "name": "Bonsly",
+        "BONSLY": {
+            "name": "BONSLY",
             "num": 438,
             "types": [
                 "Rock"
@@ -65995,7 +65995,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Sudowoodo"
+                "SUDOWOODO"
             ],
             "evoMethods": [
                 "level"
@@ -66007,8 +66007,8 @@ var overrides = {
                 4
             ]
         },
-        "Mime Jr.": {
-            "name": "Mime Jr.",
+        "MIME JR.": {
+            "name": "MIME JR.",
             "num": 439,
             "types": [
                 "Psychic"
@@ -66171,7 +66171,7 @@ var overrides = {
             ],
             "catchRate": 200,
             "evos": [
-                "Mr. Mime"
+                "MR. MIME"
             ],
             "evoMethods": [
                 "level"
@@ -66183,8 +66183,8 @@ var overrides = {
                 4
             ]
         },
-        "Happiny": {
-            "name": "Happiny",
+        "HAPPINY": {
+            "name": "HAPPINY",
             "num": 440,
             "types": [
                 "Normal"
@@ -66295,8 +66295,8 @@ var overrides = {
             ],
             "catchRate": 169
         },
-        "Chatot": {
-            "name": "Chatot",
+        "CHATOT": {
+            "name": "CHATOT",
             "num": 441,
             "types": [
                 "Normal",
@@ -66433,8 +66433,8 @@ var overrides = {
             ],
             "catchRate": 30
         },
-        "Spiritomb": {
-            "name": "Spiritomb",
+        "SPIRITOMB": {
+            "name": "SPIRITOMB",
             "num": 442,
             "types": [
                 "Ghost",
@@ -66575,8 +66575,8 @@ var overrides = {
             ],
             "catchRate": 10
         },
-        "Gible": {
-            "name": "Gible",
+        "GIBLE": {
+            "name": "GIBLE",
             "num": 443,
             "types": [
                 "Dragon",
@@ -66706,7 +66706,7 @@ var overrides = {
             ],
             "catchRate": 15,
             "evos": [
-                "Gabite"
+                "GABITE"
             ],
             "evoMethods": [
                 "level"
@@ -66718,8 +66718,8 @@ var overrides = {
                 4
             ]
         },
-        "Gabite": {
-            "name": "Gabite",
+        "GABITE": {
+            "name": "GABITE",
             "num": 444,
             "types": [
                 "Dragon",
@@ -66854,7 +66854,7 @@ var overrides = {
             ],
             "catchRate": 10,
             "evos": [
-                "Garchomp"
+                "GARCHOMP"
             ],
             "evoMethods": [
                 "level"
@@ -66868,8 +66868,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 45
         },
-        "Garchomp": {
-            "name": "Garchomp",
+        "GARCHOMP": {
+            "name": "GARCHOMP",
             "num": 445,
             "types": [
                 "Dragon",
@@ -67033,8 +67033,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 100
         },
-        "Munchlax": {
-            "name": "Munchlax",
+        "MUNCHLAX": {
+            "name": "MUNCHLAX",
             "num": 446,
             "types": [
                 "Normal"
@@ -67198,7 +67198,7 @@ var overrides = {
             ],
             "catchRate": 40,
             "evos": [
-                "Snorlax"
+                "SNORLAX"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -67210,8 +67210,8 @@ var overrides = {
                 25
             ]
         },
-        "Riolu": {
-            "name": "Riolu",
+        "RIOLU": {
+            "name": "RIOLU",
             "num": 447,
             "types": [
                 "Fighting"
@@ -67342,7 +67342,7 @@ var overrides = {
             ],
             "catchRate": 98,
             "evos": [
-                "Lucario"
+                "LUCARIO"
             ],
             "evoMethods": [
                 "level"
@@ -67354,8 +67354,8 @@ var overrides = {
                 4
             ]
         },
-        "Lucario": {
-            "name": "Lucario",
+        "LUCARIO": {
+            "name": "LUCARIO",
             "num": 448,
             "types": [
                 "Fighting",
@@ -67528,8 +67528,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Hippopotas": {
-            "name": "Hippopotas",
+        "HIPPOPOTAS": {
+            "name": "HIPPOPOTAS",
             "num": 449,
             "types": [
                 "Ground"
@@ -67641,7 +67641,7 @@ var overrides = {
             ],
             "catchRate": 182,
             "evos": [
-                "Hippowdon"
+                "HIPPOWDON"
             ],
             "evoMethods": [
                 "level"
@@ -67653,8 +67653,8 @@ var overrides = {
                 4
             ]
         },
-        "Hippowdon": {
-            "name": "Hippowdon",
+        "HIPPOWDON": {
+            "name": "HIPPOWDON",
             "num": 450,
             "types": [
                 "Ground"
@@ -67793,8 +67793,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 64
         },
-        "Skorupi": {
-            "name": "Skorupi",
+        "SKORUPI": {
+            "name": "SKORUPI",
             "num": 451,
             "types": [
                 "Poison",
@@ -67929,7 +67929,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Drapion"
+                "DRAPION"
             ],
             "evoMethods": [
                 "level"
@@ -67941,8 +67941,8 @@ var overrides = {
                 4
             ]
         },
-        "Drapion": {
-            "name": "Drapion",
+        "DRAPION": {
+            "name": "DRAPION",
             "num": 452,
             "types": [
                 "Poison",
@@ -68101,8 +68101,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 40
         },
-        "Croagunk": {
-            "name": "Croagunk",
+        "CROAGUNK": {
+            "name": "CROAGUNK",
             "num": 453,
             "types": [
                 "Poison",
@@ -68263,7 +68263,7 @@ var overrides = {
             ],
             "catchRate": 98,
             "evos": [
-                "Toxicroak"
+                "TOXICROAK"
             ],
             "evoMethods": [
                 "level"
@@ -68275,8 +68275,8 @@ var overrides = {
                 4
             ]
         },
-        "Toxicroak": {
-            "name": "Toxicroak",
+        "TOXICROAK": {
+            "name": "TOXICROAK",
             "num": 454,
             "types": [
                 "Poison",
@@ -68452,8 +68452,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 37
         },
-        "Carnivine": {
-            "name": "Carnivine",
+        "CARNIVINE": {
+            "name": "CARNIVINE",
             "num": 455,
             "types": [
                 "Grass"
@@ -68587,8 +68587,8 @@ var overrides = {
             ],
             "catchRate": 255
         },
-        "Finneon": {
-            "name": "Finneon",
+        "FINNEON": {
+            "name": "FINNEON",
             "num": 456,
             "types": [
                 "Water"
@@ -68733,7 +68733,7 @@ var overrides = {
             ],
             "catchRate": 255,
             "evos": [
-                "Lumineon"
+                "LUMINEON"
             ],
             "evoMethods": [
                 "level"
@@ -68745,8 +68745,8 @@ var overrides = {
                 4
             ]
         },
-        "Lumineon": {
-            "name": "Lumineon",
+        "LUMINEON": {
+            "name": "LUMINEON",
             "num": 457,
             "types": [
                 "Water"
@@ -68911,8 +68911,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 24
         },
-        "Mantyke": {
-            "name": "Mantyke",
+        "MANTYKE": {
+            "name": "MANTYKE",
             "num": 458,
             "types": [
                 "Water",
@@ -69051,7 +69051,7 @@ var overrides = {
             ],
             "catchRate": 175,
             "evos": [
-                "Mantine"
+                "MANTINE"
             ],
             "evoMethods": [
                 "levelExtra"
@@ -69063,8 +69063,8 @@ var overrides = {
                 21
             ]
         },
-        "Snover": {
-            "name": "Snover",
+        "SNOVER": {
+            "name": "SNOVER",
             "num": 459,
             "types": [
                 "Grass",
@@ -69195,7 +69195,7 @@ var overrides = {
             ],
             "catchRate": 156,
             "evos": [
-                "Abomasnow"
+                "ABOMASNOW"
             ],
             "evoMethods": [
                 "level"
@@ -69207,8 +69207,8 @@ var overrides = {
                 4
             ]
         },
-        "Abomasnow": {
-            "name": "Abomasnow",
+        "ABOMASNOW": {
+            "name": "ABOMASNOW",
             "num": 460,
             "types": [
                 "Grass",
@@ -69367,8 +69367,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 40
         },
-        "Weavile": {
-            "name": "Weavile",
+        "WEAVILE": {
+            "name": "WEAVILE",
             "num": 461,
             "types": [
                 "Dark",
@@ -69541,8 +69541,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Magnezone": {
-            "name": "Magnezone",
+        "MAGNEZONE": {
+            "name": "MAGNEZONE",
             "num": 462,
             "types": [
                 "Electric",
@@ -69703,8 +69703,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 80
         },
-        "Lickilicky": {
-            "name": "Lickilicky",
+        "LICKILICKY": {
+            "name": "LICKILICKY",
             "num": 463,
             "types": [
                 "Normal"
@@ -69886,8 +69886,8 @@ var overrides = {
             "evoType": "levelMove",
             "evoMove": "Power Whip"
         },
-        "Rhyperior": {
-            "name": "Rhyperior",
+        "RHYPERIOR": {
+            "name": "RHYPERIOR",
             "num": 464,
             "types": [
                 "Ground",
@@ -70075,8 +70075,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Protector"
         },
-        "Tangrowth": {
-            "name": "Tangrowth",
+        "TANGROWTH": {
+            "name": "TANGROWTH",
             "num": 465,
             "types": [
                 "Grass"
@@ -70250,8 +70250,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 90
         },
-        "Electivire": {
-            "name": "Electivire",
+        "ELECTIVIRE": {
+            "name": "ELECTIVIRE",
             "num": 466,
             "types": [
                 "Electric"
@@ -70415,8 +70415,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Electirizer"
         },
-        "Magmortar": {
-            "name": "Magmortar",
+        "MAGMORTAR": {
+            "name": "MAGMORTAR",
             "num": 467,
             "types": [
                 "Fire"
@@ -70575,8 +70575,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Magmarizer"
         },
-        "Togekiss": {
-            "name": "Togekiss",
+        "TOGEKISS": {
+            "name": "TOGEKISS",
             "num": 468,
             "types": [
                 "Normal",
@@ -70706,8 +70706,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Shiny Stone"
         },
-        "Yanmega": {
-            "name": "Yanmega",
+        "YANMEGA": {
+            "name": "YANMEGA",
             "num": 469,
             "types": [
                 "Bug",
@@ -70873,8 +70873,8 @@ var overrides = {
             ],
             "catchRate": 20
         },
-        "Leafeon": {
-            "name": "Leafeon",
+        "LEAFEON": {
+            "name": "LEAFEON",
             "num": 470,
             "types": [
                 "Grass"
@@ -71021,8 +71021,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Glaceon": {
-            "name": "Glaceon",
+        "GLACEON": {
+            "name": "GLACEON",
             "num": 471,
             "types": [
                 "Ice"
@@ -71187,8 +71187,8 @@ var overrides = {
             "catchRate": 59,
             "evoType": "levelExtra"
         },
-        "Gliscor": {
-            "name": "Gliscor",
+        "GLISCOR": {
+            "name": "GLISCOR",
             "num": 472,
             "types": [
                 "Ground",
@@ -71365,8 +71365,8 @@ var overrides = {
             "catchRate": 20,
             "evoType": "levelExtra"
         },
-        "Mamoswine": {
-            "name": "Mamoswine",
+        "MAMOSWINE": {
+            "name": "MAMOSWINE",
             "num": 473,
             "types": [
                 "Ice",
@@ -71533,8 +71533,8 @@ var overrides = {
             "catchRate": 30,
             "evoType": "levelExtra"
         },
-        "Porygon-Z": {
-            "name": "Porygon-Z",
+        "PORYGON-Z": {
+            "name": "PORYGON-Z",
             "num": 474,
             "types": [
                 "Normal"
@@ -71696,8 +71696,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Dubious Disc"
         },
-        "Gallade": {
-            "name": "Gallade",
+        "GALLADE": {
+            "name": "GALLADE",
             "num": 475,
             "types": [
                 "Psychic",
@@ -71894,8 +71894,8 @@ var overrides = {
             "evoType": "level",
             "evoLevel": 36
         },
-        "Probopass": {
-            "name": "Probopass",
+        "PROBOPASS": {
+            "name": "PROBOPASS",
             "num": 476,
             "types": [
                 "Rock",
@@ -72068,8 +72068,8 @@ var overrides = {
             "catchRate": 25,
             "evoType": "levelExtra"
         },
-        "Dusknoir": {
-            "name": "Dusknoir",
+        "DUSKNOIR": {
+            "name": "DUSKNOIR",
             "num": 477,
             "types": [
                 "Ghost"
@@ -72255,8 +72255,8 @@ var overrides = {
             "evoType": "useItem",
             "evoItem": "Reaper Cloth"
         },
-        "Froslass": {
-            "name": "Froslass",
+        "FROSLASS": {
+            "name": "FROSLASS",
             "num": 478,
             "types": [
                 "Ice",
@@ -72419,8 +72419,8 @@ var overrides = {
             "catchRate": 30,
             "evoType": "levelExtra"
         },
-        "Rotom": {
-            "name": "Rotom",
+        "ROTOM": {
+            "name": "ROTOM",
             "num": 479,
             "types": [
                 "Electric",
@@ -72559,8 +72559,8 @@ var overrides = {
             ],
             "catchRate": 50
         },
-        "Uxie": {
-            "name": "Uxie",
+        "UXIE": {
+            "name": "UXIE",
             "num": 480,
             "types": [
                 "Psychic"
@@ -72711,8 +72711,8 @@ var overrides = {
             ],
             "catchRate": 20
         },
-        "Mesprit": {
-            "name": "Mesprit",
+        "MESPRIT": {
+            "name": "MESPRIT",
             "num": 481,
             "types": [
                 "Psychic"
@@ -72864,8 +72864,8 @@ var overrides = {
             ],
             "catchRate": 20
         },
-        "Azelf": {
-            "name": "Azelf",
+        "AZELF": {
+            "name": "AZELF",
             "num": 482,
             "types": [
                 "Psychic"
@@ -73024,8 +73024,8 @@ var overrides = {
             ],
             "catchRate": 20
         },
-        "Dialga": {
-            "name": "Dialga",
+        "DIALGA": {
+            "name": "DIALGA",
             "num": 483,
             "types": [
                 "Steel",
@@ -73178,8 +73178,8 @@ var overrides = {
             ],
             "catchRate": 15
         },
-        "Palkia": {
-            "name": "Palkia",
+        "PALKIA": {
+            "name": "PALKIA",
             "num": 484,
             "types": [
                 "Water",
@@ -73333,8 +73333,8 @@ var overrides = {
             ],
             "catchRate": 15
         },
-        "Heatran": {
-            "name": "Heatran",
+        "HEATRAN": {
+            "name": "HEATRAN",
             "num": 485,
             "types": [
                 "Fire",
@@ -73485,8 +73485,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Regigigas": {
-            "name": "Regigigas",
+        "REGIGIGAS": {
+            "name": "REGIGIGAS",
             "num": 486,
             "types": [
                 "Normal"
@@ -73626,8 +73626,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Giratina": {
-            "name": "Giratina",
+        "GIRATINA": {
+            "name": "GIRATINA",
             "num": 487,
             "types": [
                 "Ghost",
@@ -73785,8 +73785,8 @@ var overrides = {
             ],
             "catchRate": 0
         },
-        "Cresselia": {
-            "name": "Cresselia",
+        "CRESSELIA": {
+            "name": "CRESSELIA",
             "num": 488,
             "types": [
                 "Psychic"
@@ -73927,8 +73927,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Phione": {
-            "name": "Phione",
+        "PHIONE": {
+            "name": "PHIONE",
             "num": 489,
             "types": [
                 "Water"
@@ -74060,8 +74060,8 @@ var overrides = {
             ],
             "catchRate": 120
         },
-        "Manaphy": {
-            "name": "Manaphy",
+        "MANAPHY": {
+            "name": "MANAPHY",
             "num": 490,
             "types": [
                 "Water"
@@ -74211,8 +74211,8 @@ var overrides = {
             ],
             "catchRate": 0
         },
-        "Darkrai": {
-            "name": "Darkrai",
+        "DARKRAI": {
+            "name": "DARKRAI",
             "num": 491,
             "types": [
                 "Dark"
@@ -74381,8 +74381,8 @@ var overrides = {
             ],
             "catchRate": 0
         },
-        "Shaymin": {
-            "name": "Shaymin",
+        "SHAYMIN": {
+            "name": "SHAYMIN",
             "num": 492,
             "types": [
                 "Grass"
@@ -74512,8 +74512,8 @@ var overrides = {
             ],
             "catchRate": 0
         },
-        "Arceus": {
-            "name": "Arceus",
+        "ARCEUS": {
+            "name": "ARCEUS",
             "num": 493,
             "types": [
                 "Normal"
@@ -74830,8 +74830,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Deoxys-Attack": {
-            "name": "Deoxys-Attack",
+        "DEOXYS - Attack": {
+            "name": "DEOXYS - Attack",
             "num": 496,
             "types": [
                 "Psychic"
@@ -74996,8 +74996,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Deoxys-Defense": {
-            "name": "Deoxys-Defense",
+        "DEOXYS - Defense": {
+            "name": "DEOXYS - Defense",
             "num": 497,
             "types": [
                 "Psychic"
@@ -75172,8 +75172,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Deoxys-Speed": {
-            "name": "Deoxys-Speed",
+        "DEOXYS - Speed": {
+            "name": "DEOXYS - Speed",
             "num": 498,
             "types": [
                 "Psychic"
@@ -75342,8 +75342,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Wormadam-Sandy": {
-            "name": "Wormadam-Sandy",
+        "WORMADAM - Sandy": {
+            "name": "WORMADAM - Sandy",
             "num": 499,
             "types": [
                 "Bug",
@@ -75497,8 +75497,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Wormadam-Trash": {
-            "name": "Wormadam-Trash",
+        "WORMADAM - Trash": {
+            "name": "WORMADAM - Trash",
             "num": 500,
             "types": [
                 "Bug",
@@ -75633,8 +75633,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Giratina-Origin": {
-            "name": "Giratina-Origin",
+        "GIRATINA - Origin": {
+            "name": "GIRATINA - Origin",
             "num": 501,
             "types": [
                 "Ghost",
@@ -75782,8 +75782,8 @@ var overrides = {
             ],
             "catchRate": 14
         },
-        "Shaymin-Sky": {
-            "name": "Shaymin-Sky",
+        "SHAYMIN - Sky": {
+            "name": "SHAYMIN - Sky",
             "num": 502,
             "types": [
                 "Grass",
@@ -75914,8 +75914,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Rotom-Heat": {
-            "name": "Rotom-Heat",
+        "ROTOM - Heat": {
+            "name": "ROTOM - Heat",
             "num": 503,
             "types": [
                 "Electric",
@@ -76050,8 +76050,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Rotom-Wash": {
-            "name": "Rotom-Wash",
+        "ROTOM - Wash": {
+            "name": "ROTOM - Wash",
             "num": 504,
             "types": [
                 "Electric",
@@ -76186,8 +76186,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Rotom-Frost": {
-            "name": "Rotom-Frost",
+        "ROTOM - Frost": {
+            "name": "ROTOM - Frost",
             "num": 505,
             "types": [
                 "Electric",
@@ -76322,8 +76322,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Rotom-Fan": {
-            "name": "Rotom-Fan",
+        "ROTOM - Fan": {
+            "name": "ROTOM - Fan",
             "num": 506,
             "types": [
                 "Electric",
@@ -76452,8 +76452,8 @@ var overrides = {
             ],
             "catchRate": 59
         },
-        "Rotom-Mow": {
-            "name": "Rotom-Mow",
+        "ROTOM - Mow": {
+            "name": "ROTOM - Mow",
             "num": 507,
             "types": [
                 "Electric",
@@ -76903,17 +76903,6 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
-            },
-            "gift": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "HAPPINY",
-                        "mn": 1
-                    }
-                ]
             },
             "egg": {
                 "rates": [
@@ -78267,17 +78256,6 @@ var overrides = {
                     },
                     {
                         "s": "PACHIRISU",
-                        "mn": 15
-                    }
-                ]
-            },
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "DRIFLOON",
                         "mn": 15
                     }
                 ]
@@ -101249,17 +101227,6 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            },
-            "gift": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "RIOLU",
-                        "mn": 1
-                    }
-                ]
             }
         },
         "ironislandsection2": {
@@ -104088,17 +104055,6 @@ var overrides = {
                         "mn": 0
                     }
                 ]
-            },
-            "gift": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "MAGIKARP",
-                        "mn": 25
-                    }
-                ]
             }
         },
         "lakeacuity": {
@@ -104641,42 +104597,6 @@ var overrides = {
                     {
                         "s": "BUTTERFREE",
                         "mn": 40
-                    }
-                ]
-            },
-            "gift": {
-                "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
-                ],
-                "encs": [
-                    {
-                        "s": "KRABBY",
-                        "mn": 1
-                    },
-                    {
-                        "s": "CORPHISH",
-                        "mn": 1
-                    },
-                    {
-                        "s": "CHERUBI",
-                        "mn": 1
-                    },
-                    {
-                        "s": "EXEGGCUTE",
-                        "mn": 1
-                    },
-                    {
-                        "s": "SHUCKLE",
-                        "mn": 1
-                    },
-                    {
-                        "s": "FEEBAS",
-                        "mn": 1
                     }
                 ]
             }
@@ -108390,17 +108310,6 @@ var overrides = {
                         "mn": 40
                     }
                 ]
-            },
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "SPIRITOMB",
-                        "mn": 25
-                    }
-                ]
             }
         },
         "losttower": {
@@ -110004,98 +109913,6 @@ var overrides = {
                     {
                         "s": "BRONZOR",
                         "mn": 0
-                    }
-                ]
-            },
-            "global_honey_tree": {
-                "rates": [
-                    16,
-                    16,
-                    16,
-                    16,
-                    16,
-                    16
-                ],
-                "encs": [
-                    {
-                        "s": "CATERPIE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "KRICKETOT",
-                        "mn": 10
-                    },
-                    {
-                        "s": "BURMY",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
-                        "mn": 10
-                    }
-                ]
-            },
-            "local_honey_tree": {
-                "rates": [
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10,
-                    10
-                ],
-                "encs": [
-                    {
-                        "s": "URSARING",
-                        "mn": 38
-                    },
-                    {
-                        "s": "BEEDRILL",
-                        "mn": 40
-                    },
-                    {
-                        "s": "BEAUTIFLY",
-                        "mn": 35
-                    },
-                    {
-                        "s": "DUSTOX",
-                        "mn": 35
-                    },
-                    {
-                        "s": "BUTTERFREE",
-                        "mn": 40
-                    },
-                    {
-                        "s": "MOTHIM",
-                        "mn": 40
-                    },
-                    {
-                        "s": "CHERRIM",
-                        "mn": 40
-                    },
-                    {
-                        "s": "PIDGEOTTO",
-                        "mn": 42
-                    },
-                    {
-                        "s": "LICKITUNG",
-                        "mn": 35
-                    },
-                    {
-                        "s": "MIMEJR",
-                        "mn": 5
                     }
                 ]
             },
@@ -116829,47 +116646,6 @@ var overrides = {
             "dual_leaf_green": {
                 "encs": []
             },
-            "gift": {
-                "rates": [
-                    14,
-                    14,
-                    14,
-                    14,
-                    14,
-                    14,
-                    14
-                ],
-                "encs": [
-                    {
-                        "s": "GROWLITHE",
-                        "mn": 1
-                    },
-                    {
-                        "s": "GIRAFARIG",
-                        "mn": 1
-                    },
-                    {
-                        "s": "MAREEP",
-                        "mn": 1
-                    },
-                    {
-                        "s": "MILTANK",
-                        "mn": 1
-                    },
-                    {
-                        "s": "SPOINK",
-                        "mn": 1
-                    },
-                    {
-                        "s": "PONYTA",
-                        "mn": 1
-                    },
-                    {
-                        "s": "MANKEY",
-                        "mn": 1
-                    }
-                ]
-            },
             "egg": {
                 "rates": [
                     12,
@@ -119038,37 +118814,6 @@ var overrides = {
         "galactichq": {
             "name": "Galactic HQ",
             "locationNameId": 71,
-            "gift": {
-                "rates": [
-                    20,
-                    20,
-                    20,
-                    20,
-                    20
-                ],
-                "encs": [
-                    {
-                        "s": "CACNEA",
-                        "mn": 1
-                    },
-                    {
-                        "s": "GULPIN",
-                        "mn": 1
-                    },
-                    {
-                        "s": "ZIGZAGOON",
-                        "mn": 1
-                    },
-                    {
-                        "s": "DROWZEE",
-                        "mn": 1
-                    },
-                    {
-                        "s": "POOCHYENA",
-                        "mn": 1
-                    }
-                ]
-            },
             "egg": {
                 "rates": [
                     20,
@@ -119131,48 +118876,15 @@ var overrides = {
         },
         "veritycavern": {
             "name": "Verity Cavern",
-            "locationNameId": 87,
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "MESPRIT",
-                        "mn": 50
-                    }
-                ]
-            }
+            "locationNameId": 87
         },
         "valorcavern": {
             "name": "Valor Cavern",
-            "locationNameId": 88,
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "AZELF",
-                        "mn": 50
-                    }
-                ]
-            }
+            "locationNameId": 88
         },
         "acuitycavern": {
             "name": "Acuity Cavern",
-            "locationNameId": 89,
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "UXIE",
-                        "mn": 50
-                    }
-                ]
-            }
+            "locationNameId": 89
         },
         "jubilifetv": {
             "name": "Jubilife TV",
@@ -119200,38 +118912,7 @@ var overrides = {
         },
         "contesthall": {
             "name": "Contest Hall",
-            "locationNameId": 97,
-            "gift": {
-                "rates": [
-                    100,
-                    100,
-                    100,
-                    100,
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "CHARIZARD",
-                        "mn": 5
-                    },
-                    {
-                        "s": "MILOTIC",
-                        "mn": 5
-                    },
-                    {
-                        "s": "KANGASKHAN",
-                        "mn": 5
-                    },
-                    {
-                        "s": "ALAKAZAM",
-                        "mn": 5
-                    },
-                    {
-                        "s": "STEELIX",
-                        "mn": 5
-                    }
-                ]
-            }
+            "locationNameId": 97
         },
         "poffinhouse": {
             "name": "Poffin House",
@@ -119247,153 +118928,7 @@ var overrides = {
         },
         "casino": {
             "name": "Casino",
-            "locationNameId": 102,
-            "gift": {
-                "rates": [
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100,
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "MAGMAR",
-                        "mn": 70
-                    },
-                    {
-                        "s": "JYNX",
-                        "mn": 70
-                    },
-                    {
-                        "s": "ELECTABUZZ",
-                        "mn": 70
-                    },
-                    {
-                        "s": "SCYTHER",
-                        "mn": 70
-                    },
-                    {
-                        "s": "SABLEYE",
-                        "mn": 70
-                    },
-                    {
-                        "s": "DITTO",
-                        "mn": 70
-                    },
-                    {
-                        "s": "MAGNETON",
-                        "mn": 90
-                    },
-                    {
-                        "s": "GALLADE",
-                        "mn": 90
-                    },
-                    {
-                        "s": "MISDREAVUS",
-                        "mn": 90
-                    },
-                    {
-                        "s": "VENUSAUR",
-                        "mn": 90
-                    },
-                    {
-                        "s": "CHARIZARD",
-                        "mn": 90
-                    },
-                    {
-                        "s": "BLASTOISE",
-                        "mn": 90
-                    },
-                    {
-                        "s": "HITMONTOP",
-                        "mn": 90
-                    },
-                    {
-                        "s": "PERSIAN",
-                        "mn": 45
-                    },
-                    {
-                        "s": "PORYGON",
-                        "mn": 45
-                    },
-                    {
-                        "s": "MURKROW",
-                        "mn": 45
-                    },
-                    {
-                        "s": "MRMIME",
-                        "mn": 45
-                    },
-                    {
-                        "s": "PIKACHU",
-                        "mn": 50
-                    },
-                    {
-                        "s": "VOLTORB",
-                        "mn": 50
-                    },
-                    {
-                        "s": "PINSIR",
-                        "mn": 50
-                    },
-                    {
-                        "s": "PHIONE",
-                        "mn": 50
-                    },
-                    {
-                        "s": "TAUROS",
-                        "mn": 55
-                    },
-                    {
-                        "s": "DRAGONITE",
-                        "mn": 55
-                    },
-                    {
-                        "s": "MILTANK",
-                        "mn": 60
-                    },
-                    {
-                        "s": "CASTFORM",
-                        "mn": 60
-                    },
-                    {
-                        "s": "CLEFAIRY",
-                        "mn": 60
-                    },
-                    {
-                        "s": "NIDOKING",
-                        "mn": 60
-                    },
-                    {
-                        "s": "NIDOQUEEN",
-                        "mn": 60
-                    }
-                ]
-            }
+            "locationNameId": 102
         },
         "canalavelibrary": {
             "name": "Canalave Library",
@@ -119465,48 +119000,15 @@ var overrides = {
         },
         "ironruins": {
             "name": "Iron Ruins",
-            "locationNameId": 123,
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "REGISTEEL",
-                        "mn": 30
-                    }
-                ]
-            }
+            "locationNameId": 123
         },
         "icebergruins": {
             "name": "Iceberg Ruins",
-            "locationNameId": 124,
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "REGICE",
-                        "mn": 30
-                    }
-                ]
-            }
+            "locationNameId": 124
         },
         "rockpeakruins": {
             "name": "Rock Peak Ruins",
-            "locationNameId": 125,
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "REGIROCK",
-                        "mn": 30
-                    }
-                ]
-            }
+            "locationNameId": 125
         },
         "rates": {
             "grass": [
@@ -119589,135 +119091,6 @@ var overrides = {
                 4,
                 4
             ]
-        },
-        "poketchcompany": {
-            "name": "Poketch Company",
-            "gift": {
-                "rates": [
-                    33,
-                    33,
-                    33
-                ],
-                "encs": [
-                    {
-                        "s": "SKITTY",
-                        "mn": 5
-                    },
-                    {
-                        "s": "GLAMEOW",
-                        "mn": 5
-                    },
-                    {
-                        "s": "MEOWTH",
-                        "mn": 5
-                    }
-                ]
-            }
-        },
-        "pokemonmansion": {
-            "name": "Pokemon Mansion",
-            "global_honey_tree": {
-                "rates": [
-                    5,
-                    17,
-                    20,
-                    23,
-                    12,
-                    23
-                ],
-                "encs": [
-                    {
-                        "s": "WEEDLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "COMBEE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "WURMPLE",
-                        "mn": 10
-                    },
-                    {
-                        "s": "KRICKETOT",
-                        "mn": 10
-                    },
-                    {
-                        "s": "BURMY",
-                        "mn": 10
-                    },
-                    {
-                        "s": "CATERPIE",
-                        "mn": 10
-                    }
-                ]
-            },
-            "local_honey_tree": {
-                "rates": [
-                    6,
-                    50,
-                    44
-                ],
-                "encs": [
-                    {
-                        "s": "LICKILICKY",
-                        "mn": 55
-                    },
-                    {
-                        "s": "CHATOT",
-                        "mn": 55
-                    },
-                    {
-                        "s": "MURKROW",
-                        "mn": 55
-                    }
-                ]
-            },
-            "gift": {
-                "rates": [
-                    20,
-                    20,
-                    20,
-                    20,
-                    20
-                ],
-                "encs": [
-                    {
-                        "s": "SMOOCHUM",
-                        "mn": 1
-                    },
-                    {
-                        "s": "TYROGUE",
-                        "mn": 1
-                    },
-                    {
-                        "s": "BAGON",
-                        "mn": 1
-                    },
-                    {
-                        "s": "LARVITAR",
-                        "mn": 1
-                    },
-                    {
-                        "s": "CLEFFA",
-                        "mn": 1
-                    }
-                ]
-            }
-        },
-        "rotomroom": {
-            "name": "Rotom Room",
-            "static": {
-                "rates": [
-                    100
-                ],
-                "encs": [
-                    {
-                        "s": "ROTOM",
-                        "mn": 30
-                    }
-                ]
-            }
         }
     },
     "moves": {
@@ -125911,8 +125284,7 @@ var overrides = {
     "items": {
         "none": {
             "name": "None",
-            "desc": "???",
-            "shortDesc": "???"
+            "desc": "???"
         },
         "masterball": {
             "name": "Master Ball",
@@ -125924,44 +125296,97 @@ var overrides = {
             "ground_locations": [
                 "tgeternabldg",
                 "snowpointcity",
+                "fuegoironworks",
                 "mtcoronet",
+                "victoryroad",
                 "starkmountain",
                 "valorlakefront",
                 "acuitylakefront",
                 "route207",
+                "route210",
+                "pokmonmansion",
+                "route212",
+                "route215",
+                "route217",
+                "route221",
+                "route222",
                 "route224",
+                "route225",
                 "route223"
+            ],
+            "hidden_ground_locations": [
+                "fuegoironworks",
+                "victoryroad",
+                "starkmountain",
+                "route210",
+                "pokmonmansion",
+                "route212",
+                "route215",
+                "route217",
+                "route221",
+                "route222",
+                "route224",
+                "route225"
             ]
         },
         "greatball": {
             "name": "Great Ball",
             "desc": "A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
             "ground_locations": [
+                "eternacity",
                 "oreburghmine",
+                "waywardcave",
                 "route203",
                 "route205",
+                "route207",
                 "route208",
                 "route209",
+                "losttower",
                 "route211",
                 "greatmarsh"
+            ],
+            "hidden_ground_locations": [
+                "eternacity",
+                "waywardcave",
+                "route207",
+                "route209",
+                "losttower",
+                "route211"
             ],
             "npcs": [
                 {
                     "spriteID": 3,
                     "location": "oreburghcity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "twinleaftown",
                     "orientation": 0
                 },
                 {
                     "spriteID": 14,
                     "location": "celestictown",
-                    "orientation": 0
+                    "orientation": 3
                 }
             ]
         },
         "pokball": {
             "name": "Poké Ball",
             "desc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
-            "shortDesc": "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system."
+            "ground_locations": [
+                "route207"
+            ],
+            "hidden_ground_locations": [
+                "route207"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "route204",
+                    "orientation": 0
+                }
+            ]
         },
         "safariball": {
             "name": "Safari Ball",
@@ -126008,7 +125433,26 @@ var overrides = {
             "name": "Luxury Ball",
             "desc": "A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.",
             "ground_locations": [
-                "pokmonmansion"
+                "galactichq",
+                "lakevalor",
+                "valorlakefront",
+                "pokmonmansion",
+                "route222",
+                "route224",
+                "route228",
+                "survivalarea",
+                "route226"
+            ],
+            "hidden_ground_locations": [
+                "galactichq",
+                "lakevalor",
+                "valorlakefront",
+                "pokmonmansion",
+                "route222",
+                "route224",
+                "route228",
+                "survivalarea",
+                "route226"
             ]
         },
         "premierball": {
@@ -126026,7 +125470,7 @@ var overrides = {
                 {
                     "spriteID": 5,
                     "location": "oreburghcity",
-                    "orientation": 0
+                    "orientation": 2
                 }
             ]
         },
@@ -126037,13 +125481,25 @@ var overrides = {
                 {
                     "spriteID": 18,
                     "location": "oreburghcity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "twinleaftown",
                     "orientation": 0
                 }
             ]
         },
         "quickball": {
             "name": "Quick Ball",
-            "desc": "A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter."
+            "desc": "A somewhat different Poké Ball that provides a better catch rate if it is used at the start of a wild encounter.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "route207",
+                    "orientation": 0
+                }
+            ]
         },
         "cherishball": {
             "name": "Cherish Ball",
@@ -126054,68 +125510,102 @@ var overrides = {
         },
         "potion": {
             "name": "Potion",
-            "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points.",
-            "shortDesc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points."
+            "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points."
         },
         "antidote": {
             "name": "Antidote",
-            "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
-            "shortDesc": "A spray-type medicine. It lifts the effect of poison from one Pokémon."
+            "desc": "A spray-type medicine. It lifts the effect of poison from one Pokémon."
         },
         "burnheal": {
             "name": "Burn Heal",
             "desc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
-            "shortDesc": "A spray-type medicine. It heals a single Pokémon that is suffering from a burn."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "palpark",
+                    "orientation": 0
+                }
+            ]
         },
         "iceheal": {
             "name": "Ice Heal",
             "desc": "A spray-type medicine. It defrosts a Pokémon that has been frozen solid.",
             "ground_locations": [
                 "mtcoronet"
-            ],
-            "shortDesc": "A spray-type medicine. It defrosts a Pokémon that has been frozen solid."
+            ]
         },
         "awakening": {
             "name": "Awakening",
-            "desc": "A spray-type medicine. It awakens a Pokémon from the clutches of sleep.",
-            "shortDesc": "A spray-type medicine. It awakens a Pokémon from the clutches of sleep."
+            "desc": "A spray-type medicine. It awakens a Pokémon from the clutches of sleep."
         },
         "parlyzheal": {
             "name": "Parlyz Heal",
             "desc": "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
             "ground_locations": [
                 "eternaforest"
-            ],
-            "shortDesc": "A spray-type medicine. It eliminates paralysis from a single Pokémon."
+            ]
         },
         "fullrestore": {
             "name": "Full Restore",
             "desc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
             "ground_locations": [
+                "coronethighlands",
                 "mtcoronet",
                 "victoryroad",
-                "starkmountain"
+                "starkmountain",
+                "route222",
+                "route228"
             ],
-            "shortDesc": "A medicine that fully restores the HP and heals any status problems of a single Pokémon."
+            "hidden_ground_locations": [
+                "coronethighlands",
+                "victoryroad",
+                "route222",
+                "route228"
+            ]
         },
         "maxpotion": {
             "name": "Max Potion",
             "desc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon.",
-            "shortDesc": "A spray-type medicine for wounds. It completely restores the HP of a single Pokémon."
+            "ground_locations": [
+                "coronethighlands",
+                "celesticaruins"
+            ],
+            "hidden_ground_locations": [
+                "coronethighlands",
+                "celesticaruins"
+            ]
         },
         "hyperpotion": {
             "name": "Hyper Potion",
             "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points.",
             "ground_locations": [
-                "route212"
+                "route210",
+                "route212",
+                "route213",
+                "route221",
+                "greatmarsh"
             ],
-            "shortDesc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 200 points."
+            "hidden_ground_locations": [
+                "route210",
+                "route212",
+                "route213",
+                "route221",
+                "greatmarsh"
+            ]
         },
         "superpotion": {
             "name": "Super Potion",
             "desc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points.",
             "ground_locations": [
+                "eternacity",
+                "waywardcave",
+                "route205",
                 "route207"
+            ],
+            "hidden_ground_locations": [
+                "eternacity",
+                "waywardcave",
+                "route205"
             ],
             "npcs": [
                 {
@@ -126126,20 +125616,25 @@ var overrides = {
                 {
                     "spriteID": 22,
                     "location": "route201",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A spray-type medicine for wounds. It restores the HP of one Pokémon by 50 points."
+            ]
         },
         "fullheal": {
             "name": "Full Heal",
             "desc": "A spray-type medicine. It heals all the status problems of a single Pokémon.",
             "ground_locations": [
+                "coronethighlands",
                 "route202",
                 "route212",
-                "route216"
+                "route216",
+                "route217"
             ],
-            "shortDesc": "A spray-type medicine. It heals all the status problems of a single Pokémon."
+            "hidden_ground_locations": [
+                "coronethighlands",
+                "route212",
+                "route217"
+            ]
         },
         "revive": {
             "name": "Revive",
@@ -126147,20 +125642,37 @@ var overrides = {
             "ground_locations": [
                 "mtcoronet",
                 "route207",
+                "route209",
                 "route212",
                 "route216",
-                "route225"
+                "route225",
+                "theunderground"
             ],
-            "shortDesc": "A medicine that revives a fainted Pokémon. It restores half the Pokémon’s maximum HP."
+            "hidden_ground_locations": [
+                "route209"
+            ]
         },
         "maxrevive": {
             "name": "Max Revive",
             "desc": "A medicine that revives a fainted Pokémon. It fully restores the Pokémon’s HP.",
             "ground_locations": [
+                "coronethighlands",
+                "victoryroad",
                 "starkmountain",
-                "route213"
+                "valorlakefront",
+                "route213",
+                "grandlake",
+                "route221",
+                "theunderground"
             ],
-            "shortDesc": "A medicine that revives a fainted Pokémon. It fully restores the Pokémon’s HP."
+            "hidden_ground_locations": [
+                "coronethighlands",
+                "victoryroad",
+                "valorlakefront",
+                "route213",
+                "grandlake",
+                "route221"
+            ]
         },
         "freshwater": {
             "name": "Fresh Water",
@@ -126173,10 +125685,9 @@ var overrides = {
                 {
                     "spriteID": 38,
                     "location": "route225",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "Water with a high mineral content. It restores the HP of one Pokémon by 50 points."
+            ]
         },
         "sodapop": {
             "name": "Soda Pop",
@@ -126188,10 +125699,9 @@ var overrides = {
                 {
                     "spriteID": 151,
                     "location": "jubilifecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A fizzy soda drink. It restores the HP of one Pokémon by 60 points."
+            ]
         },
         "lemonade": {
             "name": "Lemonade",
@@ -126200,10 +125710,9 @@ var overrides = {
                 {
                     "spriteID": 151,
                     "location": "jubilifecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A very sweet drink. It restores the HP of one Pokémon by 80 points."
+            ]
         },
         "moomoomilk": {
             "name": "Moomoo Milk",
@@ -126212,113 +125721,155 @@ var overrides = {
                 {
                     "spriteID": 58,
                     "location": "caf",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points."
+            ]
         },
         "energypowder": {
             "name": "EnergyPowder",
             "desc": "A very bitter medicine powder. It restores the HP of one Pokémon by 50 points.",
-            "shortDesc": "A very bitter medicine powder. It restores the HP of one Pokémon by 50 points."
+            "ground_locations": [
+                "mtcoronet"
+            ],
+            "hidden_ground_locations": [
+                "mtcoronet"
+            ]
         },
         "energyroot": {
             "name": "Energy Root",
             "desc": "A very bitter root. It restores the HP of one Pokémon by 200 points.",
             "ground_locations": [
                 "route206"
-            ],
-            "shortDesc": "A very bitter root. It restores the HP of one Pokémon by 200 points."
+            ]
         },
         "healpowder": {
             "name": "Heal Powder",
             "desc": "A very bitter medicine powder. It heals all the status problems of a single Pokémon.",
-            "shortDesc": "A very bitter medicine powder. It heals all the status problems of a single Pokémon."
+            "ground_locations": [
+                "coronethighlands",
+                "celesticaruins"
+            ],
+            "hidden_ground_locations": [
+                "coronethighlands",
+                "celesticaruins"
+            ]
         },
         "revivalherb": {
             "name": "Revival Herb",
             "desc": "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP.",
-            "shortDesc": "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP."
+            "ground_locations": [
+                "route217"
+            ],
+            "hidden_ground_locations": [
+                "route217"
+            ]
         },
         "ether": {
             "name": "Ether",
             "desc": "It restores the PP of a Pokémon’s selected move by a maximum of 10 points.",
             "ground_locations": [
                 "eternaforest",
+                "route206",
                 "route209"
             ],
-            "shortDesc": "It restores the PP of a Pokémon’s selected move by a maximum of 10 points."
+            "hidden_ground_locations": [
+                "route206"
+            ]
         },
         "maxether": {
             "name": "Max Ether",
             "desc": "It fully restores the PP of a single selected move that has been learned by the target Pokémon.",
             "ground_locations": [
                 "tgeternabldg",
-                "waywardcave"
+                "waywardcave",
+                "route212"
             ],
-            "shortDesc": "It fully restores the PP of a single selected move that has been learned by the target Pokémon."
+            "hidden_ground_locations": [
+                "route212"
+            ]
         },
         "elixir": {
             "name": "Elixir",
             "desc": "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.",
             "ground_locations": [
                 "ironisland",
+                "galactichq",
                 "route212"
             ],
-            "shortDesc": "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each."
+            "hidden_ground_locations": [
+                "galactichq"
+            ]
         },
         "maxelixir": {
             "name": "Max Elixir",
             "desc": "It fully restores the PP of all the moves learned by the targeted Pokémon.",
             "ground_locations": [
+                "coronethighlands",
                 "mtcoronet",
                 "victoryroad",
                 "starkmountain"
             ],
-            "shortDesc": "It fully restores the PP of all the moves learned by the targeted Pokémon."
+            "hidden_ground_locations": [
+                "coronethighlands",
+                "victoryroad"
+            ]
         },
         "lavacookie": {
             "name": "Lava Cookie",
             "desc": "Lavaridge Town’s local specialty. It heals all the status problems of one Pokémon.",
-            "shortDesc": "Lavaridge Town’s local specialty. It heals all the status problems of one Pokémon."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "veilstonestore",
+                    "orientation": 0
+                }
+            ]
         },
         "berryjuice": {
             "name": "Berry Juice",
-            "desc": "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points."
+            "desc": "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "sacredash": {
             "name": "Sacred Ash",
             "desc": "It revives all fainted Pokémon. In doing so, it also fully restores their HP.",
-            "shortDesc": "It revives all fainted Pokémon. In doing so, it also fully restores their HP."
+            "ground_locations": [
+                "galactichq"
+            ],
+            "hidden_ground_locations": [
+                "galactichq"
+            ]
         },
         "hpup": {
             "name": "HP Up",
-            "desc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.",
-            "shortDesc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon."
+            "desc": "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon."
         },
         "protein": {
             "name": "Protein",
             "desc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ],
-            "shortDesc": "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon."
+            ]
         },
         "iron": {
             "name": "Iron",
             "desc": "A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ],
-            "shortDesc": "A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon."
+            ]
         },
         "carbos": {
             "name": "Carbos",
             "desc": "A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ],
-            "shortDesc": "A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon."
+            ]
         },
         "calcium": {
             "name": "Calcium",
@@ -126326,52 +125877,89 @@ var overrides = {
             "ground_locations": [
                 "starkmountain",
                 "galactichq"
-            ],
-            "shortDesc": "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon."
+            ]
         },
         "rarecandy": {
             "name": "Rare Candy",
             "desc": "A candy that is packed with energy. It raises the level of a single Pokémon by one.",
             "ground_locations": [
+                "oreburghcity",
+                "snowpointcity",
+                "coronethighlands",
+                "celesticaruins",
                 "mtcoronet",
                 "victoryroad",
                 "floaromameadow",
                 "starkmountain",
                 "waywardcave",
                 "oldchateau",
+                "galactichq",
                 "route204",
+                "route207",
+                "route210",
+                "route212",
                 "route214",
+                "route224",
                 "route225",
+                "route227",
+                "route228",
                 "solaceontown",
                 "survivalarea",
-                "route223"
+                "route223",
+                "route226",
+                "greatmarsh"
+            ],
+            "hidden_ground_locations": [
+                "oreburghcity",
+                "snowpointcity",
+                "coronethighlands",
+                "celesticaruins",
+                "mtcoronet",
+                "victoryroad",
+                "starkmountain",
+                "galactichq",
+                "route207",
+                "route210",
+                "route212",
+                "route224",
+                "route225",
+                "route227",
+                "route228",
+                "route226",
+                "greatmarsh"
             ],
             "npcs": [
                 {
-                    "spriteID": 151,
+                    "spriteID": null,
                     "location": "jubilifecity",
                     "orientation": 0
+                },
+                {
+                    "spriteID": 151,
+                    "location": "jubilifecity",
+                    "orientation": 1
+                },
+                {
+                    "spriteID": null,
+                    "location": "twinleaftown",
+                    "orientation": 0
                 }
-            ],
-            "shortDesc": "A candy that is packed with energy. It raises the level of a single Pokémon by one."
+            ]
         },
         "ppup": {
             "name": "PP Up",
-            "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
-            "shortDesc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon."
+            "desc": "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon."
         },
         "zinc": {
             "name": "Zinc",
             "desc": "A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon.",
             "ground_locations": [
                 "galactichq"
-            ],
-            "shortDesc": "A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon."
+            ]
         },
         "ppmax": {
             "name": "PP Max",
-            "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
-            "shortDesc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon."
+            "desc": "It maximally raises the top PP of a selected move that has been learned by the target Pokémon."
         },
         "oldgateau": {
             "name": "Old Gateau",
@@ -126379,93 +125967,94 @@ var overrides = {
             "ground_locations": [
                 "oldchateau"
             ],
-            "shortDesc": "Old Chateau’s hidden specialty. It heals all the status problems of a single Pokémon."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "guardspec": {
             "name": "Guard Spec.",
-            "desc": "An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after use.",
-            "shortDesc": "An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after use."
+            "desc": "An item that prevents stat reduction among the Trainer’s party Pokémon for five turns after use."
         },
         "direhit": {
             "name": "Dire Hit",
-            "desc": "An item that raises the critical-hit ratio of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-            "shortDesc": "An item that raises the critical-hit ratio of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the critical-hit ratio of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xattack": {
             "name": "X Attack",
-            "desc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-            "shortDesc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xdefend": {
             "name": "X Defend",
-            "desc": "An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-            "shortDesc": "An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xspeed": {
             "name": "X Speed",
-            "desc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-            "shortDesc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xaccuracy": {
             "name": "X Accuracy",
-            "desc": "An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-            "shortDesc": "An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xspecial": {
             "name": "X Special",
-            "desc": "An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-            "shortDesc": "An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "xspdef": {
             "name": "X Sp. Def",
-            "desc": "An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
-            "shortDesc": "An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
+            "desc": "An item that raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn."
         },
         "pokdoll": {
             "name": "Poké Doll",
             "desc": "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
             "ground_locations": [
-                "oldchateau"
+                "oldchateau",
+                "galactichq"
             ],
-            "shortDesc": "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon."
+            "hidden_ground_locations": [
+                "galactichq"
+            ]
         },
         "fluffytail": {
             "name": "Fluffy Tail",
             "desc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
             "ground_locations": [
                 "eternaforest"
-            ],
-            "shortDesc": "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon."
+            ]
         },
         "blueflute": {
             "name": "Blue Flute",
             "desc": "A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep.",
             "ground_locations": [
                 "route204"
-            ],
-            "shortDesc": "A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep."
+            ]
         },
         "yellowflute": {
             "name": "Yellow Flute",
-            "desc": "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion.",
-            "shortDesc": "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion."
+            "desc": "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion."
         },
         "redflute": {
             "name": "Red Flute",
-            "desc": "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation.",
-            "shortDesc": "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation."
+            "desc": "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation."
         },
         "blackflute": {
             "name": "Black Flute",
             "desc": "A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear.",
             "npcs": [
                 {
-                    "spriteID": 376,
+                    "spriteID": null,
                     "location": "mtcoronet",
                     "orientation": 0
+                },
+                {
+                    "spriteID": 376,
+                    "location": "mtcoronet",
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear."
+            ]
         },
         "whiteflute": {
             "name": "White Flute",
@@ -126474,10 +126063,9 @@ var overrides = {
                 {
                     "spriteID": 12,
                     "location": "grandlake",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear."
+            ]
         },
         "berserkgene": {
             "name": "Berserk Gene",
@@ -126486,81 +126074,135 @@ var overrides = {
         "ragecandybar": {
             "name": "RageCandyBar",
             "desc": "A famous candy in Mahogany Town. Heals 100 HP in a pinch.",
-            "shortDesc": "A famous candy in Mahogany Town. Heals 100 HP in a pinch."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "redshard": {
             "name": "Red Shard",
             "desc": "A small red shard. It appears to be from some sort of implement made long ago.",
             "ground_locations": [
                 "fuegoironworks",
+                "mtcoronet",
+                "starkmountain",
+                "waywardcave",
                 "ironisland",
+                "route207",
                 "clamberclawcliffs",
                 "route214",
+                "route221",
                 "survivalarea",
-                "greatmarsh"
+                "greatmarsh",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "fuegoironworks",
+                "mtcoronet",
+                "starkmountain",
+                "waywardcave",
+                "route207",
+                "route214",
+                "route221"
             ],
             "npcs": [
                 {
                     "spriteID": 80,
                     "location": "fuegoironworks",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 28,
                     "location": "celesticaruins",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A small red shard. It appears to be from some sort of implement made long ago."
+            ]
         },
         "blueshard": {
             "name": "Blue Shard",
             "desc": "A small blue shard. It appears to be from some sort of implement made long ago.",
             "ground_locations": [
                 "pastoriacity",
+                "pokmonleague",
+                "coronethighlands",
+                "mtcoronet",
+                "waywardcave",
+                "ironisland",
                 "route205",
                 "route212",
                 "route217",
                 "route218",
+                "greatmarsh",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "pokmonleague",
+                "coronethighlands",
+                "mtcoronet",
+                "waywardcave",
+                "ironisland",
+                "route217",
                 "greatmarsh"
             ],
             "npcs": [
                 {
                     "spriteID": 80,
                     "location": "fuegoironworks",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 28,
                     "location": "celesticaruins",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A small blue shard. It appears to be from some sort of implement made long ago."
+            ]
         },
         "yellowshard": {
             "name": "Yellow Shard",
             "desc": "A small yellow shard. It appears to be from some sort of implement made long ago.",
             "ground_locations": [
                 "oreburghcity",
+                "veilstonecity",
+                "sunyshorecity",
+                "eternaforest",
                 "fuegoironworks",
+                "coronethighlands",
+                "mtcoronet",
+                "waywardcave",
                 "ironisland",
                 "route213",
-                "greatmarsh"
+                "route216",
+                "route219",
+                "route220",
+                "greatmarsh",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "veilstonecity",
+                "sunyshorecity",
+                "eternaforest",
+                "coronethighlands",
+                "mtcoronet",
+                "waywardcave",
+                "route216",
+                "route219",
+                "route220"
             ],
             "npcs": [
                 {
                     "spriteID": 80,
                     "location": "fuegoironworks",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 28,
                     "location": "celesticaruins",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A small yellow shard. It appears to be from some sort of implement made long ago."
+            ]
         },
         "greenshard": {
             "name": "Green Shard",
@@ -126568,36 +126210,50 @@ var overrides = {
             "ground_locations": [
                 "eternaforest",
                 "fuegoironworks",
+                "celesticaruins",
+                "mtcoronet",
+                "waywardcave",
                 "galactichq",
                 "losttower",
+                "clamberclawcliffs",
                 "pokmonmansion",
                 "route225",
                 "solaceontown",
-                "greatmarsh"
+                "greatmarsh",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "celesticaruins",
+                "mtcoronet",
+                "waywardcave",
+                "clamberclawcliffs"
             ],
             "npcs": [
                 {
                     "spriteID": 80,
                     "location": "fuegoironworks",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 28,
                     "location": "celesticaruins",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 19,
                     "location": "solaceonruins",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "greatmarsh",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A small green shard. It appears to be from some sort of implement made long ago."
+            ]
         },
         "superrepel": {
             "name": "Super Repel",
-            "desc": "An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",
-            "shortDesc": "An item that prevents weak wild Pokémon from appearing for 200 steps after its use."
+            "desc": "An item that prevents weak wild Pokémon from appearing for 200 steps after its use."
         },
         "maxrepel": {
             "name": "Max Repel",
@@ -126605,9 +126261,19 @@ var overrides = {
             "ground_locations": [
                 "mtcoronet",
                 "victoryroad",
-                "route220"
+                "route212",
+                "route227",
+                "route228",
+                "route220",
+                "greatmarsh"
             ],
-            "shortDesc": "An item that prevents weak wild Pokémon from appearing for 250 steps after its use."
+            "hidden_ground_locations": [
+                "mtcoronet",
+                "route212",
+                "route227",
+                "route228",
+                "greatmarsh"
+            ]
         },
         "escaperope": {
             "name": "Escape Rope",
@@ -126616,22 +126282,31 @@ var overrides = {
                 "mtcoronet",
                 "starkmountain",
                 "waywardcave"
-            ],
-            "shortDesc": "A long, durable rope. Use it to escape instantly from a cave or a dungeon."
+            ]
         },
         "repel": {
             "name": "Repel",
             "desc": "An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",
             "ground_locations": [
                 "route203"
-            ],
-            "shortDesc": "An item that prevents weak wild Pokémon from appearing for 100 steps after its use."
+            ]
         },
         "sunstone": {
             "name": "Sun Stone",
             "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
+            "ground_locations": [
+                "coronethighlands",
+                "veritylakefront",
+                "valorlakefront",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "coronethighlands",
+                "veritylakefront",
+                "valorlakefront"
+            ],
             "wilds": [
-                "Sunkern"
+                "SUNKERN"
             ]
         },
         "moonstone": {
@@ -126639,51 +126314,146 @@ var overrides = {
             "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
             "ground_locations": [
                 "eternacity",
-                "oreburghmine"
+                "oreburghmine",
+                "coronethighlands",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "coronethighlands"
             ]
         },
         "firestone": {
             "name": "Fire Stone",
             "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
             "ground_locations": [
-                "fuegoironworks"
+                "fuegoironworks",
+                "solaceonruins",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "solaceonruins"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "eternacity",
+                    "orientation": 0
+                }
             ]
         },
         "thunderstone": {
             "name": "Thunderstone",
-            "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern."
+            "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
+            "ground_locations": [
+                "resortarea",
+                "solaceonruins",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "resortarea",
+                "solaceonruins"
+            ]
         },
         "waterstone": {
             "name": "Water Stone",
-            "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue."
+            "desc": "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.",
+            "ground_locations": [
+                "solaceonruins",
+                "route230",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "solaceonruins",
+                "route230"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "eternacity",
+                    "orientation": 0
+                }
+            ]
         },
         "leafstone": {
             "name": "Leaf Stone",
             "desc": "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
             "ground_locations": [
-                "floaromameadow"
+                "floaromameadow",
+                "route225",
+                "greatmarsh",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "route225",
+                "greatmarsh"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "eternacity",
+                    "orientation": 0
+                }
             ]
         },
         "tinymushroom": {
             "name": "TinyMushroom",
             "desc": "A small and rare mushroom. It is quite popular among certain maniacal fan segments.",
-            "wilds": [
-                "Paras"
+            "ground_locations": [
+                "route208",
+                "route222",
+                "route226"
             ],
-            "shortDesc": "A small and rare mushroom. It is quite popular among certain maniacal fan segments."
+            "hidden_ground_locations": [
+                "route208",
+                "route222",
+                "route226"
+            ],
+            "wilds": [
+                "PARAS"
+            ]
         },
         "bigmushroom": {
             "name": "Big Mushroom",
             "desc": "A large and rare mushroom. It is very popular among certain maniacal fan segments.",
-            "wilds": [
-                "Parasect"
+            "ground_locations": [
+                "fuegoironworks",
+                "floaromameadow",
+                "valorlakefront",
+                "route212",
+                "route214",
+                "route225",
+                "route226",
+                "greatmarsh"
             ],
-            "shortDesc": "A large and rare mushroom. It is very popular among certain maniacal fan segments."
+            "hidden_ground_locations": [
+                "fuegoironworks",
+                "floaromameadow",
+                "valorlakefront",
+                "route212",
+                "route214",
+                "route225",
+                "route226",
+                "greatmarsh"
+            ],
+            "wilds": [
+                "PARASECT"
+            ]
         },
         "pearl": {
             "name": "Pearl",
             "desc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
-            "shortDesc": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops."
+            "ground_locations": [
+                "oreburghcity",
+                "pokmonmansion",
+                "route213",
+                "route224"
+            ],
+            "hidden_ground_locations": [
+                "oreburghcity",
+                "pokmonmansion",
+                "route213",
+                "route224"
+            ]
         },
         "bigpearl": {
             "name": "Big Pearl",
@@ -126691,48 +126461,120 @@ var overrides = {
             "ground_locations": [
                 "tgeternabldg",
                 "oreburghgate",
-                "oldchateau"
+                "oldchateau",
+                "route213",
+                "route224",
+                "route220"
             ],
-            "shortDesc": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops."
+            "hidden_ground_locations": [
+                "route213",
+                "route224",
+                "route220"
+            ]
         },
         "stardust": {
             "name": "Stardust",
             "desc": "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.",
+            "ground_locations": [
+                "jubilifecity",
+                "mtcoronet",
+                "coronethighlands",
+                "celesticaruins",
+                "starkmountain",
+                "waywardcave",
+                "route202",
+                "route205",
+                "route209",
+                "route217"
+            ],
+            "hidden_ground_locations": [
+                "jubilifecity",
+                "mtcoronet",
+                "coronethighlands",
+                "celesticaruins",
+                "starkmountain",
+                "waywardcave",
+                "route202",
+                "route205",
+                "route209",
+                "route217"
+            ],
             "npcs": [
                 {
                     "spriteID": 85,
                     "location": "turnbackcave",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops."
+            ]
         },
         "starpiece": {
             "name": "Star Piece",
             "desc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
             "ground_locations": [
+                "theunderground",
                 "veilstonecity",
+                "fuegoironworks",
+                "mtcoronet",
+                "coronethighlands",
                 "starkmountain",
-                "route209"
+                "ironisland",
+                "route208",
+                "route209",
+                "route227"
+            ],
+            "hidden_ground_locations": [
+                "theunderground",
+                "fuegoironworks",
+                "mtcoronet",
+                "coronethighlands",
+                "starkmountain",
+                "ironisland",
+                "route208",
+                "route227"
             ],
             "npcs": [
                 {
                     "spriteID": 80,
                     "location": "fuegoironworks",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "sandgemtown",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops."
+            ]
         },
         "bignugget": {
             "name": "Big Nugget",
             "desc": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
             "ground_locations": [
+                "mtcoronet",
                 "solaceonruins",
                 "victoryroad",
                 "starkmountain",
+                "galactichq",
                 "pokmonmansion",
+                "route217",
                 "resortarea"
+            ],
+            "hidden_ground_locations": [
+                "mtcoronet",
+                "victoryroad",
+                "galactichq",
+                "route217"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "cycleshop",
+                    "orientation": 0
+                },
+                {
+                    "spriteID": null,
+                    "location": "route229",
+                    "orientation": 0
+                }
             ]
         },
         "heartscale": {
@@ -126741,7 +126583,9 @@ var overrides = {
             "ground_locations": [
                 "poktchco",
                 "hearthomecity",
+                "sunyshorecity",
                 "fuegoironworks",
+                "victoryroad",
                 "oreburghgate",
                 "waywardcave",
                 "ironisland",
@@ -126757,114 +126601,169 @@ var overrides = {
                 "route213",
                 "route215",
                 "route216",
-                "greatmarsh"
+                "route217",
+                "route224",
+                "route223",
+                "route226",
+                "greatmarsh",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "sunyshorecity",
+                "victoryroad",
+                "route209",
+                "route213",
+                "route217",
+                "route224",
+                "route223",
+                "route226"
             ],
             "npcs": [
                 {
                     "spriteID": 79,
                     "location": "hearthomecity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "sandgemtown",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow."
+            ]
         },
         "honey": {
             "name": "Honey",
             "desc": "A sweet honey with a lush aroma that attracts wild Pokémon when it is used in grass, caves, or on special trees.",
+            "ground_locations": [
+                "floaromameadow",
+                "oldchateau",
+                "losttower"
+            ],
+            "hidden_ground_locations": [
+                "floaromameadow",
+                "oldchateau",
+                "losttower"
+            ],
             "wilds": [
-                "Combee"
+                "COMBEE"
             ],
             "npcs": [
                 {
                     "spriteID": 151,
                     "location": "jubilifecity",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 14,
                     "location": "floaromameadow",
+                    "orientation": 1
+                },
+                {
+                    "spriteID": null,
+                    "location": "twinleaftown",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A sweet honey with a lush aroma that attracts wild Pokémon when it is used in grass, caves, or on special trees."
+            ]
         },
         "growthmulch": {
             "name": "Growth Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It speeds up the growth of Berries. However, it also dries the soil faster.",
-            "shortDesc": "A plant fertilizer spread on soft soil. It speeds up the growth of Berries. However, it also dries the soil faster."
+            "desc": "A plant fertilizer spread on soft soil. It speeds up the growth of Berries. However, it also dries the soil faster."
         },
         "dampmulch": {
             "name": "Damp Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It slows the growth of Berries and causes the soil to dry slower.",
-            "shortDesc": "A plant fertilizer spread on soft soil. It slows the growth of Berries and causes the soil to dry slower."
+            "desc": "A plant fertilizer spread on soft soil. It slows the growth of Berries and causes the soil to dry slower."
         },
         "stablemulch": {
             "name": "Stable Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It extends the time ripened Berries remain on their plants before falling.",
-            "shortDesc": "A plant fertilizer spread on soft soil. It extends the time ripened Berries remain on their plants before falling."
+            "desc": "A plant fertilizer spread on soft soil. It extends the time ripened Berries remain on their plants before falling."
         },
         "gooeymulch": {
             "name": "Gooey Mulch",
-            "desc": "A plant fertilizer spread on soft soil. It ups the number of times new plants grow where mature plants withered.",
-            "shortDesc": "A plant fertilizer spread on soft soil. It ups the number of times new plants grow where mature plants withered."
+            "desc": "A plant fertilizer spread on soft soil. It ups the number of times new plants grow where mature plants withered."
         },
         "rootfossil": {
             "name": "Root Fossil",
             "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.",
             "ground_locations": [
-                "ironisland"
+                "ironisland",
+                "theunderground"
             ]
         },
         "clawfossil": {
             "name": "Claw Fossil",
             "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.",
             "ground_locations": [
-                "waywardcave"
+                "waywardcave",
+                "theunderground"
             ]
         },
         "helixfossil": {
             "name": "Helix Fossil",
             "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.",
             "ground_locations": [
-                "ironisland"
+                "ironisland",
+                "theunderground"
             ]
         },
         "domefossil": {
             "name": "Dome Fossil",
             "desc": "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.",
             "ground_locations": [
-                "ironisland"
+                "ironisland",
+                "theunderground"
             ]
         },
         "oldamber": {
             "name": "Old Amber",
-            "desc": "A piece of amber that contains the genetic material of an ancient Pokémon. It is clear with a reddish tint."
+            "desc": "A piece of amber that contains the genetic material of an ancient Pokémon. It is clear with a reddish tint.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "armorfossil": {
             "name": "Armor Fossil",
             "desc": "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.",
+            "ground_locations": [
+                "theunderground"
+            ],
             "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "theunderground",
+                    "orientation": 0
+                },
                 {
                     "spriteID": 111,
                     "location": "canalavecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
         "skullfossil": {
             "name": "Skull Fossil",
             "desc": "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.",
+            "ground_locations": [
+                "theunderground"
+            ],
             "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "theunderground",
+                    "orientation": 0
+                },
                 {
                     "spriteID": 111,
                     "location": "canalavecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
         "rarebone": {
             "name": "Rare Bone",
             "desc": "A bone that is extremely valuable for Pokémon archaeology. It can be sold for a high price to shops.",
+            "ground_locations": [
+                "theunderground"
+            ],
             "npcs": [
                 {
                     "spriteID": 85,
@@ -126875,7 +126774,13 @@ var overrides = {
         },
         "shinystone": {
             "name": "Shiny Stone",
-            "desc": "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light."
+            "desc": "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
+            "ground_locations": [
+                "clamberclawcliffs"
+            ],
+            "hidden_ground_locations": [
+                "clamberclawcliffs"
+            ]
         },
         "duskstone": {
             "name": "Dusk Stone",
@@ -126885,7 +126790,11 @@ var overrides = {
             "name": "Dawn Stone",
             "desc": "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
             "ground_locations": [
+                "route212",
                 "route225"
+            ],
+            "hidden_ground_locations": [
+                "route212"
             ]
         },
         "ovalstone": {
@@ -126895,7 +126804,13 @@ var overrides = {
         "oddkeystone": {
             "name": "Odd Keystone",
             "desc": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
-            "shortDesc": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally."
+            "ground_locations": [
+                "twinleaftown",
+                "theunderground"
+            ],
+            "hidden_ground_locations": [
+                "twinleaftown"
+            ]
         },
         "griseousorb": {
             "name": "Griseous Orb",
@@ -126911,63 +126826,51 @@ var overrides = {
         },
         "grassmail": {
             "name": "Grass Mail",
-            "desc": "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery."
         },
         "flamemail": {
             "name": "Flame Mail",
-            "desc": "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery."
         },
         "bubblemail": {
             "name": "Bubble Mail",
-            "desc": "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery."
         },
         "bloommail": {
             "name": "Bloom Mail",
-            "desc": "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery."
         },
         "tunnelmail": {
             "name": "Tunnel Mail",
-            "desc": "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery."
         },
         "steelmail": {
             "name": "Steel Mail",
-            "desc": "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery."
         },
         "heartmail": {
             "name": "Heart Mail",
-            "desc": "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery."
         },
         "snowmail": {
             "name": "Snow Mail",
-            "desc": "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery."
         },
         "spacemail": {
             "name": "Space Mail",
-            "desc": "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery."
         },
         "airmail": {
             "name": "Air Mail",
-            "desc": "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery."
         },
         "mosaicmail": {
             "name": "Mosaic Mail",
-            "desc": "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery."
         },
         "brickmail": {
             "name": "Brick Mail",
-            "desc": "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery.",
-            "shortDesc": "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery."
+            "desc": "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery."
         },
         "cheriberry": {
             "name": "Cheri Berry",
@@ -126976,12 +126879,17 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 },
                 {
                     "spriteID": 11,
                     "location": "route208",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -126992,12 +126900,17 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 },
                 {
                     "spriteID": 11,
                     "location": "route208",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 19,
@@ -127016,12 +126929,17 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 },
                 {
                     "spriteID": 11,
                     "location": "route208",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 19,
@@ -127037,12 +126955,17 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 },
                 {
                     "spriteID": 11,
                     "location": "route208",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 19,
@@ -127058,12 +126981,17 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 },
                 {
                     "spriteID": 11,
                     "location": "route208",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 19,
@@ -127090,19 +127018,24 @@ var overrides = {
                 "trainersschool"
             ],
             "wilds": [
-                "Furret",
-                "Shuckle"
+                "FURRET",
+                "SHUCKLE"
             ],
             "npcs": [
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 },
                 {
                     "spriteID": 11,
                     "location": "route208",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 19,
@@ -127118,12 +127051,17 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 },
                 {
                     "spriteID": 11,
                     "location": "route208",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 19,
@@ -127136,8 +127074,15 @@ var overrides = {
             "name": "Lum Berry",
             "desc": "A Poffin ingredient. It may be used or held by a Pokémon to recover from any status problem.",
             "wilds": [
-                "Shaymin",
-                "Shaymin-Sky"
+                "SHAYMIN",
+                "SHAYMIN - Sky"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
             ]
         },
         "sitrusberry": {
@@ -127148,9 +127093,14 @@ var overrides = {
             ],
             "npcs": [
                 {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                },
+                {
                     "spriteID": 11,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 19,
@@ -127166,7 +127116,7 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 19,
@@ -127182,7 +127132,7 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 19,
@@ -127198,7 +127148,7 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 19,
@@ -127214,7 +127164,7 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 19,
@@ -127230,7 +127180,7 @@ var overrides = {
                 {
                     "spriteID": 11,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 3
                 },
                 {
                     "spriteID": 19,
@@ -127246,7 +127196,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127257,7 +127207,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127268,7 +127218,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127279,7 +127229,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127290,7 +127240,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127301,7 +127251,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127312,7 +127262,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127323,7 +127273,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127334,7 +127284,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127345,7 +127295,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127356,7 +127306,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127370,7 +127320,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127384,7 +127334,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127395,7 +127345,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127406,7 +127356,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127417,7 +127367,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127428,7 +127378,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127439,7 +127389,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127450,7 +127400,7 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127461,17 +127411,29 @@ var overrides = {
                 {
                     "spriteID": 372,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
         "occaberry": {
             "name": "Occa Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fire-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fire-type attack.",
+            "ground_locations": [
+                "caf"
+            ],
+            "hidden_ground_locations": [
+                "caf"
+            ]
         },
         "passhoberry": {
             "name": "Passho Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Water-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Water-type attack.",
+            "ground_locations": [
+                "pastoriacity"
+            ],
+            "hidden_ground_locations": [
+                "pastoriacity"
+            ]
         },
         "wacanberry": {
             "name": "Wacan Berry",
@@ -127497,7 +127459,14 @@ var overrides = {
         },
         "chopleberry": {
             "name": "Chople Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fighting-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fighting-type attack.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "kebiaberry": {
             "name": "Kebia Berry",
@@ -127508,23 +127477,53 @@ var overrides = {
         },
         "shucaberry": {
             "name": "Shuca Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ground-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ground-type attack.",
+            "ground_locations": [
+                "solaceontown"
+            ],
+            "hidden_ground_locations": [
+                "solaceontown"
+            ]
         },
         "cobaberry": {
             "name": "Coba Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Flying-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Flying-type attack.",
+            "ground_locations": [
+                "valleywindworks"
+            ],
+            "hidden_ground_locations": [
+                "valleywindworks"
+            ]
         },
         "payapaberry": {
             "name": "Payapa Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Psychic-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Psychic-type attack.",
+            "ground_locations": [
+                "hearthomecity"
+            ],
+            "hidden_ground_locations": [
+                "hearthomecity"
+            ]
         },
         "tangaberry": {
             "name": "Tanga Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Bug-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Bug-type attack.",
+            "ground_locations": [
+                "poffinhouse"
+            ],
+            "hidden_ground_locations": [
+                "poffinhouse"
+            ]
         },
         "chartiberry": {
             "name": "Charti Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Rock-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Rock-type attack.",
+            "ground_locations": [
+                "canalavecity"
+            ],
+            "hidden_ground_locations": [
+                "canalavecity"
+            ]
         },
         "kasibberry": {
             "name": "Kasib Berry",
@@ -127546,15 +127545,35 @@ var overrides = {
         },
         "colburberry": {
             "name": "Colbur Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dark-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dark-type attack.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "valorlakefront",
+                    "orientation": 0
+                }
+            ]
         },
         "babiriberry": {
             "name": "Babiri Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Steel-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Steel-type attack.",
+            "ground_locations": [
+                "veilstonecity"
+            ],
+            "hidden_ground_locations": [
+                "veilstonecity"
+            ]
         },
         "chilanberry": {
             "name": "Chilan Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s Normal-type attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s Normal-type attack.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "twinleaftown",
+                    "orientation": 0
+                }
+            ]
         },
         "liechiberry": {
             "name": "Liechi Berry",
@@ -127582,38 +127601,105 @@ var overrides = {
         },
         "starfberry": {
             "name": "Starf Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it sharply raises one of its stats in a pinch."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it sharply raises one of its stats in a pinch.",
+            "ground_locations": [
+                "floaromameadow"
+            ],
+            "hidden_ground_locations": [
+                "floaromameadow"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "enigmaberry": {
             "name": "Enigma Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it restores its HP if it is hit by a foe’s supereffective attack."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it restores its HP if it is hit by a foe’s supereffective attack.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "micleberry": {
             "name": "Micle Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it raises the accuracy of a move just once in a pinch."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it raises the accuracy of a move just once in a pinch.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "custapberry": {
             "name": "Custap Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, it gets to move first just once in a pinch."
+            "desc": "A Poffin ingredient. If held by a Pokémon, it gets to move first just once in a pinch.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "jabocaberry": {
             "name": "Jaboca Berry",
-            "desc": "A Poffin ingredient. If held by a Pokémon, and if a foe’s physical attack lands, the foe also takes damage."
+            "desc": "A Poffin ingredient. If held by a Pokémon, and if a foe’s physical attack lands, the foe also takes damage.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "rowapberry": {
             "name": "Rowap Berry",
             "desc": "A Poffin ingredient. If held by a Pokémon, and if a foe’s special attack lands, the foe also takes damage.",
             "ground_locations": [
                 "coronethighlands"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
             ]
         },
         "brightpowder": {
             "name": "BrightPowder",
-            "desc": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent’s accuracy."
+            "desc": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent’s accuracy.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "contesthall",
+                    "orientation": 0
+                }
+            ]
         },
         "whiteherb": {
             "name": "White Herb",
-            "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once."
+            "desc": "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                },
+                {
+                    "spriteID": null,
+                    "location": "route202",
+                    "orientation": 0
+                }
+            ]
         },
         "machobrace": {
             "name": "Macho Brace",
@@ -127622,7 +127708,7 @@ var overrides = {
                 {
                     "spriteID": 4,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127636,10 +127722,9 @@ var overrides = {
                 {
                     "spriteID": 27,
                     "location": "route206",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. The holder gets a share of a battle’s Exp. Points without battling."
+            ]
         },
         "quickclaw": {
             "name": "Quick Claw",
@@ -127654,8 +127739,7 @@ var overrides = {
                     "location": "pokmonmansion",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It is a bell with a comforting chime that calms the holder and makes it friendly."
+            ]
         },
         "mentalherb": {
             "name": "Mental Herb",
@@ -127672,7 +127756,7 @@ var overrides = {
                 {
                     "spriteID": 151,
                     "location": "caf",
-                    "orientation": 0
+                    "orientation": 2
                 }
             ]
         },
@@ -127680,7 +127764,7 @@ var overrides = {
             "name": "King’s Rock",
             "desc": "An item to be held by a Pokémon. It may cause the foe to flinch when the holder inflicts damage.",
             "wilds": [
-                "Slowking"
+                "SLOWKING"
             ]
         },
         "silverpowder": {
@@ -127695,8 +127779,7 @@ var overrides = {
             "desc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in.",
             "ground_locations": [
                 "amitysquare"
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
+            ]
         },
         "cleansetag": {
             "name": "Cleanse Tag",
@@ -127705,10 +127788,9 @@ var overrides = {
                 {
                     "spriteID": 144,
                     "location": "losttower",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party."
+            ]
         },
         "souldew": {
             "name": "Soul Dew",
@@ -127736,13 +127818,21 @@ var overrides = {
             "desc": "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.",
             "ground_locations": [
                 "clamberclawcliffs"
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail."
+            ]
         },
         "everstone": {
             "name": "Everstone",
             "desc": "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.",
-            "shortDesc": "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving."
+            "ground_locations": [
+                "theunderground"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                }
+            ]
         },
         "focusband": {
             "name": "Focus Band",
@@ -127754,14 +127844,13 @@ var overrides = {
                 {
                     "spriteID": 12,
                     "location": "jubilifecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
         "luckyegg": {
             "name": "Lucky Egg",
-            "desc": "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.",
-            "shortDesc": "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle."
+            "desc": "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle."
         },
         "scopelens": {
             "name": "Scope Lens",
@@ -127770,7 +127859,7 @@ var overrides = {
                 {
                     "spriteID": 35,
                     "location": "fightarea",
-                    "orientation": 0
+                    "orientation": 3
                 }
             ]
         },
@@ -127799,7 +127888,7 @@ var overrides = {
                 {
                     "spriteID": 12,
                     "location": "jubilifecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127815,13 +127904,14 @@ var overrides = {
             "desc": "An unbreakable stone that gives great power to MACHOP and GEODUDE. It boosts the power of Rock-type attacks.",
             "ground_locations": [
                 "solaceonruins",
-                "route228"
+                "route228",
+                "theunderground"
             ],
             "npcs": [
                 {
                     "spriteID": 5,
                     "location": "oreburghcity",
-                    "orientation": 0
+                    "orientation": 2
                 }
             ]
         },
@@ -127842,7 +127932,7 @@ var overrides = {
                 {
                     "spriteID": 147,
                     "location": "celestictown",
-                    "orientation": 0
+                    "orientation": 2
                 }
             ]
         },
@@ -127853,7 +127943,7 @@ var overrides = {
                 {
                     "spriteID": 108,
                     "location": "veilstonecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127883,7 +127973,11 @@ var overrides = {
             "name": "Poison Barb",
             "desc": "An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.",
             "ground_locations": [
+                "route206",
                 "greatmarsh"
+            ],
+            "hidden_ground_locations": [
+                "route206"
             ]
         },
         "nevermeltice": {
@@ -127900,12 +127994,12 @@ var overrides = {
                 {
                     "spriteID": 144,
                     "location": "losttower",
-                    "orientation": 0
+                    "orientation": 1
                 },
                 {
                     "spriteID": 11,
                     "location": "route217",
-                    "orientation": 0
+                    "orientation": 1
                 }
             ]
         },
@@ -127939,6 +128033,13 @@ var overrides = {
             "desc": "A transparent device filled with all sorts of data. It was produced by Silph Co.",
             "ground_locations": [
                 "tgeternabldg"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "eternacity",
+                    "orientation": 0
+                }
             ]
         },
         "shellbell": {
@@ -127946,6 +128047,13 @@ var overrides = {
             "desc": "An item to be held by a Pokémon. The holder’s HP is restored a little every time it inflicts damage.",
             "ground_locations": [
                 "ravagedpath"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "eternaforest",
+                    "orientation": 0
+                }
             ]
         },
         "seaincense": {
@@ -127981,7 +128089,7 @@ var overrides = {
             "name": "Leek",
             "desc": "An item to be held by FARFETCH’D. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.",
             "wilds": [
-                "Farfetch'd"
+                "FARFETCH’D"
             ]
         },
         "redscarf": {
@@ -127991,10 +128099,9 @@ var overrides = {
                 {
                     "spriteID": 10,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It boosts the “Cool” aspect of the holder in a Contest."
+            ]
         },
         "bluescarf": {
             "name": "Blue Scarf",
@@ -128003,10 +128110,9 @@ var overrides = {
                 {
                     "spriteID": 10,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It boosts the “Beauty” aspect of the holder in a Contest."
+            ]
         },
         "pinkscarf": {
             "name": "Pink Scarf",
@@ -128015,10 +128121,9 @@ var overrides = {
                 {
                     "spriteID": 10,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It boosts the “Cute” aspect of the holder in a Contest."
+            ]
         },
         "greenscarf": {
             "name": "Green Scarf",
@@ -128027,10 +128132,9 @@ var overrides = {
                 {
                     "spriteID": 10,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It boosts the “Smart” aspect of the holder in a Contest."
+            ]
         },
         "yellowscarf": {
             "name": "Yellow Scarf",
@@ -128039,10 +128143,9 @@ var overrides = {
                 {
                     "spriteID": 10,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It boosts the “Tough” aspect of the holder in a Contest."
+            ]
         },
         "widelens": {
             "name": "Wide Lens",
@@ -128051,7 +128154,7 @@ var overrides = {
                 {
                     "spriteID": 147,
                     "location": "celestictown",
-                    "orientation": 0
+                    "orientation": 2
                 }
             ]
         },
@@ -128059,7 +128162,11 @@ var overrides = {
             "name": "Muscle Band",
             "desc": "An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.",
             "ground_locations": [
-                "veilstonecity"
+                "veilstonecity",
+                "route217"
+            ],
+            "hidden_ground_locations": [
+                "route217"
             ]
         },
         "wiseglasses": {
@@ -128069,19 +128176,26 @@ var overrides = {
                 {
                     "spriteID": 147,
                     "location": "celestictown",
-                    "orientation": 0
+                    "orientation": 2
                 }
             ]
         },
         "expertbelt": {
             "name": "Expert Belt",
-            "desc": "An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves."
+            "desc": "An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.",
+            "ground_locations": [
+                "route221"
+            ],
+            "hidden_ground_locations": [
+                "route221"
+            ]
         },
         "lightclay": {
             "name": "Light Clay",
             "desc": "A Pokémon hold item that extends the duration of barrier moves like Light Screen and Reflect used by the holder.",
             "ground_locations": [
-                "mtcoronet"
+                "mtcoronet",
+                "theunderground"
             ]
         },
         "lifeorb": {
@@ -128102,7 +128216,7 @@ var overrides = {
             "name": "Toxic Orb",
             "desc": "An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.",
             "wilds": [
-                "Heracross"
+                "HERACROSS"
             ]
         },
         "flameorb": {
@@ -128123,7 +128237,7 @@ var overrides = {
                 {
                     "spriteID": 16,
                     "location": "route221",
-                    "orientation": 0
+                    "orientation": 3
                 }
             ]
         },
@@ -128142,7 +128256,8 @@ var overrides = {
             "name": "Iron Ball",
             "desc": "A Pokémon hold item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.",
             "ground_locations": [
-                "starkmountain"
+                "starkmountain",
+                "theunderground"
             ]
         },
         "laggingtail": {
@@ -128166,19 +128281,31 @@ var overrides = {
         },
         "icyrock": {
             "name": "Icy Rock",
-            "desc": "A Pokémon hold item that extends the duration of the move Hail used by the holder."
+            "desc": "A Pokémon hold item that extends the duration of the move Hail used by the holder.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "smoothrock": {
             "name": "Smooth Rock",
-            "desc": "A Pokémon hold item that extends the duration of the move Sandstorm used by the holder."
+            "desc": "A Pokémon hold item that extends the duration of the move Sandstorm used by the holder.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "heatrock": {
             "name": "Heat Rock",
-            "desc": "A Pokémon hold item that extends the duration of the move Sunny Day used by the holder."
+            "desc": "A Pokémon hold item that extends the duration of the move Sunny Day used by the holder.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "damprock": {
             "name": "Damp Rock",
-            "desc": "A Pokémon hold item that extends the duration of the move Rain Dance used by the holder."
+            "desc": "A Pokémon hold item that extends the duration of the move Rain Dance used by the holder.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "gripclaw": {
             "name": "Grip Claw",
@@ -128190,14 +128317,28 @@ var overrides = {
         },
         "choicescarf": {
             "name": "Choice Scarf",
-            "desc": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one kind of move."
+            "desc": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one kind of move.",
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "pokmonleague",
+                    "orientation": 0
+                }
+            ]
         },
         "stickybarb": {
             "name": "Sticky Barb",
             "desc": "A hold item that damages the holder on every turn. It may latch on to foes that touch the holder.",
             "wilds": [
-                "Chansey",
-                "Blissey"
+                "CHANSEY",
+                "BLISSEY"
+            ],
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "veilstonestore",
+                    "orientation": 0
+                }
             ]
         },
         "powerbracer": {
@@ -128248,83 +128389,129 @@ var overrides = {
                 {
                     "spriteID": 151,
                     "location": "caf",
-                    "orientation": 0
+                    "orientation": 2
                 }
             ]
         },
         "flameplate": {
             "name": "Flame Plate",
             "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ],
             "npcs": [
                 {
                     "spriteID": 19,
                     "location": "oreburghmine",
-                    "orientation": 0
+                    "orientation": 3
                 }
             ]
         },
         "splashplate": {
             "name": "Splash Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Water-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Water-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "zapplate": {
             "name": "Zap Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "meadowplate": {
             "name": "Meadow Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Grass-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Grass-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "icicleplate": {
             "name": "Icicle Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "fistplate": {
             "name": "Fist Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "toxicplate": {
             "name": "Toxic Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "earthplate": {
             "name": "Earth Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "skyplate": {
             "name": "Sky Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "mindplate": {
             "name": "Mind Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "insectplate": {
             "name": "Insect Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "stoneplate": {
             "name": "Stone Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "spookyplate": {
             "name": "Spooky Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "dracoplate": {
             "name": "Draco Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dragon-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dragon-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "dreadplate": {
             "name": "Dread Plate",
             "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves.",
             "ground_locations": [
-                "rotomsroom"
+                "rotomsroom",
+                "theunderground"
             ]
         },
         "ironplate": {
             "name": "Iron Plate",
-            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves."
+            "desc": "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.",
+            "ground_locations": [
+                "theunderground"
+            ]
         },
         "oddincense": {
             "name": "Odd Incense",
@@ -128365,16 +128552,14 @@ var overrides = {
         },
         "luckincense": {
             "name": "Luck Incense",
-            "desc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in.",
-            "shortDesc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
+            "desc": "An item to be held by a Pokémon. It doubles a battle’s prize money if the holding Pokémon joins in."
         },
         "pureincense": {
             "name": "Pure Incense",
             "desc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
             "ground_locations": [
                 "route221"
-            ],
-            "shortDesc": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party."
+            ]
         },
         "protector": {
             "name": "Protector",
@@ -128417,7 +128602,11 @@ var overrides = {
             "desc": "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder’s critical-hit ratio.",
             "ground_locations": [
                 "victoryroad",
+                "galactichq",
                 "route224"
+            ],
+            "hidden_ground_locations": [
+                "galactichq"
             ]
         },
         "razorfang": {
@@ -128425,7 +128614,11 @@ var overrides = {
             "desc": "An item to be held by a Pokémon. It may cause the foe to flinch when the holder inflicts damage.",
             "ground_locations": [
                 "battlepark",
+                "route214",
                 "route225"
+            ],
+            "hidden_ground_locations": [
+                "route214"
             ]
         },
         "tm01": {
@@ -128433,24 +128626,21 @@ var overrides = {
             "desc": "The user focuses its mind before launching this attack. It will fail if the user is hit before it is used.",
             "ground_locations": [
                 "oreburghgate"
-            ],
-            "shortDesc": "The user focuses its mind before launching this attack. It will fail if the user is hit before it is used."
+            ]
         },
         "tm02": {
             "name": "TM02",
             "desc": "Sharp, draconic claws hook and slash the foe. It has a high critical-hit ratio.",
             "ground_locations": [
                 "mtcoronet"
-            ],
-            "shortDesc": "Sharp, draconic claws hook and slash the foe. It has a high critical-hit ratio."
+            ]
         },
         "tm03": {
             "name": "TM03",
             "desc": "The foe is hit with a pulsing blast of water. It may also confuse the target. This move cannot miss.",
             "ground_locations": [
                 "ravagedpath"
-            ],
-            "shortDesc": "The foe is hit with a pulsing blast of water. It may also confuse the target. This move cannot miss."
+            ]
         },
         "tm04": {
             "name": "TM04",
@@ -128459,18 +128649,16 @@ var overrides = {
                 {
                     "spriteID": 17,
                     "location": "eternacity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats."
+            ]
         },
         "tm05": {
             "name": "TM05",
             "desc": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends.",
             "ground_locations": [
                 "route213"
-            ],
-            "shortDesc": "The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends."
+            ]
         },
         "tm06": {
             "name": "TM06",
@@ -128479,8 +128667,7 @@ var overrides = {
                 "trainersschool",
                 "victoryroad",
                 "route212"
-            ],
-            "shortDesc": "A move that leaves the foe badly poisoned. This poison damage worsens every turn."
+            ]
         },
         "tm07": {
             "name": "TM07",
@@ -128488,31 +128675,33 @@ var overrides = {
             "ground_locations": [
                 "clamberclawcliffs",
                 "floaromatown"
-            ],
-            "shortDesc": "The foe is hit with a rainbow- colored beam. This move cannot miss."
+            ]
         },
         "tm08": {
             "name": "TM08",
-            "desc": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss.",
-            "shortDesc": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss."
+            "desc": "The user allows the foe to attack first. In return, this throw move is guaranteed not to miss."
         },
         "tm09": {
             "name": "TM09",
             "desc": "The user forcefully shoots seeds at the foe. Two to five seeds are shot in rapid succession.",
             "ground_locations": [
                 "route204"
-            ],
-            "shortDesc": "The user forcefully shoots seeds at the foe. Two to five seeds are shot in rapid succession."
+            ]
         },
         "tm10": {
             "name": "TM10",
             "desc": "A variable move that changes type and power depending on the hidden ability of the Pokémon using it.",
-            "shortDesc": "A variable move that changes type and power depending on the hidden ability of the Pokémon using it."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "sandgemtown",
+                    "orientation": 0
+                }
+            ]
         },
         "tm11": {
             "name": "TM11",
-            "desc": "The user intensifies the sun for five turns, powering up Fire-type moves.",
-            "shortDesc": "The user intensifies the sun for five turns, powering up Fire-type moves."
+            "desc": "The user intensifies the sun for five turns, powering up Fire-type moves."
         },
         "tm12": {
             "name": "TM12",
@@ -128520,8 +128709,7 @@ var overrides = {
             "ground_locations": [
                 "veilstonecity",
                 "clamberclawcliffs"
-            ],
-            "shortDesc": "The user draws the foe close, then strikes without fail."
+            ]
         },
         "tm13": {
             "name": "TM13",
@@ -128529,36 +128717,30 @@ var overrides = {
             "ground_locations": [
                 "route216",
                 "route217"
-            ],
-            "shortDesc": "The foe is struck with an icy-cold beam of energy. It may also freeze the target solid."
+            ]
         },
         "tm14": {
             "name": "TM14",
             "desc": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid.",
             "ground_locations": [
                 "lakeacuity"
-            ],
-            "shortDesc": "A howling blizzard is summoned to strike the foe. It may also freeze the target solid."
+            ]
         },
         "tm15": {
             "name": "TM15",
-            "desc": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch.",
-            "shortDesc": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch."
+            "desc": "An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch."
         },
         "tm16": {
             "name": "TM16",
-            "desc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
-            "shortDesc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns."
+            "desc": "A wondrous wall of light is put up to suppress damage from special attacks for five turns."
         },
         "tm17": {
             "name": "TM17",
-            "desc": "The user launches a head-first tackle at the foe. Effective in Super Contests.",
-            "shortDesc": "The user launches a head-first tackle at the foe. Effective in Super Contests."
+            "desc": "The user launches a head-first tackle at the foe. Effective in Super Contests."
         },
         "tm18": {
             "name": "TM18",
-            "desc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
-            "shortDesc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves."
+            "desc": "The user summons a heavy rain that falls for five turns, powering up Water-type moves."
         },
         "tm19": {
             "name": "TM19",
@@ -128566,40 +128748,35 @@ var overrides = {
             "ground_locations": [
                 "victoryroad",
                 "route209"
-            ],
-            "shortDesc": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target."
+            ]
         },
         "tm20": {
             "name": "TM20",
             "desc": "The user creates a protective field that prevents status problems like poison, paralysis, burn, and sleep.",
             "ground_locations": [
                 "oldchateau"
-            ],
-            "shortDesc": "The user creates a protective field that prevents status problems like poison, paralysis, burn, and sleep."
+            ]
         },
         "tm21": {
             "name": "TM21",
             "desc": "A full-power attack that expresses the user’s frustration with its Trainer.",
             "ground_locations": [
                 "route217"
-            ],
-            "shortDesc": "A full-power attack that expresses the user’s frustration with its Trainer."
+            ]
         },
         "tm22": {
             "name": "TM22",
             "desc": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
             "ground_locations": [
                 "valleywindworks"
-            ],
-            "shortDesc": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn."
+            ]
         },
         "tm23": {
             "name": "TM23",
             "desc": "The foe is slammed with a sturdy tail of steel. It may also lower the target’s Defense stat if it hits.",
             "ground_locations": [
                 "ironisland"
-            ],
-            "shortDesc": "The foe is slammed with a sturdy tail of steel. It may also lower the target’s Defense stat if it hits."
+            ]
         },
         "tm24": {
             "name": "TM24",
@@ -128611,10 +128788,9 @@ var overrides = {
                 {
                     "spriteID": 112,
                     "location": "sunyshorecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A strong electric blast is loosed at the foe. It may also leave the foe paralyzed."
+            ]
         },
         "tm25": {
             "name": "TM25",
@@ -128622,8 +128798,7 @@ var overrides = {
             "ground_locations": [
                 "lakevalor",
                 "route223"
-            ],
-            "shortDesc": "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed."
+            ]
         },
         "tm26": {
             "name": "TM26",
@@ -128631,15 +128806,20 @@ var overrides = {
             "ground_locations": [
                 "waywardcave"
             ],
-            "shortDesc": "The user sets off an earthquake that hits all the Pokémon in the battle."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "waywardcave",
+                    "orientation": 0
+                }
+            ]
         },
         "tm27": {
             "name": "TM27",
             "desc": "A full-power attack that expresses the user’s trust in its Trainer.",
             "ground_locations": [
                 "losttower"
-            ],
-            "shortDesc": "A full-power attack that expresses the user’s trust in its Trainer."
+            ]
         },
         "tm28": {
             "name": "TM28",
@@ -128647,50 +128827,43 @@ var overrides = {
             "ground_locations": [
                 "ruinmaniaccave",
                 "maniactunnel"
-            ],
-            "shortDesc": "The user burrows, then attacks immediately. It can also be used to exit dungeons."
+            ]
         },
         "tm29": {
             "name": "TM29",
             "desc": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat.",
             "ground_locations": [
                 "route211"
-            ],
-            "shortDesc": "The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat."
+            ]
         },
         "tm30": {
             "name": "TM30",
             "desc": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat.",
             "ground_locations": [
                 "clamberclawcliffs"
-            ],
-            "shortDesc": "The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat."
+            ]
         },
         "tm31": {
             "name": "TM31",
             "desc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",
             "ground_locations": [
                 "oreburghgate"
-            ],
-            "shortDesc": "The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect."
+            ]
         },
         "tm32": {
             "name": "TM32",
-            "desc": "The user begins moving so quickly that it creates illusory copies to raise its evasiveness.",
-            "shortDesc": "The user begins moving so quickly that it creates illusory copies to raise its evasiveness."
+            "desc": "The user begins moving so quickly that it creates illusory copies to raise its evasiveness."
         },
         "tm33": {
             "name": "TM33",
-            "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
-            "shortDesc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns."
+            "desc": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns."
         },
         "tm34": {
             "name": "TM34",
             "desc": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.",
             "ground_locations": [
                 "route215"
-            ],
-            "shortDesc": "The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded."
+            ]
         },
         "tm35": {
             "name": "TM35",
@@ -128698,8 +128871,7 @@ var overrides = {
             "ground_locations": [
                 "fuegoironworks",
                 "route228"
-            ],
-            "shortDesc": "The foe is scorched with an intense blast of fire. The target may also be left with a burn."
+            ]
         },
         "tm36": {
             "name": "TM36",
@@ -128707,21 +128879,18 @@ var overrides = {
             "ground_locations": [
                 "tgeternabldg",
                 "galactichq"
-            ],
-            "shortDesc": "Unsanitary sludge is hurled at the foe. It may also poison the target."
+            ]
         },
         "tm37": {
             "name": "TM37",
-            "desc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
-            "shortDesc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types."
+            "desc": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types."
         },
         "tm38": {
             "name": "TM38",
             "desc": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
             "ground_locations": [
                 "lakeverity"
-            ],
-            "shortDesc": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn."
+            ]
         },
         "tm39": {
             "name": "TM39",
@@ -128733,10 +128902,9 @@ var overrides = {
                 {
                     "spriteID": 105,
                     "location": "oreburghcity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "Large boulders are hurled at the foe to inflict damage. It lowers the foe’s Speed."
+            ]
         },
         "tm40": {
             "name": "TM40",
@@ -128745,16 +128913,14 @@ var overrides = {
                 "route211",
                 "route213",
                 "route218"
-            ],
-            "shortDesc": "The user confounds the foe with speed, then strikes. The attack lands without fail."
+            ]
         },
         "tm41": {
             "name": "TM41",
             "desc": "The user torments and enrages the foe, making it incapable of using the same move twice in a row.",
             "ground_locations": [
                 "victoryroad"
-            ],
-            "shortDesc": "The user torments and enrages the foe, making it incapable of using the same move twice in a row."
+            ]
         },
         "tm42": {
             "name": "TM42",
@@ -128763,10 +128929,9 @@ var overrides = {
                 {
                     "spriteID": 49,
                     "location": "survivalarea",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn."
+            ]
         },
         "tm43": {
             "name": "TM43",
@@ -128778,15 +128943,13 @@ var overrides = {
                 {
                     "spriteID": 151,
                     "location": "jubilifecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "An attack move with effects that vary depending on the user’s environment."
+            ]
         },
         "tm44": {
             "name": "TM44",
-            "desc": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",
-            "shortDesc": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem."
+            "desc": "The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem."
         },
         "tm45": {
             "name": "TM45",
@@ -128795,18 +128958,16 @@ var overrides = {
                 {
                     "spriteID": 13,
                     "location": "route204",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "If they are the opposite gender of the user, the foe(s) become infatuated and less likely to attack."
+            ]
         },
         "tm46": {
             "name": "TM46",
             "desc": "The user attacks and attempts to steal the foe’s item.",
             "ground_locations": [
                 "eternacity"
-            ],
-            "shortDesc": "The user attacks and attempts to steal the foe’s item."
+            ]
         },
         "tm47": {
             "name": "TM47",
@@ -128817,8 +128978,7 @@ var overrides = {
                     "location": "route210",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "The foe is hit with wings of steel. It may also raise the user’s Defense stat."
+            ]
         },
         "tm48": {
             "name": "TM48",
@@ -128827,49 +128987,42 @@ var overrides = {
                 {
                     "spriteID": 13,
                     "location": "canalavecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "The user employs its psychic power to exchange abilities with the foe."
+            ]
         },
         "tm49": {
             "name": "TM49",
             "desc": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
             "ground_locations": [
                 "galactichq"
-            ],
-            "shortDesc": "The user crashes into its target while rotating its body like a drill. Critical hits land more easily."
+            ]
         },
         "tm50": {
             "name": "TM50",
             "desc": "The user attacks the foe at full power using fiery energy. It also deals significant recoil damage.",
             "ground_locations": [
                 "starkmountain"
-            ],
-            "shortDesc": "The user attacks the foe at full power using fiery energy. It also deals significant recoil damage."
+            ]
         },
         "tm51": {
             "name": "TM51",
-            "desc": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",
-            "shortDesc": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP."
+            "desc": "The user lands and rests its body. It restores the user’s HP by up to half of its max HP."
         },
         "tm52": {
             "name": "TM52",
-            "desc": "The user attacks at full power. It may also lower the foe’s Sp. Def stat if it hits.",
-            "shortDesc": "The user attacks at full power. It may also lower the foe’s Sp. Def stat if it hits."
+            "desc": "The user attacks at full power. It may also lower the foe’s Sp. Def stat if it hits."
         },
         "tm53": {
             "name": "TM53",
             "desc": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def.",
             "ground_locations": [
                 "route226"
-            ],
-            "shortDesc": "The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def."
+            ]
         },
         "tm54": {
             "name": "TM54",
-            "desc": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.",
-            "shortDesc": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP."
+            "desc": "A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP."
         },
         "tm55": {
             "name": "TM55",
@@ -128878,10 +129031,9 @@ var overrides = {
                 {
                     "spriteID": 107,
                     "location": "pastoriacity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "If the foe’s HP is down to under half, this attack will hit with double the power."
+            ]
         },
         "tm56": {
             "name": "TM56",
@@ -128893,41 +129045,35 @@ var overrides = {
                 {
                     "spriteID": 60,
                     "location": "route222",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "The user flings its held item at the foe to attack. Its power and effects depend on the item."
+            ]
         },
         "tm57": {
             "name": "TM57",
-            "desc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
-            "shortDesc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat."
+            "desc": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat."
         },
         "tm58": {
             "name": "TM58",
             "desc": "The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.",
             "ground_locations": [
                 "route221"
-            ],
-            "shortDesc": "The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession."
+            ]
         },
         "tm59": {
             "name": "TM59",
             "desc": "The foe is attacked with a shock wave generated by the user’s gaping mouth. This move cannot miss.",
             "ground_locations": [
                 "victoryroad"
-            ],
-            "shortDesc": "The foe is attacked with a shock wave generated by the user’s gaping mouth. This move cannot miss."
+            ]
         },
         "tm60": {
             "name": "TM60",
-            "desc": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
-            "shortDesc": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target."
+            "desc": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target."
         },
         "tm61": {
             "name": "TM61",
-            "desc": "The user shoots a sinister, bluish white flame at the foe to inflict a burn.",
-            "shortDesc": "The user shoots a sinister, bluish white flame at the foe to inflict a burn."
+            "desc": "The user shoots a sinister, bluish white flame at the foe to inflict a burn."
         },
         "tm62": {
             "name": "TM62",
@@ -128935,8 +129081,7 @@ var overrides = {
             "ground_locations": [
                 "eternaforest",
                 "route212"
-            ],
-            "shortDesc": "The foe is attacked with powdery scales blown by wind. It may also raise all the user’s stats."
+            ]
         },
         "tm63": {
             "name": "TM63",
@@ -128945,10 +129090,9 @@ var overrides = {
                 {
                     "spriteID": 29,
                     "location": "veilstonecity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "It prevents the foe from using its held item. Its Trainer is also prevented from using items on it."
+            ]
         },
         "tm64": {
             "name": "TM64",
@@ -128957,15 +129101,20 @@ var overrides = {
                 {
                     "spriteID": 142,
                     "location": "casino",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move."
+            ]
         },
         "tm65": {
             "name": "TM65",
             "desc": "The user slashes with a sharp claw made from shadows. It hits between two and five times.",
-            "shortDesc": "The user slashes with a sharp claw made from shadows. It hits between two and five times."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "hearthomecity",
+                    "orientation": 0
+                }
+            ]
         },
         "tm66": {
             "name": "TM66",
@@ -128976,42 +129125,43 @@ var overrides = {
                     "location": "route215",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "The user stores power, then attacks. If the user can use this attack after the foe, its power is doubled."
+            ]
         },
         "tm67": {
             "name": "TM67",
             "desc": "The user recycles a single-use item that has been used in battle so it can be used again.",
-            "shortDesc": "The user recycles a single-use item that has been used in battle so it can be used again."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "eternacity",
+                    "orientation": 0
+                }
+            ]
         },
         "tm68": {
             "name": "TM68",
-            "desc": "The user charges the foe using every bit of its power. It also sustains significant recoil damage.",
-            "shortDesc": "The user charges the foe using every bit of its power. It also sustains significant recoil damage."
+            "desc": "The user charges the foe using every bit of its power. It also sustains significant recoil damage."
         },
         "tm69": {
             "name": "TM69",
             "desc": "The user polishes its body to reduce drag. It sharply raises the Speed stat.",
             "ground_locations": [
                 "mtcoronet"
-            ],
-            "shortDesc": "The user polishes its body to reduce drag. It sharply raises the Speed stat."
+            ]
         },
         "tm70": {
             "name": "TM70",
             "desc": "The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves.",
             "ground_locations": [
                 "oreburghgate"
-            ],
-            "shortDesc": "The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves."
+            ]
         },
         "tm71": {
             "name": "TM71",
             "desc": "The user stabs the foe with a sharpened stone from below. It has a high critical-hit ratio.",
             "ground_locations": [
                 "victoryroad"
-            ],
-            "shortDesc": "The user stabs the foe with a sharpened stone from below. It has a high critical-hit ratio."
+            ]
         },
         "tm72": {
             "name": "TM72",
@@ -129020,36 +129170,31 @@ var overrides = {
                 {
                     "spriteID": 110,
                     "location": "snowpointcity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A powerful ice attack that inflicts massive damage on all foes and also has a chance to flinch and freeze."
+            ]
         },
         "tm73": {
             "name": "TM73",
             "desc": "A weak electric charge is launched at the foe. It causes paralysis if it hits.",
             "ground_locations": [
                 "victoryroad"
-            ],
-            "shortDesc": "A weak electric charge is launched at the foe. It causes paralysis if it hits."
+            ]
         },
         "tm74": {
             "name": "TM74",
             "desc": "The user tackles the foe from a high-speed spin. The slower the user, the greater the damage.",
             "ground_locations": [
                 "canalavecity"
-            ],
-            "shortDesc": "The user tackles the foe from a high-speed spin. The slower the user, the greater the damage."
+            ]
         },
         "tm75": {
             "name": "TM75",
-            "desc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.",
-            "shortDesc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat."
+            "desc": "A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat."
         },
         "tm76": {
             "name": "TM76",
-            "desc": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.",
-            "shortDesc": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle."
+            "desc": "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle."
         },
         "tm77": {
             "name": "TM77",
@@ -129061,39 +129206,34 @@ var overrides = {
                 {
                     "spriteID": 10,
                     "location": "route211",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "The user hypnotizes itself into copying any stat change made by the foe."
+            ]
         },
         "tm78": {
             "name": "TM78",
-            "desc": "If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat.",
-            "shortDesc": "If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat."
+            "desc": "If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat."
         },
         "tm79": {
             "name": "TM79",
             "desc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
             "ground_locations": [
                 "victoryroad"
-            ],
-            "shortDesc": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch."
+            ]
         },
         "tm80": {
             "name": "TM80",
             "desc": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch.",
             "ground_locations": [
                 "mtcoronet"
-            ],
-            "shortDesc": "Large boulders are hurled at the foe to inflict damage. It may also make the target flinch."
+            ]
         },
         "tm81": {
             "name": "TM81",
             "desc": "The user slashes at the foe by crossing its scythes or claws with a high chance for a critical hit.",
             "ground_locations": [
                 "route221"
-            ],
-            "shortDesc": "The user slashes at the foe by crossing its scythes or claws with a high chance for a critical hit."
+            ]
         },
         "tm82": {
             "name": "TM82",
@@ -129102,31 +129242,27 @@ var overrides = {
                 {
                     "spriteID": 13,
                     "location": "hearthomecity",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "While it is asleep, the user randomly uses one of the moves it knows."
+            ]
         },
         "tm83": {
             "name": "TM83",
-            "desc": "The user draws power from the Berry it is holding to attack. The Berry determines its type and power.",
-            "shortDesc": "The user draws power from the Berry it is holding to attack. The Berry determines its type and power."
+            "desc": "The user draws power from the Berry it is holding to attack. The Berry determines its type and power."
         },
         "tm84": {
             "name": "TM84",
             "desc": "The foe is stabbed with a tentacle or arm seeped with poison. It may also poison the foe.",
             "ground_locations": [
                 "route212"
-            ],
-            "shortDesc": "The foe is stabbed with a tentacle or arm seeped with poison. It may also poison the foe."
+            ]
         },
         "tm85": {
             "name": "TM85",
             "desc": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP.",
             "ground_locations": [
                 "valorlakefront"
-            ],
-            "shortDesc": "An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP."
+            ]
         },
         "tm86": {
             "name": "TM86",
@@ -129135,15 +129271,13 @@ var overrides = {
                 {
                     "spriteID": 106,
                     "location": "eternacity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "The user snares the foe with grass and trips it. The heavier the foe, the greater the damage."
+            ]
         },
         "tm87": {
             "name": "TM87",
-            "desc": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat.",
-            "shortDesc": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat."
+            "desc": "The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat."
         },
         "tm88": {
             "name": "TM88",
@@ -129152,28 +129286,24 @@ var overrides = {
                 {
                     "spriteID": 1,
                     "location": "floaromatown",
-                    "orientation": 0
+                    "orientation": 3
                 }
-            ],
-            "shortDesc": "The user pecks the foe. If the foe is holding a Berry, the user plucks it and gains its effect."
+            ]
         },
         "tm89": {
             "name": "TM89",
             "desc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
             "ground_locations": [
                 "victoryroad"
-            ],
-            "shortDesc": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+            ]
         },
         "tm90": {
             "name": "TM90",
-            "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
-            "shortDesc": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy."
+            "desc": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy."
         },
         "tm91": {
             "name": "TM91",
-            "desc": "The user gathers all its light energy and releases it in one shot. It may also lower the foe’s Sp. Def stat.",
-            "shortDesc": "The user gathers all its light energy and releases it in one shot. It may also lower the foe’s Sp. Def stat."
+            "desc": "The user gathers all its light energy and releases it in one shot. It may also lower the foe’s Sp. Def stat."
         },
         "tm92": {
             "name": "TM92",
@@ -129182,23 +129312,27 @@ var overrides = {
                 {
                     "spriteID": 41,
                     "location": "grandlake",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "Enables the user to hit a Dark type with any type of move. It also enables the user to hit evasive foes."
+            ]
         },
         "hm01": {
             "name": "HM01",
             "desc": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.",
-            "shortDesc": "The foe is cut with a scythe or a claw. It can also be used to cut down thin trees."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "eternacity",
+                    "orientation": 0
+                }
+            ]
         },
         "hm02": {
             "name": "HM02",
             "desc": "The user soars, then strikes on the second turn. It can also be used to fly to any familiar town.",
             "ground_locations": [
                 "veilstonecity"
-            ],
-            "shortDesc": "The user soars, then strikes on the second turn. It can also be used to fly to any familiar town."
+            ]
         },
         "hm03": {
             "name": "HM03",
@@ -129207,10 +129341,9 @@ var overrides = {
                 {
                     "spriteID": 80,
                     "location": "pokmonmansion",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "It swamps the entire battlefield with a giant wave. It can also be used to cross water."
+            ]
         },
         "hm04": {
             "name": "HM04",
@@ -129219,35 +129352,43 @@ var overrides = {
                 {
                     "spriteID": 121,
                     "location": "ironisland",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders."
+            ]
         },
         "hm05": {
             "name": "HM05",
             "desc": "Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog.",
             "ground_locations": [
                 "solaceonruins"
-            ],
-            "shortDesc": "Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog."
+            ]
         },
         "hm06": {
             "name": "HM06",
             "desc": "The user slugs the foe with a shattering punch. It can also smash cracked boulders.",
             "npcs": [
                 {
-                    "spriteID": 19,
+                    "spriteID": null,
                     "location": "oreburghgate",
                     "orientation": 0
+                },
+                {
+                    "spriteID": 19,
+                    "location": "oreburghgate",
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "The user slugs the foe with a shattering punch. It can also smash cracked boulders."
+            ]
         },
         "hm07": {
             "name": "HM07",
             "desc": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall.",
-            "shortDesc": "The user charges the foe at an awesome speed. It can also be used to climb a waterfall."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "sendoffspring",
+                    "orientation": 0
+                }
+            ]
         },
         "hm08": {
             "name": "HM08",
@@ -129256,28 +129397,24 @@ var overrides = {
                 {
                     "spriteID": 146,
                     "location": "sunyshorecity",
-                    "orientation": 0
+                    "orientation": 3
                 }
-            ],
-            "shortDesc": "A charging attack that may also leave the foe confused. It can also be used to scale rocky walls."
+            ]
         },
         "explorerkit": {
             "name": "Explorer Kit",
-            "desc": "A bag filled with convenient tools for exploring. It provides access to the Underground.",
-            "shortDesc": "A bag filled with convenient tools for exploring. It provides access to the Underground."
+            "desc": "A bag filled with convenient tools for exploring. It provides access to the Underground."
         },
         "galacticcard": {
             "name": "Galactic Card",
             "desc": "A sturdy, spacious bag that is used to carry loot obtained in the coal mine.",
             "ground_locations": [
                 "galactichq"
-            ],
-            "shortDesc": "A sturdy, spacious bag that is used to carry loot obtained in the coal mine."
+            ]
         },
         "rulebook": {
             "name": "Rule Book",
-            "desc": "It lists the rules for holding battles. For linked battles, you may choose which set of rules you wish to use.",
-            "shortDesc": "It lists the rules for holding battles. For linked battles, you may choose which set of rules you wish to use."
+            "desc": "It lists the rules for holding battles. For linked battles, you may choose which set of rules you wish to use."
         },
         "pokradar": {
             "name": "Poké Radar",
@@ -129286,47 +129423,64 @@ var overrides = {
                 {
                     "spriteID": 94,
                     "location": "sandgemtown",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A tool that can search out Pokémon that are hiding in grass. Its battery is recharged as you walk."
+            ]
         },
         "pointcard": {
             "name": "Point Card",
-            "desc": "A card that lists the Battle Points you have earned.",
-            "shortDesc": "A card that lists the Battle Points you have earned."
+            "desc": "A card that lists the Battle Points you have earned."
         },
         "journal": {
             "name": "Journal",
             "desc": "A notebook that keeps a day-to-day record of your adventure so far.",
             "npcs": [
                 {
+                    "spriteID": null,
+                    "location": "twinleaftown",
+                    "orientation": 0
+                },
+                {
                     "spriteID": 119,
                     "location": "twinleaftown",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A notebook that keeps a day-to-day record of your adventure so far."
+            ]
         },
         "sealcase": {
             "name": "Seal Case",
             "desc": "A case for storing Seals that can be applied to the capsule cases of Poké Balls.",
-            "shortDesc": "A case for storing Seals that can be applied to the capsule cases of Poké Balls."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "solaceontown",
+                    "orientation": 0
+                }
+            ]
         },
         "fashioncase": {
             "name": "Fashion Case",
             "desc": "A fancy case for the tidy and organized storage of colorful Pokémon Accessories.",
-            "shortDesc": "A fancy case for the tidy and organized storage of colorful Pokémon Accessories."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "jubilifecity",
+                    "orientation": 0
+                },
+                {
+                    "spriteID": null,
+                    "location": "route202",
+                    "orientation": 0
+                }
+            ]
         },
         "sealbag": {
             "name": "Seal Bag",
-            "desc": "A tiny bag that can hold ten Seals for decorating Poké Balls.",
-            "shortDesc": "A tiny bag that can hold ten Seals for decorating Poké Balls."
+            "desc": "A tiny bag that can hold ten Seals for decorating Poké Balls."
         },
         "palpad": {
             "name": "Pal Pad",
-            "desc": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play.",
-            "shortDesc": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play."
+            "desc": "A convenient notepad that is used for registering your friends, Friend Codes, and keeping a record of game play."
         },
         "workskey": {
             "name": "Works Key",
@@ -129335,10 +129489,14 @@ var overrides = {
                 {
                     "spriteID": 85,
                     "location": "floaromameadow",
+                    "orientation": 1
+                },
+                {
+                    "spriteID": null,
+                    "location": "floaromameadow",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A large key for operating the doors of the Valley Windworks in the canyon. It was held by a Team Galactic Grunt."
+            ]
         },
         "oldcharm": {
             "name": "Old Charm",
@@ -129347,23 +129505,20 @@ var overrides = {
                 {
                     "spriteID": 72,
                     "location": "route210",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "An ancient good-luck charm made of Pokémon bones to be taken to the elder of Celestic Town."
+            ]
         },
         "galactickey": {
             "name": "Galactic Key",
             "desc": "A card key for disengaging security systems in the Galactic HQ. Losing it can result in punishment, apparently.",
             "ground_locations": [
                 "galactichq"
-            ],
-            "shortDesc": "A card key for disengaging security systems in the Galactic HQ. Losing it can result in punishment, apparently."
+            ]
         },
         "redchain": {
             "name": "Red Chain",
-            "desc": "A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region.",
-            "shortDesc": "A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region."
+            "desc": "A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region."
         },
         "townmap": {
             "name": "Town Map",
@@ -129373,14 +129528,17 @@ var overrides = {
                     "spriteID": 127,
                     "location": "trainersschool",
                     "orientation": 0
+                },
+                {
+                    "spriteID": null,
+                    "location": "route210",
+                    "orientation": 0
                 }
-            ],
-            "shortDesc": "A very convenient map that can be viewed anytime. It even shows your present location."
+            ]
         },
         "vsseeker": {
             "name": "Vs. Seeker",
-            "desc": "A device that indicates Trainers who want to battle. Its battery charges while you walk.",
-            "shortDesc": "A device that indicates Trainers who want to battle. Its battery charges while you walk."
+            "desc": "A device that indicates Trainers who want to battle. Its battery charges while you walk."
         },
         "coincase": {
             "name": "Coin Case",
@@ -129389,10 +129547,9 @@ var overrides = {
                 {
                     "spriteID": 41,
                     "location": "veilstonecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A case for holding Coins obtained at the Game Corner. It holds up to 50,000 Coins."
+            ]
         },
         "oldrod": {
             "name": "Old Rod",
@@ -129403,8 +129560,7 @@ var overrides = {
                     "location": "route218",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon."
+            ]
         },
         "goodrod": {
             "name": "Good Rod",
@@ -129413,22 +129569,25 @@ var overrides = {
                 {
                     "spriteID": 52,
                     "location": "route209",
-                    "orientation": 0
+                    "orientation": 3
                 }
-            ],
-            "shortDesc": "A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon."
+            ]
         },
         "superrod": {
             "name": "Super Rod",
             "desc": "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
             "npcs": [
                 {
+                    "spriteID": null,
+                    "location": "fightarea",
+                    "orientation": 0
+                },
+                {
                     "spriteID": 52,
                     "location": "route222",
-                    "orientation": 0
+                    "orientation": 2
                 }
-            ],
-            "shortDesc": "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon."
+            ]
         },
         "sprayduck": {
             "name": "Sprayduck",
@@ -129437,10 +129596,9 @@ var overrides = {
                 {
                     "spriteID": 5,
                     "location": "flowershop",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A watering can shaped like a PSYDUCK. It helps promote healthy growth of Berries planted in soft soil."
+            ]
         },
         "poffincase": {
             "name": "Poffin Case",
@@ -129449,10 +129607,9 @@ var overrides = {
                 {
                     "spriteID": 34,
                     "location": "hearthomecity",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A case for storing Poffin cooked from Berries."
+            ]
         },
         "bicycle": {
             "name": "Bicycle",
@@ -129461,55 +129618,58 @@ var overrides = {
                 {
                     "spriteID": 14,
                     "location": "cycleshop",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A folding Bicycle that enables much faster movement than the Running Shoes."
+            ]
         },
         "suitekey": {
             "name": "Suite Key",
             "desc": "A key to one of the suites at the luxury hotel by a lake. For some odd reason, it often disappears.",
-            "shortDesc": "A key to one of the suites at the luxury hotel by a lake. For some odd reason, it often disappears."
+            "ground_locations": [
+                "route213"
+            ],
+            "hidden_ground_locations": [
+                "route213"
+            ]
         },
         "oaksletter": {
             "name": "Oak’s Letter",
-            "desc": "A letter from Prof. Oak. Written in it is a request for you to go to Rt. 224.",
-            "shortDesc": "A letter from Prof. Oak. Written in it is a request for you to go to Rt. 224."
+            "desc": "A letter from Prof. Oak. Written in it is a request for you to go to Rt. 224."
         },
         "lunarwing": {
             "name": "Lunar Wing",
-            "desc": "A feather that glows like the moon. It is said to possess the power to dispel nightmares.",
-            "shortDesc": "A feather that glows like the moon. It is said to possess the power to dispel nightmares."
+            "desc": "A feather that glows like the moon. It is said to possess the power to dispel nightmares."
         },
         "membercard": {
             "name": "Member Card",
-            "desc": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago.",
-            "shortDesc": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago."
+            "desc": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago."
         },
         "azureflute": {
             "name": "Azure Flute",
-            "desc": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it.",
-            "shortDesc": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it."
+            "desc": "A flute that puts out echoing sounds that do not seem to be of this world. It is unknown who made it."
         },
         "ssticket": {
             "name": "S.S. Ticket",
-            "desc": "The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it.",
-            "shortDesc": "The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it."
+            "desc": "The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it."
         },
         "contestpass": {
             "name": "Contest Pass",
-            "desc": "The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it.",
-            "shortDesc": "The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it."
+            "desc": "The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it."
         },
         "magmastone": {
             "name": "Magma Stone",
-            "desc": "A stone formed when boulders melted in intensely hot magma, then hardened. Magma remains sealed inside.",
-            "shortDesc": "A stone formed when boulders melted in intensely hot magma, then hardened. Magma remains sealed inside."
+            "desc": "A stone formed when boulders melted in intensely hot magma, then hardened. Magma remains sealed inside."
         },
         "parcel": {
             "name": "Parcel",
             "desc": "A parcel entrusted in your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town.",
-            "shortDesc": "A parcel entrusted in your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town."
+            "npcs": [
+                {
+                    "spriteID": null,
+                    "location": "twinleaftown",
+                    "orientation": 0
+                }
+            ]
         },
         "coupon1": {
             "name": "Coupon 1",
@@ -129518,10 +129678,14 @@ var overrides = {
                 {
                     "spriteID": 41,
                     "location": "jubilifecity",
+                    "orientation": 2
+                },
+                {
+                    "spriteID": null,
+                    "location": "route202",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed."
+            ]
         },
         "coupon2": {
             "name": "Coupon 2",
@@ -129530,10 +129694,14 @@ var overrides = {
                 {
                     "spriteID": 41,
                     "location": "jubilifecity",
+                    "orientation": 1
+                },
+                {
+                    "spriteID": null,
+                    "location": "route202",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed."
+            ]
         },
         "coupon3": {
             "name": "Coupon 3",
@@ -129542,15 +129710,18 @@ var overrides = {
                 {
                     "spriteID": 41,
                     "location": "jubilifecity",
+                    "orientation": 3
+                },
+                {
+                    "spriteID": null,
+                    "location": "route202",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A coupon to be exchanged for a Pokémon Watch (Pokétch for short). Three coupons are needed."
+            ]
         },
         "storagekey": {
             "name": "Storage Key",
-            "desc": "The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City.",
-            "shortDesc": "The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City."
+            "desc": "The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City."
         },
         "secretpotion": {
             "name": "SecretPotion",
@@ -129561,13 +129732,11 @@ var overrides = {
                     "location": "valorlakefront",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A fantastic medicine dispensed by the pharmacy in Cianwood City. It fully heals a Pokémon of any ailment."
+            ]
         },
         "vsrecorder": {
             "name": "Vs. Recorder",
-            "desc": "An amazing device that can record a battle either between friends or at a special battle facility.",
-            "shortDesc": "An amazing device that can record a battle either between friends or at a special battle facility."
+            "desc": "An amazing device that can record a battle either between friends or at a special battle facility."
         },
         "gracidea": {
             "name": "Gracidea",
@@ -129576,10 +129745,9 @@ var overrides = {
                 {
                     "spriteID": 12,
                     "location": "floaromatown",
-                    "orientation": 0
+                    "orientation": 1
                 }
-            ],
-            "shortDesc": "A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays."
+            ]
         },
         "secretkey": {
             "name": "Secret Key",
@@ -129590,8 +129758,7 @@ var overrides = {
                     "location": "galactichq",
                     "orientation": 0
                 }
-            ],
-            "shortDesc": "A high-tech key that has to be used at a specific location. It emits a special electric signal to open a door."
+            ]
         }
     },
     "abilities": {
