@@ -430,6 +430,75 @@ function getEncounterPreviewMoves(pokemon, level) {
   return learnedMoves.slice(learnedMoves.length - 4);
 }
 
+var DDEX_TEMP_OPPONENT_MARKER = "### DDEX_TEMP_OPPONENT v1";
+
+function getEncounterFirstAbility(template) {
+  if (!template || !template.abilities) return "";
+  return (
+    template.abilities["0"] ||
+    template.abilities[0] ||
+    template.abilities["1"] ||
+    template.abilities["H"] ||
+    Object.keys(template.abilities)
+      .map(function (key) {
+        return template.abilities[key];
+      })
+      .filter(Boolean)[0] ||
+    ""
+  );
+}
+
+function buildTemporaryOpponentShowdownText(template, level, moves) {
+  var lines = [DDEX_TEMP_OPPONENT_MARKER, template.name];
+  var ability = getEncounterFirstAbility(template);
+
+  if (Number.isFinite(level) && level > 0) {
+    lines.push("Level: " + Math.floor(level));
+  }
+  if (ability) {
+    lines.push("Ability: " + ability);
+  }
+
+  moves = Array.isArray(moves) ? moves : [];
+  for (var i = 0; i < moves.length; i++) {
+    var moveName = String((moves[i] && moves[i].name) || "").trim();
+    if (moveName) lines.push("- " + moveName);
+  }
+
+  return lines.join("\n");
+}
+
+function copyTextToClipboard(text) {
+  if (
+    navigator.clipboard &&
+    typeof navigator.clipboard.writeText === "function"
+  ) {
+    return navigator.clipboard.writeText(text);
+  }
+
+  return new Promise(function (resolve, reject) {
+    var textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "readonly");
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    textarea.style.top = "0";
+    document.body.appendChild(textarea);
+    textarea.select();
+
+    try {
+      if (!document.execCommand("copy")) {
+        throw new Error("document.execCommand('copy') returned false");
+      }
+      resolve();
+    } catch (error) {
+      reject(error);
+    } finally {
+      document.body.removeChild(textarea);
+    }
+  });
+}
+
 var PokedexEncountersPanel = PokedexResultPanel.extend({
   applyDetailLayout: function () {
     if (window.DDEX_DETAIL_LAYOUT) {
@@ -438,6 +507,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
   },
   events: {
     "click .result a[data-initial-level]": "storePendingPokemonLevel",
+    "contextmenu li[data-result-index]": "copyTemporaryOpponentSet",
     "click .ddex-encounter-tabbar button": "selectEncounterTab",
     "click .ddex-encounter-time-button": "selectEncounterTimeMode",
     "click .ddex-nuzlocke-missed-toggle": "toggleMissedLocation",
@@ -718,6 +788,45 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     this.showMiscEncounterTables = !!(input && input.checked);
     this.renderDistribution();
   },
+  copyTemporaryOpponentSet: function (e) {
+    var rowElement = e.currentTarget;
+    var resultIndex = Number(
+      rowElement && rowElement.getAttribute("data-result-index"),
+    );
+    var result = Number.isFinite(resultIndex) ? this.results[resultIndex] : null;
+    if (!result || result.kind !== "encounter" || isEmptyEncounterSpecies(result.monId)) {
+      return;
+    }
+
+    var template = BattlePokedex[result.monId];
+    if (!template) return;
+
+    var encounterLevel = getEncounterPreviewLevel(result.min, result.max);
+    var previewTemplate = Dex.species.get(result.monId);
+    if (!previewTemplate || !previewTemplate.exists) {
+      previewTemplate = template;
+    }
+
+    var text = buildTemporaryOpponentShowdownText(
+      template,
+      encounterLevel,
+      getEncounterPreviewMoves(previewTemplate, encounterLevel),
+    );
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    copyTextToClipboard(text)
+      .then(function () {
+        rowElement.setAttribute("data-ddex-temp-opponent-copied", "true");
+        window.setTimeout(function () {
+          rowElement.removeAttribute("data-ddex-temp-opponent-copied");
+        }, 1200);
+      })
+      .catch(function (error) {
+        console.error("Failed to copy temporary calc opponent", error);
+      });
+  },
   getResultRowState: function (result) {
     if (!result || result.kind !== "encounter") {
       return getDefaultEncounterRowState();
@@ -818,10 +927,17 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     return row + this.renderEncounterCaughtToggle(result);
   },
   renderResultListItem: function (i, offscreen) {
+    var result = this.results[i];
+    var indexAttr =
+      result && result.kind === "encounter" && !offscreen
+        ? ' data-result-index="' + i + '"'
+        : "";
     return (
       '<li class="' +
       this.getResultRowClassName(this.results[i]) +
-      '">' +
+      '"' +
+      indexAttr +
+      ">" +
       this.renderResultListItemContent(i, offscreen) +
       "</li>"
     );

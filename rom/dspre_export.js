@@ -5430,7 +5430,7 @@ function dvGeneratePID(params) {
     state = (Math.imul(0x41C64E6D, state) + 0x00006073) >>> 0;
     return state >>> 16;
   };
-  let random = 0;
+  let random = state;
   for (let i = 0; i < params.trainerClass; i += 1) {
     random = randStep();
   }
