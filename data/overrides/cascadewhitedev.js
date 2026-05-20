@@ -122662,7 +122662,7 @@ overrides = {
       "sf": true
     },
     "Doom Desire": {
-      "t": "Steel",
+      "t": "Dark",
       "bp": 160,
       "cat": "Special",
       "pp": 5,
@@ -125620,7 +125620,8 @@ overrides = {
     },
     "effectspore": {
       "name": "Effect Spore",
-      "desc": "Contact may poison or cause paralysis or sleep."
+      "desc": "Attacking may poison or cause paralysis or sleep.",
+      "oldDesc": "Contact may poison or cause paralysis or sleep."
     },
     "synchronize": {
       "name": "Synchronize",
@@ -128487,7 +128488,7 @@ overrides = {
             "mx": 9
           },
           {
-            "s": "Abra",
+            "s": "Seedot",
             "mn": 7,
             "mx": 9
           },
@@ -128507,7 +128508,7 @@ overrides = {
             "mx": 9
           },
           {
-            "s": "Gothita",
+            "s": "Slakoth",
             "mn": 7,
             "mx": 9
           },
@@ -128517,7 +128518,7 @@ overrides = {
             "mx": 9
           },
           {
-            "s": "Slakoth",
+            "s": "Abra",
             "mn": 7,
             "mx": 9
           },
