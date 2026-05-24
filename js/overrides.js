@@ -339,7 +339,9 @@ function formatSearchIndexFile(payload) {
 }
 
 function formatBackupDataFile(backupData) {
-  return JSON.stringify(backupData, (key, value) => (key === "_meta" ? undefined : value));
+  return normalizePokemonNamePunctuation(
+    JSON.stringify(backupData, (key, value) => (key === "_meta" ? undefined : value))
+  );
 }
 
 function isAllCapsSpeciesName(name) {
@@ -349,7 +351,7 @@ function isAllCapsSpeciesName(name) {
 }
 
 function resolveCanonicalSpeciesName(name) {
-  const text = String(name || "").trim();
+  const text = normalizePokemonNamePunctuation(String(name || "").trim());
   if (!text) return "";
   if (/^nidoran(?:-?f|♀)$/i.test(text)) return "Nidoran-F";
   if (/^nidoran(?:-?m|♂)$/i.test(text)) return "Nidoran-M";
@@ -360,9 +362,15 @@ function resolveCanonicalSpeciesName(name) {
 }
 
 function normalizeSpeciesReferenceName(name) {
-  const text = String(name || "").trim();
+  const text = normalizePokemonNamePunctuation(String(name || "").trim());
   if (!text) return text;
-  return resolveCanonicalSpeciesName(text) || text;
+  return normalizePokemonNamePunctuation(resolveCanonicalSpeciesName(text) || text);
+}
+
+function normalizePokemonNamePunctuation(value) {
+  return String(value || "")
+    .replace(/\bFarfetch'd\b/gi, (match) => `${match.slice(0, -2)}’d`)
+    .replace(/\bSirfetch'd\b/gi, (match) => `${match.slice(0, -2)}’d`);
 }
 
 function normalizeOverrideSpeciesPayload(overridesData) {
@@ -409,9 +417,10 @@ function normalizeBackupFormattedSetSpecies(backupData) {
     if (!mapValue || typeof mapValue !== "object") return mapValue;
     const normalizedMap = {};
     for (const [speciesName, value] of Object.entries(mapValue)) {
-      const canonicalName = isAllCapsSpeciesName(speciesName)
-        ? resolveCanonicalSpeciesName(speciesName) || speciesName
-        : speciesName;
+      const punctuatedName = normalizePokemonNamePunctuation(speciesName);
+      const canonicalName = isAllCapsSpeciesName(punctuatedName)
+        ? resolveCanonicalSpeciesName(punctuatedName) || punctuatedName
+        : normalizeSpeciesReferenceName(punctuatedName);
       const existingValue = normalizedMap[canonicalName];
       if (
         existingValue &&
@@ -1025,7 +1034,9 @@ function applyImportedRomPayload(result, options = {}) {
   maybeApplyRomFamilyFromTitle(rawRomTitle);
 
   window.DDEX_ROM_TEXTS = result.texts || null;
-  window.DDEX_ROM_BACKUP_DATA = result.backupData || null;
+  window.DDEX_ROM_BACKUP_DATA = result.backupData
+    ? normalizeBackupFormattedSetSpecies(result.backupData)
+    : null;
   window.DDEX_ROM_INCLUDES = result.includes || null;
   window.DDEX_ROM_DEBUG = result.debug || null;
   window.DDEX_ROM_SCRIPT_TEXTS = result.scriptTexts || null;

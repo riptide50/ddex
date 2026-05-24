@@ -682,6 +682,8 @@ function normalizeBackupPokemonName(value) {
     text = "Burmy";
   }
 
+  text = normalizePokemonNamePunctuation(text);
+
   if (/^nidoran(?:-?f|♀)$/i.test(text)) {
     text = "Nidoran-F";
   } else if (/^nidoran(?:-?m|♂)$/i.test(text)) {
@@ -710,12 +712,13 @@ function normalizeBackupPokemonName(value) {
     text = "Burmy";
   }
 
-  return `${text}${suffix}`;
+  return `${normalizePokemonNamePunctuation(text)}${suffix}`;
 }
 
 function canonicalizeExportSpeciesName(value) {
   let text = String(value || "").trim();
   if (!text) return "";
+  text = normalizePokemonNamePunctuation(text);
   if (/^nidoran(?:-?f|♀)$/i.test(text)) return "Nidoran-F";
   if (/^nidoran(?:-?m|♂)$/i.test(text)) return "Nidoran-M";
   try {
@@ -729,7 +732,13 @@ function canonicalizeExportSpeciesName(value) {
   } catch {
     // fall through to raw text
   }
-  return text;
+  return normalizePokemonNamePunctuation(text);
+}
+
+function normalizePokemonNamePunctuation(value) {
+  return String(value || "")
+    .replace(/\bFarfetch'd\b/gi, (match) => `${match.slice(0, -2)}’d`)
+    .replace(/\bSirfetch'd\b/gi, (match) => `${match.slice(0, -2)}’d`);
 }
 
 function normalizeBackupSetGender(value) {
@@ -5547,6 +5556,12 @@ function parseMapHeaderHGSSFromBytes(u8) {
 
 function formatTrainerDoc(trainer) {
   const sb = [];
+  const formatIvs = (ivs) => {
+    if (ivs && typeof ivs === "object") {
+      return [ivs.hp, ivs.at, ivs.df, ivs.sa, ivs.sd, ivs.sp].join(" / ");
+    }
+    return Array(6).fill(ivs).join(" / ");
+  };
   sb.push(`[${trainer.index}] ${trainer.trainerClass} ${trainer.trainerName}`);
   const items = trainer.trainerItems.filter((it) => it !== "None");
   if (items.length) {
@@ -5561,7 +5576,7 @@ function formatTrainerDoc(trainer) {
     sb.push(`\nAbility: ${mon.ability}`);
     sb.push(`\nLevel: ${mon.level}`);
     sb.push(`\n${mon.nature} Nature`);
-    sb.push(`\nIVs: ${Array(6).fill(mon.ivs).join(" / ")}`);
+    sb.push(`\nIVs: ${formatIvs(mon.ivs)}`);
     const moves = mon.moves.filter((m) => m !== "None" && m !== "-");
     sb.push(`\n- ${moves.join("\n- ")}`);
     sb.push("\n\n");
@@ -5656,6 +5671,138 @@ function makeFormattedSetTitle({ level, stars, trainerClassName, trainerName, tr
   const trainerInstanceText = trainerInstance > 1 ? String(trainerInstance) : "";
   const base = `Lvl ${level}${starText} ${classText} ${trainerText}${trainerInstanceText}`.replace(/\s+/g, " ").trim();
   return `${base} `;
+}
+
+const TRAINER_DATA_TYPE_MOVES = 0x01;
+const TRAINER_DATA_TYPE_ITEMS = 0x02;
+const TRAINER_DATA_TYPE_ABILITY = 0x04;
+const TRAINER_DATA_TYPE_BALL = 0x08;
+const TRAINER_DATA_TYPE_IV_EV_SET = 0x10;
+const TRAINER_DATA_TYPE_NATURE_SET = 0x20;
+const TRAINER_DATA_TYPE_SHINY_LOCK = 0x40;
+const TRAINER_DATA_TYPE_ADDITIONAL_FLAGS = 0x80;
+
+const TRAINER_DATA_EXTRA_TYPE_STATUS = 0x01;
+const TRAINER_DATA_EXTRA_TYPE_HP = 0x02;
+const TRAINER_DATA_EXTRA_TYPE_ATK = 0x04;
+const TRAINER_DATA_EXTRA_TYPE_DEF = 0x08;
+const TRAINER_DATA_EXTRA_TYPE_SPEED = 0x10;
+const TRAINER_DATA_EXTRA_TYPE_SP_ATK = 0x20;
+const TRAINER_DATA_EXTRA_TYPE_SP_DEF = 0x40;
+const TRAINER_DATA_EXTRA_TYPE_TYPES = 0x80;
+const TRAINER_DATA_EXTRA_TYPE_PP_COUNTS = 0x100;
+const TRAINER_DATA_EXTRA_TYPE_NICKNAME = 0x200;
+
+function readTrainerPropsEntry(u8) {
+  const r = new Reader(u8);
+  const flags = r.u8();
+  const trainerClassLow = r.u8();
+  const trDataUnknown = r.u8();
+  const partyCount = r.u8();
+  const trainerItems = [r.u16(), r.u16(), r.u16(), r.u16()];
+  const ai = r.u32();
+  const battleTypeRaw = r.u32();
+  return {
+    dataTypeFlags: flags,
+    chooseMoves: (flags & TRAINER_DATA_TYPE_MOVES) !== 0,
+    chooseItems: (flags & TRAINER_DATA_TYPE_ITEMS) !== 0,
+    chooseAbility: (flags & TRAINER_DATA_TYPE_ABILITY) !== 0,
+    chooseBall: (flags & TRAINER_DATA_TYPE_BALL) !== 0,
+    chooseIvEv: (flags & TRAINER_DATA_TYPE_IV_EV_SET) !== 0,
+    chooseNature: (flags & TRAINER_DATA_TYPE_NATURE_SET) !== 0,
+    chooseShinyLock: (flags & TRAINER_DATA_TYPE_SHINY_LOCK) !== 0,
+    chooseAdditionalFlags: (flags & TRAINER_DATA_TYPE_ADDITIONAL_FLAGS) !== 0,
+    trainerClass: trainerClassLow,
+    trainerClassWide: trainerClassLow | (trDataUnknown << 8),
+    trDataUnknown,
+    partyCount,
+    trainerItems,
+    ai,
+    battleTypeRaw,
+    doubleBattle: battleTypeRaw === 2,
+  };
+}
+
+function readStatBytes(r) {
+  return {
+    hp: r.u8(),
+    at: r.u8(),
+    df: r.u8(),
+    sp: r.u8(),
+    sa: r.u8(),
+    sd: r.u8(),
+  };
+}
+
+function parseTrainerPartyMon(r, props, { expandedHgssLearnsets = false } = {}) {
+  const difficulty = r.u8();
+  const genderAbilityFlags = r.u8();
+  const level = r.u16();
+  const monFull = r.u16();
+  const speciesMask = expandedHgssLearnsets ? 0x07ff : ((1 << 10) - 1);
+  const formShift = expandedHgssLearnsets ? 11 : 10;
+  const formMask = expandedHgssLearnsets ? 0x1f : 0x3f;
+  const pokeId = monFull & speciesMask;
+  const formId = (monFull >> formShift) & formMask;
+  let heldItem = null;
+  let moves = null;
+  let customAbility = null;
+  let ball = null;
+  let customIvs = null;
+  let customEvs = null;
+  let natureId = null;
+  let shinyLock = null;
+  let additionalFlags = null;
+  const extras = {};
+
+  if (props.chooseItems) heldItem = r.u16();
+  if (props.chooseMoves) {
+    moves = [r.u16(), r.u16(), r.u16(), r.u16()].map((v) => (v === 0xFFFF ? 0 : v));
+  }
+  if (props.chooseAbility) customAbility = r.u16();
+  if (props.chooseBall) ball = r.u16();
+  if (props.chooseIvEv) {
+    customIvs = readStatBytes(r);
+    customEvs = readStatBytes(r);
+  }
+  if (props.chooseNature) natureId = r.u8();
+  if (props.chooseShinyLock) shinyLock = r.u8();
+  if (props.chooseAdditionalFlags) {
+    additionalFlags = r.u32();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_STATUS) extras.status = r.u32();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_HP) extras.hp = r.u16();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_ATK) extras.at = r.u16();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_DEF) extras.df = r.u16();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_SPEED) extras.sp = r.u16();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_SP_ATK) extras.sa = r.u16();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_SP_DEF) extras.sd = r.u16();
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_TYPES) extras.types = [r.u8(), r.u8()];
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_PP_COUNTS) extras.ppCounts = [r.u8(), r.u8(), r.u8(), r.u8()];
+    if (additionalFlags & TRAINER_DATA_EXTRA_TYPE_NICKNAME) {
+      extras.nicknameRaw = [];
+      for (let i = 0; i < 11; i += 1) extras.nicknameRaw.push(r.u16());
+    }
+  }
+  const ballSeal = r.u16();
+
+  return {
+    difficulty,
+    genderAbilityFlags,
+    level,
+    pokeId,
+    formId,
+    heldItem,
+    moves,
+    customAbility,
+    ball,
+    customIvs,
+    customEvs,
+    natureId,
+    shinyLock,
+    additionalFlags,
+    extras,
+    ballSeal,
+  };
 }
 
 async function loadArm9(editor, header) {
@@ -7077,23 +7224,21 @@ async function collectDspreData(editor, { log }) {
   for (let i = 0; i < trainerPropsNarc.fileCount; i += 1) {
     try {
       const { subfileBuffer } = await editor.getNarcSubfile(trainerPropsNarc.handle, i);
-      const r = new Reader(new Uint8Array(subfileBuffer));
-      const flags = r.u8();
-      const chooseMoves = (flags & 1) !== 0;
-      const chooseItems = (flags & 2) !== 0;
-      const trainerClass = r.u8();
-      r.u8(); // trDataUnknown
-      const partyCount = r.u8();
-      const trainerItems = [r.u16(), r.u16(), r.u16(), r.u16()];
-      const ai = r.u32();
-      const doubleBattle = r.u32() === 2;
-      trainerProps.push({ chooseMoves, chooseItems, trainerClass, partyCount, trainerItems, ai, doubleBattle });
+      trainerProps.push(readTrainerPropsEntry(new Uint8Array(subfileBuffer)));
     } catch (e) {
       log(`[warn] Trainer props ${i} parse failed; skipping trainer. ${e?.message || e}`);
       trainerProps.push(null);
     }
   }
   const trainerCount = trainerProps.length;
+  const hasExpandedTrainerFlags = trainerProps.some((props) => props && (props.dataTypeFlags & ~0x03) !== 0);
+  const hgEngineTrainerData = expandedHgssLearnsets || hasExpandedTrainerFlags;
+  if (hgEngineTrainerData) {
+    for (const props of trainerProps) {
+      if (props) props.trainerClass = props.trainerClassWide;
+    }
+    log("Detected HG-Engine trainer data; using expanded trainer-party fields.");
+  }
 
   const genderTableFromText = await loadTrainerClassGenderTable(family, log);
   const genderTableOffset = family === "Plat" ? 0xF0714 : 0xFFB90;
@@ -7121,20 +7266,10 @@ async function collectDspreData(editor, { log }) {
       const r = new Reader(new Uint8Array(subfileBuffer));
       const max = Math.min(props.partyCount, 6);
       for (let p = 0; p < max; p += 1) {
-        const difficulty = r.u8();
-        const genderAbilityFlags = r.u8();
-        const level = r.u16();
-        const monFull = r.u16();
-        const pokeId = monFull & ((1 << 10) - 1);
-        const formId = (monFull >> 10) & ((1 << 6) - 1);
-        let heldItem = null;
-        let moves = null;
-        if (props.chooseItems) heldItem = r.u16();
-        if (props.chooseMoves) {
-          moves = [r.u16(), r.u16(), r.u16(), r.u16()].map((v) => (v === 0xFFFF ? 0 : v));
-        }
-        if (family === "HGSS" || family === "Plat") r.u16(); // ballSeals
-        party.push({ difficulty, genderAbilityFlags, level, pokeId, formId, heldItem, moves });
+        party.push(parseTrainerPartyMon(r, props, { expandedHgssLearnsets }));
+      }
+      if (r.off !== subfileBuffer.byteLength && subfileBuffer.byteLength > 0) {
+        log(`[trainer-debug] Trainer ${i} party parsed ${r.off}/${subfileBuffer.byteLength} bytes.`);
       }
     } catch (e) {
       log(`[warn] Trainer ${i} party parse failed; skipping trainer. ${e?.message || e}`);
@@ -7180,16 +7315,30 @@ async function collectDspreData(editor, { log }) {
         speciesGenderRatio: baseGenderRatio,
         trainerGenderCode,
       });
-      const nature = NATURES[dvNatureFromPid(pid)] || NATURES[0];
+      const nature = mon.natureId != null
+        ? (NATURES[mon.natureId] || NATURES[0])
+        : (NATURES[dvNatureFromPid(pid)] || NATURES[0]);
       const firstAbility = personalEntries[mon.pokeId]?.firstAbility ?? 0;
       const secondAbility = personalEntries[mon.pokeId]?.secondAbility ?? firstAbility;
       let abilityIndex = firstAbility;
-      if (abilityOverride === 2) abilityIndex = secondAbility;
+      if (mon.customAbility != null && mon.customAbility !== 0) {
+        abilityIndex = mon.customAbility;
+      } else if (abilityOverride === 2) {
+        abilityIndex = secondAbility;
+      }
       const ability = abilityNames[abilityIndex] ?? `ABILITY_${abilityIndex}`;
       const item = mon.heldItem != null && mon.heldItem !== 0
         ? (itemNames[mon.heldItem] ?? `ITEM_${mon.heldItem}`)
         : "None";
-      const ivs = Math.floor((mon.difficulty * 31) / 255);
+      const fallbackIvs = Math.floor((mon.difficulty * 31) / 255);
+      const ivs = mon.customIvs || {
+        hp: fallbackIvs,
+        at: fallbackIvs,
+        df: fallbackIvs,
+        sa: fallbackIvs,
+        sd: fallbackIvs,
+        sp: fallbackIvs,
+      };
       let movesOut = [];
       if (mon.moves) {
         movesOut = mon.moves.map((m) => moveNames[m] ?? "None");
@@ -7243,7 +7392,8 @@ async function collectDspreData(editor, { log }) {
         reward_item: "",
         form: mon.formId ? String(mon.formId) : "",
         item,
-        ivs: { hp: ivs, at: ivs, df: ivs, sa: ivs, sd: ivs, sp: ivs },
+        ivs,
+        ...(mon.customEvs ? { evs: mon.customEvs } : {}),
         nature,
         moves: movesOut.map((move) => (move && move !== "None" ? move : "-")),
         sub_index: subIndex,
@@ -7261,6 +7411,7 @@ async function collectDspreData(editor, { log }) {
         level: mon.level,
         nature,
         ivs,
+        evs: mon.customEvs || null,
         moves: movesOut,
       };
     });
