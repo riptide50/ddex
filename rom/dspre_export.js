@@ -3912,9 +3912,7 @@ function buildOverridesAndSearchIndex(data, options) {
           const hasWildLocation =
             Number.isFinite(wildIdNumber) &&
             platinumRockSmashLocationKeys.wildLocationKeys.has(`${wildIdNumber}|${locationNameId}`);
-          const hasStandaloneLocation =
-            !Number.isFinite(wildIdNumber) &&
-            platinumRockSmashLocationKeys.standaloneLocationNameIds.has(locationNameId);
+          const hasStandaloneLocation = platinumRockSmashLocationKeys.standaloneLocationNameIds.has(locationNameId);
           if (!hasWildLocation && !hasStandaloneLocation) return;
           loc.rock_smash = {
             encs: platinumRockSmashEncounters.encs.map((enc) => ({ ...enc })),

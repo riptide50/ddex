@@ -89278,6 +89278,38 @@ var overrides = {
                         "mn": 0
                     }
                 ]
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "starkmountainsection2": {
@@ -116657,6 +116689,38 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "route220": {
@@ -117607,6 +117671,38 @@ var overrides = {
             },
             "dual_leaf_green": {
                 "encs": []
+            },
+            "rock_smash": {
+                "encs": [
+                    {
+                        "s": "MACHOP",
+                        "mn": 15
+                    },
+                    {
+                        "s": "GEODUDE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SHUCKLE",
+                        "mn": 15
+                    },
+                    {
+                        "s": "SPINARAK",
+                        "mn": 15
+                    },
+                    {
+                        "s": "ARON",
+                        "mn": 15
+                    },
+                    {
+                        "s": "BONSLY",
+                        "mn": 15
+                    },
+                    {
+                        "s": "LEDYBA",
+                        "mn": 15
+                    }
+                ]
             }
         },
         "jubilifecity": {
