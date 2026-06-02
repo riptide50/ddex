@@ -183,11 +183,18 @@ function isTimeEncounterType(encType) {
   return String(encType || "").toLowerCase().indexOf("time") === 0;
 }
 
+function getEncounterTypeForTimeMode(mode) {
+  mode = normalizeEncounterTimeMode(mode);
+  if (mode === "day") return "time_day";
+  if (mode === "night") return "time_night";
+  return "time_morning";
+}
+
 function getEncounterHeaderClassName(encType) {
   var normalized = String(encType || "").toLowerCase();
   var classNames = ["ddex-encounter-header"];
 
-  if (normalized.indexOf("grass") >= 0) {
+  if (normalized.indexOf("grass") >= 0 || normalized.indexOf("time") === 0) {
     classNames.push("ddex-encounter-header-grass");
   } else if (normalized.indexOf("rod") >= 0) {
     classNames.push("ddex-encounter-header-rod");
@@ -217,9 +224,11 @@ function isMiscEncounterSection(encType, encounterGroup) {
   return (
     normalizedType === "swarm" ||
     normalizedType === "radar" ||
+    normalizedType.indexOf("music") >= 0 ||
     normalizedType.indexOf("dual") === 0 ||
     normalizedLabel === "swarm" ||
     normalizedLabel === "radar" ||
+    normalizedLabel.indexOf("music") >= 0 ||
     normalizedLabel.indexOf("dual") === 0
   );
 }
@@ -272,6 +281,26 @@ function getEncounterOverlayTypeForTimeMode(mode) {
   if (mode === "day") return "time_day";
   if (mode === "night") return "time_night";
   return "";
+}
+
+function getBaseLandEncounterType(locationRecord) {
+  if (
+    locationRecord &&
+    locationRecord.grass &&
+    Array.isArray(locationRecord.grass.encs) &&
+    locationRecord.grass.encs.length
+  ) {
+    return "grass";
+  }
+  if (
+    locationRecord &&
+    locationRecord.time_morning &&
+    Array.isArray(locationRecord.time_morning.encs) &&
+    locationRecord.time_morning.encs.length
+  ) {
+    return "time_morning";
+  }
+  return "grass";
 }
 
 function getDefaultEncounterRowState() {
@@ -1040,35 +1069,36 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
 
     return this.applyEncounterRateRedistribution(rows, 100);
   },
-  buildBaseGrassEncounterRows: function (locationRecord) {
+  buildBaseGrassEncounterRows: function (locationRecord, baseEncType) {
+    baseEncType = baseEncType || "grass";
     if (
       !locationRecord ||
-      !locationRecord.grass ||
-      !Array.isArray(locationRecord.grass.encs)
+      !locationRecord[baseEncType] ||
+      !Array.isArray(locationRecord[baseEncType].encs)
     ) {
       return [];
     }
 
     var grassRates =
       typeof getEncounterRateSlots === "function"
-        ? getEncounterRateSlots(locationRecord, "grass")
+        ? getEncounterRateSlots(locationRecord, baseEncType)
         : [];
     var rows = [];
 
-    for (var i = 0; i < locationRecord.grass.encs.length; i++) {
-      var encounter = locationRecord.grass.encs[i];
+    for (var i = 0; i < locationRecord[baseEncType].encs.length; i++) {
+      var encounter = locationRecord[baseEncType].encs[i];
       if (!encounter || !encounter.s || encounter.s === "-----") continue;
       var monId = cleanString(encounter.s);
       if (!monId) continue;
       rows.push(
         this.buildEncounterDisplayRow(
-          "grass",
+          baseEncType,
           monId,
           Number(grassRates[i]) || 0,
           getResolvedEncounterRange(encounter, null),
           {
             slotIndex: i,
-            sourceEncType: "grass",
+            sourceEncType: baseEncType,
           },
         ),
       );
@@ -1133,10 +1163,24 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     timeMode,
     baseGrassRows,
     overlayRowsByType,
+    baseLandEncType,
   ) {
     timeMode = normalizeEncounterTimeMode(timeMode);
     baseGrassRows = Array.isArray(baseGrassRows) ? baseGrassRows : [];
     overlayRowsByType = overlayRowsByType || {};
+    baseLandEncType = baseLandEncType || "grass";
+
+    if (baseLandEncType === "time_morning") {
+      var fullTimeEncType = getEncounterTypeForTimeMode(timeMode);
+      var fullTimeRows = overlayRowsByType[fullTimeEncType];
+      if (!fullTimeRows || !fullTimeRows.length) fullTimeRows = baseGrassRows;
+      return this.applyEncounterRateRedistribution(
+        fullTimeRows.map(function (row) {
+          return Object.assign({}, row);
+        }),
+        100,
+      );
+    }
 
     var overlayEncType = getEncounterOverlayTypeForTimeMode(timeMode);
     var overlayRows = overlayEncType ? overlayRowsByType[overlayEncType] || [] : [];
@@ -1173,16 +1217,24 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     var location = this.id;
     var locationRecord = BattleLocationdex[location];
     var results = [];
-    var baseGrassRows = this.buildBaseGrassEncounterRows(locationRecord);
+    var baseLandEncType = getBaseLandEncounterType(locationRecord);
+    var usesFullTimeLandTables = baseLandEncType === "time_morning";
+    var baseGrassRows = this.buildBaseGrassEncounterRows(locationRecord, baseLandEncType);
     var overlayRowsByType = {
+      time_morning: this.buildStandardEncounterRows(locationRecord, "time_morning"),
       time_day: this.buildTimeOverlayEncounterRows(locationRecord, "time_day"),
       time_night: this.buildTimeOverlayEncounterRows(locationRecord, "time_night"),
     };
+    if (usesFullTimeLandTables) {
+      overlayRowsByType.time_day = this.buildStandardEncounterRows(locationRecord, "time_day");
+      overlayRowsByType.time_night = this.buildStandardEncounterRows(locationRecord, "time_night");
+    }
     var effectiveGrassRows = this.buildEffectiveGrassEncounterRows(
       locationRecord,
       this.timeMode,
       baseGrassRows,
       overlayRowsByType,
+      baseLandEncType,
     );
     var activeOverlayType = getEncounterOverlayTypeForTimeMode(this.timeMode);
 
@@ -1191,8 +1243,10 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       if (!encounterGroup || encounterGroup.encs === undefined) continue;
 
       var sectionRows = [];
-      if (encType === "grass") {
+      if (encType === baseLandEncType) {
         sectionRows = effectiveGrassRows.slice();
+      } else if (usesFullTimeLandTables && isTimeEncounterType(encType)) {
+        continue;
       } else if (isTimeEncounterType(encType)) {
         var overlayRows = overlayRowsByType[encType] || [];
         if (encType === activeOverlayType && overlayRows.length) {
@@ -1216,7 +1270,8 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
       results.push({
         kind: "header",
         encType: encType,
-        showTimeControls: encType === "grass" && baseGrassRows.length > 0,
+        headerLabel: usesFullTimeLandTables && encType === baseLandEncType ? "Grass" : "",
+        showTimeControls: encType === baseLandEncType && baseGrassRows.length > 0,
       });
 
       for (var i = 0; i < sectionRows.length; i++) {
@@ -1440,7 +1495,7 @@ var PokedexEncountersPanel = PokedexResultPanel.extend({
     if (result.kind === "header") {
       const encounterGroup = BattleLocationdex[this.id][result.encType];
       var headerClassName = getEncounterHeaderClassName(result.encType);
-      var headerLabel = snakeToTitleCase(result.encType);
+      var headerLabel = result.headerLabel || snakeToTitleCase(result.encType);
       if (encounterGroup && encounterGroup.name) {
         headerLabel += ": " + encounterGroup.name;
       }
